@@ -3,8 +3,8 @@
     python3 tools/reel.py posts/2026-11-12-three-traps
 
 Writes posts/<id>/reel.mp4: 1080 × 1920, 30 fps, H.264, a silent audio track
-(so a sound can be added in the app), each slide held with a slow push-in.
-The owner adds a trending sound when posting it in Instagram.
+and an original generated soundtrack (ambient chord and a soft clock tick, nothing to license),
+each slide held with a slow push-in.
 """
 import subprocess, sys
 from pathlib import Path
@@ -32,10 +32,17 @@ def build(folder):
     concat = "".join(f"[v{k}]" for k in range(len(slides))) + f"concat=n={len(slides)}:v=1:a=0[v]"
     total = FIRST + LAST + HOLD * (len(slides) - 2)
     tmp = folder / "reel.tmp.mp4"
-    cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-f", "lavfi", "-t", f"{total}", "-i", "anullsrc=r=44100:cl=stereo",
+    # Original soundtrack, generated here so there is nothing to license: a quiet A-minor pad that
+    # breathes slowly, with a soft chess-clock tick once a second. Fades in and out.
+    pad = ("0.06*sin(2*PI*110*t)+0.05*sin(2*PI*164.81*t)+0.045*sin(2*PI*220*t)+0.035*sin(2*PI*261.63*t)+0.03*sin(2*PI*329.63*t)")
+    breath = "(0.75+0.25*sin(2*PI*t/6))"
+    tick = "0.22*sin(2*PI*1800*t)*exp(-90*mod(t,1))*lt(mod(t,1),0.06)"
+    audio = (f"aevalsrc='({pad})*{breath}+{tick}|({pad})*{breath}+{tick}':s=44100:d={total},"
+             f"lowpass=f=3500,afade=t=in:d=1.2,afade=t=out:st={total - 1.5}:d=1.5,volume=1.5")
+    cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-f", "lavfi", "-i", audio,
            "-filter_complex", ";".join(chains + [concat]),
            "-map", "[v]", "-map", f"{len(slides)}:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-           "-r", "30", "-g", "30", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "96k", "-shortest",
+           "-r", "30", "-g", "30", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-shortest",
            "-movflags", "+faststart", str(tmp)]
     subprocess.run(cmd, check=True)
     tmp.replace(folder / "reel.mp4")
