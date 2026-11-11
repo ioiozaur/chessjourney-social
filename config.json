@@ -10,5 +10,13 @@
     "21:30"
   ],
   "timezone": "Europe/London",
-  "notes": "Posts go up as Only me with automatic music; the owner switches them to Everyone. Raise posts_per_day to 3 or 4 once this runs smoothly."
+  "notes": "TikTok posts go up as Only me with automatic music; the owner switches them to Everyone. Instagram posts are scheduled for the evening and the owner deletes them in Zernio to cancel. Raise posts_per_day to 3 or 4 once this runs smoothly.",
+  "instagram_account_id": "6af4f7e5ecfa1fb1d3d07bfb",
+  "instagram_handle": "@chessjourney90",
+  "instagram_times": [
+    "19:30",
+    "20:30",
+    "18:30",
+    "21:30"
+  ]
 }
