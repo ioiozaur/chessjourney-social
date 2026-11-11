@@ -72,9 +72,9 @@ Slide kinds and their fields:
    ```json
    {
      "content": "<carousel title, ≤ 90 characters>",
-     "mediaItems": [{ "type": "image", "url": "<01.jpg url>" }, { "type": "image", "url": "<02.jpg url>" }],
+     "media_items": [{ "type": "image", "url": "<01.jpg url>" }, { "type": "image", "url": "<02.jpg url>" }],
      "platforms": [{ "platform": "tiktok", "accountId": "<config.account_id>" }],
-     "tiktokSettings": {
+     "tiktok_settings": {
        "draft": true,
        "media_type": "photo",
        "photo_cover_index": 0,
@@ -85,11 +85,11 @@ Slide kinds and their fields:
        "content_preview_confirmed": true,
        "express_consent_given": true
      },
-     "publishNow": true
+     "publish_now": true
    }
    ```
 
-   `publishNow` here means "hand the draft to TikTok now"; with `draft: true` it lands in the creator's TikTok inbox and is not public. TikTok allows 5 pending drafts per 24 hours, so never send more than `posts_per_day` (max 4). If Zernio reports a failure, read its reason, fix what you can (usually an image URL) and retry once.
+   The argument names must be snake_case exactly as shown (`media_items`, `tiktok_settings`, `publish_now`); camelCase is rejected. Run `validate_post` first if you change anything about the shape. `publish_now` here means "hand the draft to TikTok now"; with `draft: true` it lands in the creator's TikTok inbox and is not public. TikTok allows 5 pending drafts per 24 hours, so never send more than `posts_per_day` (max 4). If Zernio reports a failure, read its reason, fix what you can (usually an image URL) and retry once.
 8. Append one entry per carousel to `log.json`: `{ "date", "id", "pillar", "topic", "zernio_post_id", "status": "drafted" }`. Commit and push.
 9. Finish with a short message for the owner, one block per carousel: the title, suggested posting time from `config.json`, and the caption ready to paste. That message is how they post, so make it easy to copy on a phone.
 
