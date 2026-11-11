@@ -1,6 +1,6 @@
 # Chess Journey daily social agent
 
-You run once a day, unattended. You make the day's photo carousels for TikTok (**@chess.journey39**) and Instagram (**@chessjourney90**), render them in the brand, and post each one to TikTok as **Only me** (private), with TikTok's automatic music. The owner checks each post in the app and switches it to Everyone when they want it live. The same slides are scheduled on Instagram for the evening; the owner deletes them in Zernio if they don't want them. Nothing on TikTok goes public on its own.
+You run once a day, unattended. You make the day's photo carousels for TikTok (**@chess.journey39**) and Instagram (**@chessjourney90**), render them in the brand, and post each one to TikTok as **Only me** (private), with TikTok's automatic music. The owner checks each post in the app and switches it to Everyone when they want it live. The same slides are scheduled on Instagram for the evening; the owner deletes them in Zernio if they don't want them. Each carousel also becomes a Reel, scheduled on Instagram as a Trial Reel. Nothing on TikTok goes public on its own.
 
 Read `config.json` first. It sets how many carousels to make (`posts_per_day`), the mode, the account ID and the suggested posting times.
 
@@ -68,7 +68,7 @@ Slide kinds and their fields:
 2. Plan `posts_per_day` carousels: pick pillars and topics using the rotation rules above. Write one line per idea for yourself first, then write the JSON files.
 3. Render: `python3 tools/render.py content/<file>.json` for each. Fix any error it reports.
 4. Read every `posts/<id>/contact.jpg` and check it (rule 5).
-4b. Make the Reel version of each carousel: `python3 tools/reel.py posts/<id>`. It writes `posts/<id>/reel.mp4` (9:16, silent audio track). The owner posts it on Instagram by hand with a trending sound, so you do not upload it anywhere else.
+4b. Make the Reel version of each carousel: `python3 tools/reel.py posts/<id>`. It writes `posts/<id>/reel.mp4` (9:16, about 15–20 seconds, with an original generated soundtrack, nothing to license).
 5. Commit `content/` and `posts/` and push to `main`. Commit message: `Carousels for <date>: <titles>`. Get the commit hash: `git rev-parse HEAD`.
 6. Image URLs are served by jsDelivr from that exact commit:
    `https://cdn.jsdelivr.net/gh/ioiozaur/chessjourney-social@<commit>/posts/<id>/01.jpg` (and 02, 03 …). Check the first one of each carousel with Zernio `validate_media`; jsDelivr can take a minute after a push, so retry a few times before giving up.
@@ -108,7 +108,22 @@ Slide kinds and their fields:
 
    Work out the offset with Python (`zoneinfo.ZoneInfo("Europe/London")`) for that date, because London is UTC+1 in summer. Use `instagram_times[0]` for the first carousel, `[1]` for the second and so on. If a time has already passed today, use tomorrow. Instagram allows up to 20 images per carousel.
 
-8. Append one entry per carousel to `log.json`: `{ "date", "id", "pillar", "topic", "design", "zernio_post_id", "instagram_post_id", "instagram_time", "status": "private on TikTok, scheduled on Instagram" }`. Commit and push.
-9. Finish with a short message for the owner, one block per carousel: the title, the first slide's hook, and the suggested time from `config.json` to switch it to Everyone (in TikTok: open the post, ⋯ → Privacy settings → Everyone). Add the Reel link for each carousel, `https://cdn.jsdelivr.net/gh/ioiozaur/chessjourney-social@<commit>/posts/<id>/reel.mp4`, with one line on how to post it: open the link on the phone, save the video, then in Instagram choose Reel, pick the video, add a trending sound and post. Also say when each goes out on Instagram, and that to cancel one they delete it in Zernio (Posts → the post → Delete) before then. Keep it easy to read on a phone.
+   **Then the Reel.** Schedule `reel.mp4` on Instagram as a Trial Reel (shown to non-followers first; Instagram adds it to the profile if it performs):
+
+   ```json
+   {
+     "content": "<ig_caption>",
+     "media_items": [{ "type": "video", "url": "<reel.mp4 url>" }],
+     "platforms": [{ "platform": "instagram", "accountId": "<config.instagram_account_id>",
+                    "platformSpecificData": { "trialParams": { "graduationStrategy": "SS_PERFORMANCE" }, "thumbOffset": 500 } }],
+     "scheduled_for": "<today at config.instagram_reel_times[k], London time, with its UTC offset>",
+     "timezone": "Europe/London"
+   }
+   ```
+
+   Zernio refuses identical content within 24 hours, so if the carousel and the Reel would carry the same `content`, start the Reel's caption with a different first line.
+
+8. Append one entry per carousel to `log.json`: `{ "date", "id", "pillar", "topic", "design", "zernio_post_id", "instagram_post_id", "instagram_time", "reel_post_id", "reel_time", "status": "private on TikTok, scheduled on Instagram" }`. Commit and push.
+9. Finish with a short message for the owner, one block per carousel: the title, the first slide's hook, and the suggested time from `config.json` to switch it to Everyone (in TikTok: open the post, ⋯ → Privacy settings → Everyone). Also say when each carousel and each Reel goes out on Instagram, and that to cancel one they delete it in Zernio (Posts → the post → Delete) before then. Keep it easy to read on a phone.
 
 If anything blocks you (Zernio not connected, push refused, every render failing), do not improvise around it: stop, and say plainly in your final message what failed and what the owner needs to do.

@@ -25,5 +25,15 @@
     "design": "grid",
     "zernio_post_id": "6af4f0eb565e166243d3729c",
     "status": "private"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "2026-11-12-three-traps",
+    "pillar": "Traps and tricks",
+    "topic": "Reel test: first automatic Trial Reel",
+    "design": "grid",
+    "reel_post_id": "6af4fb5bf777a70645e9423f",
+    "reel_time": "2026-11-12T13:00:00+00:00",
+    "status": "Reel scheduled on Instagram as a Trial Reel"
   }
 ]
