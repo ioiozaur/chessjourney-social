@@ -1,0 +1,9 @@
+{
+  "account_handle": "@chess.journey39",
+  "account_id": "6af4e28eb81047d28849f4ec",
+  "mode": "drafts",
+  "posts_per_day": 2,
+  "suggested_times": ["12:30", "19:30", "08:00", "21:30"],
+  "timezone": "Europe/London",
+  "notes": "Raise posts_per_day to 3 or 4 once drafts arrive reliably. TikTok allows at most 5 pending drafts per 24 hours."
+}

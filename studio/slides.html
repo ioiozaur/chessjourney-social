@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>Chess Journey slide renderer</title>
+<style>
+@font-face { font-family: "Bodoni Moda"; src: url("../fonts/BodoniModa.ttf") format("truetype"); font-weight: 400 900; font-style: normal; }
+@font-face { font-family: "Bodoni Moda"; src: url("../fonts/BodoniModa-Italic.ttf") format("truetype"); font-weight: 400 900; font-style: italic; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../fonts/IBMPlexMono-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "IBM Plex Mono"; src: url("../fonts/IBMPlexMono-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Pieces"; src: url("../fonts/DejaVuSans.ttf") format("truetype"); }
+body { margin: 0; background: #ddd; }
+</style>
+</head>
+<body>
+<script>
+// Renders one carousel (plain JSON) to 1080 × 1350 slides. Used headless by tools/render.py.
+(() => {
+  const W = 1080, H = 1350;
+  const SERIF = '"Bodoni Moda", Georgia, serif', MONO = '"IBM Plex Mono", monospace', PIECES = '"Pieces", sans-serif';
+  const C = { paper: "#F3F4F1", ink: "#16191A", muted: "#6A716E", faint: "#D5D9D5", accent: "#2F5D50", tint: "rgba(47,93,80,.12)",
+              light: "#E9ECE7", dark: "#A9B8AF", hi: "rgba(212,165,78,.55)",
+              night: "#21160C", nightInk: "#F1D3B9", nightAccent: "#8EB32A", nightMid: "#9A776C" };
+  const KING = { ink: new Image(), cream: new Image() };
+  KING.ink.src = "../assets/king-ink.png"; KING.cream.src = "../assets/king-cream.png";
+  const fmt = n => n.toLocaleString("en-GB");
+
+  // A sample climb from 380 to 2050, deterministic, for rating-band slides
+  const LINE = (() => {
+    const pts = []; let seed = 11, wob = 0;
+    const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+    for (let i = 0; i <= 240; i++) {
+      const f = i / 240;
+      wob = wob * 0.86 + (rnd() - 0.5) * 34;
+      const base = 380 + 1680 * (f * 0.55 + 0.45 / (1 + Math.exp(-9 * (f - 0.55))) - 0.45 / (1 + Math.exp(4.95)));
+      pts.push([f, base + wob - 60 * Math.exp(-Math.pow((f - 0.42) / 0.05, 2))]);
+    }
+    return pts;
+  })();
+  const LO = 300, HI = 2100;
+
+  function txt(ctx, s, x, y, font, color, align = "left", spacing = 0) {
+    ctx.font = font; ctx.fillStyle = color; ctx.textAlign = align; ctx.textBaseline = "alphabetic";
+    ctx.letterSpacing = spacing + "px"; ctx.fillText(s, x, y); ctx.letterSpacing = "0px";
+  }
+  function wrap(ctx, s, x, y, maxW, font, color, lh, maxLines = 99) {
+    ctx.font = font; const words = String(s).split(" "); let line = "", yy = y, n = 0;
+    for (const w of words) {
+      const test = line ? line + " " + w : w;
+      if (ctx.measureText(test).width > maxW && line) {
+        if (++n >= maxLines) throw new Error(`Text too long for its space: "${s.slice(0, 60)}…"`);
+        txt(ctx, line, x, yy, font, color); line = w; yy += lh;
+      } else line = test;
+    }
+    if (line) { txt(ctx, line, x, yy, font, color); yy += lh; }
+    return yy;
+  }
+  function fit(ctx, s, weight, family, maxW, maxSize) {
+    ctx.font = `${weight} 100px ${family}`;
+    return Math.min(maxSize, maxW / ctx.measureText(s).width * 100);
+  }
+  function mark(ctx, dark, handle) {
+    const img = dark ? KING.cream : KING.ink, h = 64, w = img.naturalWidth * h / img.naturalHeight;
+    const x = W - 80 - w, y = 58;
+    ctx.drawImage(img, x, y, w, h);
+    if (handle) txt(ctx, handle, x - 16, y + 44, `500 24px ${MONO}`, dark ? C.nightInk : C.ink, "right", 1);
+  }
+  function footer(ctx, i, n, dark) {
+    const ink = dark ? C.nightInk : C.ink, muted = dark ? C.nightMid : C.muted;
+    txt(ctx, "Chess", 80, H - 70, `600 30px ${SERIF}`, ink);
+    ctx.font = `600 30px ${SERIF}`; const w = ctx.measureText("Chess ").width;
+    txt(ctx, "Journey", 80 + w, H - 70, `italic 400 30px ${SERIF}`, ink);
+    for (let k = 0; k < n; k++) {
+      ctx.beginPath(); ctx.arc(W - 80 - (n - 1 - k) * 22, H - 80, k === i ? 6 : 4, 0, Math.PI * 2);
+      ctx.fillStyle = k === i ? ink : muted; ctx.globalAlpha = k === i ? 1 : 0.5; ctx.fill(); ctx.globalAlpha = 1;
+    }
+  }
+  function eyebrow(ctx, s) { txt(ctx, s, 80, 120, `500 24px ${MONO}`, C.muted, "left", 6); }
+  function headline(ctx, s, y, maxW = 860) {
+    const size = fit(ctx, s, 600, SERIF, maxW, 120);
+    txt(ctx, s, 74, y, `600 ${size}px ${SERIF}`, C.ink);
+    ctx.font = `600 ${size}px ${SERIF}`; const hw = ctx.measureText(s).width;
+    ctx.fillStyle = C.accent; ctx.fillRect(74 + hw + 8, y - size * 0.13, size * 0.15, size * 0.15);
+  }
+  function tag(ctx, s, x, y, gold) {
+    ctx.font = `500 26px ${MONO}`; ctx.letterSpacing = "5px"; const tw = ctx.measureText(s).width; ctx.letterSpacing = "0px";
+    ctx.fillStyle = gold ? "#D4A54E" : C.ink; ctx.fillRect(x, y, tw + 44, 54);
+    txt(ctx, s, x + 22, y + 37, `500 26px ${MONO}`, gold ? C.ink : C.paper, "left", 5);
+    return tw + 44;
+  }
+  function countLines(ctx, s, maxW, font) {
+    ctx.font = font; let line = "", n = 0;
+    for (const w of String(s).split(" ")) { const t = line ? line + " " + w : w; if (ctx.measureText(t).width > maxW && line) { n++; line = w; } else line = t; }
+    return n + (line ? 1 : 0);
+  }
+  // Labelled body + note pair used by step and point slides; steps the size down until it clears the footer
+  function takeAndNote(ctx, y, labelA, a, labelB, b) {
+    const limit = H - 140;
+    for (const size of [40, 37, 34, 32]) {
+      const nb = size - 4, la = countLines(ctx, a, 920, `400 ${size}px ${SERIF}`), lb = b ? countLines(ctx, b, 880, `italic 400 ${nb}px ${SERIF}`) : 0;
+      const last = y + 54 + (la - 1) * size * 1.35 + (b ? 26 + 52 + size * 1.35 + (lb - 1) * nb * 1.33 - size * 1.35 + size * 1.35 : 0);
+      if (last <= limit || size === 32) {
+        if (last > limit) throw new Error("Slide text runs into the footer even at the smallest size; shorten it.");
+        txt(ctx, labelA, 80, y, `500 24px ${MONO}`, C.muted, "left", 8);
+        let yy = wrap(ctx, a, 80, y + 54, 920, `400 ${size}px ${SERIF}`, C.ink, size * 1.35);
+        if (!b) return yy;
+        yy += 26;
+        const top = yy - 30;
+        txt(ctx, labelB, 112, yy, `500 24px ${MONO}`, C.accent, "left", 8);
+        const end = wrap(ctx, b, 112, yy + 52, 880, `italic 400 ${nb}px ${SERIF}`, C.ink, nb * 1.33);
+        ctx.fillStyle = C.accent; ctx.fillRect(80, top, 5, end - top - 20);
+        return end;
+      }
+    }
+  }
+
+  function climb(ctx, x0, y0, w, h, from, to, peak) {
+    const X = f => x0 + f * w, Y = r => y0 + h - (r - LO) / (HI - LO) * h;
+    ctx.font = `400 22px ${MONO}`; ctx.textAlign = "right"; ctx.textBaseline = "middle";
+    for (let r = 400; r <= 2000; r += 200) {
+      ctx.strokeStyle = C.faint; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(x0, Y(r)); ctx.lineTo(x0 + w, Y(r)); ctx.stroke();
+      ctx.fillStyle = (from && r >= from && r <= to) ? C.ink : C.muted; ctx.fillText(fmt(r), x0 - 14, Y(r));
+    }
+    ctx.textBaseline = "alphabetic";
+    if (from) { ctx.fillStyle = C.tint; ctx.fillRect(x0, Y(to), w, Y(from) - Y(to)); }
+    const path = filter => { ctx.beginPath(); let on = false;
+      LINE.forEach(([f, r]) => { const ok = filter(r); if (ok && !on) { ctx.moveTo(X(f), Y(r)); on = true; } else if (ok) ctx.lineTo(X(f), Y(r)); else on = false; }); };
+    ctx.lineJoin = "round"; ctx.lineCap = "round";
+    ctx.strokeStyle = from ? "#AEB4B0" : C.accent; ctx.lineWidth = from ? 4 : 6; path(() => true); ctx.stroke();
+    if (from) { ctx.strokeStyle = C.accent; ctx.lineWidth = 7; path(r => r >= from && r <= to); ctx.stroke(); }
+    if (peak) {
+      let pk = LINE[0]; LINE.forEach(p => { if (p[1] > pk[1]) pk = p; });
+      const g = ctx.createRadialGradient(X(pk[0]), Y(pk[1]), 0, X(pk[0]), Y(pk[1]), 46);
+      g.addColorStop(0, "rgba(47,93,80,.45)"); g.addColorStop(1, "rgba(47,93,80,0)");
+      ctx.fillStyle = g; ctx.beginPath(); ctx.arc(X(pk[0]), Y(pk[1]), 46, 0, Math.PI * 2); ctx.fill();
+      ctx.beginPath(); ctx.arc(X(pk[0]), Y(pk[1]), 11, 0, Math.PI * 2); ctx.fillStyle = C.paper; ctx.fill(); ctx.lineWidth = 3.5; ctx.strokeStyle = C.ink; ctx.stroke();
+    }
+  }
+
+  // Chess diagram from a precomputed grid (rank 8 first). Last move squares are highlighted.
+  const GLYPH = { K: "♚", Q: "♛", R: "♜", B: "♝", N: "♞", P: "♟" };
+  function board(ctx, x, y, size, grid, last, flip) {
+    const s = size / 8;
+    ctx.fillStyle = C.ink; ctx.fillRect(x - 3, y - 3, size + 6, size + 6);
+    const lastSq = last ? last.map(q => [q.charCodeAt(0) - 97, 8 - Number(q[1])]) : [];
+    for (let r = 0; r < 8; r++) for (let f = 0; f < 8; f++) {
+      const rr = flip ? 7 - r : r, ff = flip ? 7 - f : f;
+      ctx.fillStyle = (rr + ff) % 2 ? C.dark : C.light; ctx.fillRect(x + f * s, y + r * s, s, s);
+      if (lastSq.some(([lf, lr]) => lf === ff && lr === rr)) { ctx.fillStyle = C.hi; ctx.fillRect(x + f * s, y + r * s, s, s); }
+      const p = grid[rr][ff];
+      if (!p) continue;
+      ctx.font = `${s * 0.84}px ${PIECES}`; ctx.textAlign = "center"; ctx.textBaseline = "middle";
+      const cx = x + f * s + s / 2, cy = y + r * s + s * 0.54;
+      ctx.lineJoin = "round";
+      if (p[0] === "w") { ctx.lineWidth = s * 0.07; ctx.strokeStyle = C.ink; ctx.strokeText(GLYPH[p[1]], cx, cy); ctx.fillStyle = "#FFFFFF"; ctx.fillText(GLYPH[p[1]], cx, cy); }
+      else { ctx.fillStyle = C.ink; ctx.fillText(GLYPH[p[1]], cx, cy); }
+    }
+    ctx.textBaseline = "alphabetic";
+    ctx.font = `500 18px ${MONO}`; ctx.fillStyle = C.muted; ctx.textAlign = "center";
+    for (let f = 0; f < 8; f++) ctx.fillText("abcdefgh"[flip ? 7 - f : f], x + f * s + s / 2, y + size + 28);
+    ctx.textAlign = "right";
+    for (let r = 0; r < 8; r++) ctx.fillText(String(flip ? r + 1 : 8 - r), x - 12, y + r * s + s / 2 + 6);
+  }
+
+  const DRAW = {
+    cover(ctx, s, i, n, d) {
+      txt(ctx, s.eyebrow, W / 2, 190, `500 34px ${MONO}`, C.ink, "center", 12);
+      const t1 = fit(ctx, s.title, 600, SERIF, 920, 112), t2 = fit(ctx, s.title2 || "", "italic 400", SERIF, 920, 104);
+      txt(ctx, s.title, W / 2, 330, `600 ${t1}px ${SERIF}`, C.ink, "center");
+      if (s.title2) txt(ctx, s.title2, W / 2, 450, `italic 400 ${t2}px ${SERIF}`, C.ink, "center");
+      ctx.fillStyle = C.ink; ctx.fillRect(W / 2 - 110, 512, 80, 2); ctx.fillRect(W / 2 + 30, 512, 80, 2);
+      ctx.save(); ctx.translate(W / 2, 513); ctx.rotate(Math.PI / 4); ctx.fillRect(-6, -6, 12, 12); ctx.restore();
+      if (s.sub) txt(ctx, s.sub, W / 2, 590, `500 28px ${MONO}`, C.muted, "center", 8);
+      if (s.art === "board" && s.grid) board(ctx, (W - 520) / 2, 650, 520, s.grid, s.last, s.flip);
+      else if (s.art !== "none") climb(ctx, 170, 660, 830, 460, null, null, true);
+      txt(ctx, s.swipe || "Swipe →", W - 80, 1225, `italic 400 40px ${SERIF}`, C.ink, "right");
+    },
+    step(ctx, s, i, n, d) {
+      eyebrow(ctx, `${d.series} · ${String(s.num).padStart(2, "0")}/${String(s.total).padStart(2, "0")}`);
+      headline(ctx, `${fmt(s.from)} → ${fmt(s.to)}`, 260);
+      climb(ctx, 170, 320, 830, 330, s.from, s.to);
+      tag(ctx, s.tag, 80, 712);
+      if (s.hook) txt(ctx, s.hook, W - 80, 750, `italic 400 38px ${SERIF}`, C.ink, "right");
+      takeAndNote(ctx, 830, "THE FIX", s.fix, "THE HABIT", s.habit);
+    },
+    board(ctx, s, i, n, d) {
+      eyebrow(ctx, `${d.series} · ${String(s.num).padStart(2, "0")}/${String(s.total).padStart(2, "0")}`);
+      headline(ctx, s.title, 250);
+      board(ctx, 80, 300, 440, s.grid, s.last, s.flip);
+      wrap(ctx, s.movesText, 80, 798, 450, `500 20px ${MONO}`, C.ink, 26, 3);
+      const tw = tag(ctx, s.tag, 570, 300, s.gold);
+      txt(ctx, "THE TAKE", 570, 410, `500 24px ${MONO}`, C.muted, "left", 8);
+      const ts = [34, 31, 28].find(z => 462 + (countLines(ctx, s.take, 430, `400 ${z}px ${SERIF}`) - 1) * z * 1.36 <= 790);
+      if (!ts) throw new Error("Board slide take is too long; shorten it.");
+      wrap(ctx, s.take, 570, 462, 430, `400 ${ts}px ${SERIF}`, C.ink, ts * 1.36);
+      if (s.edge) {
+        const es = [38, 35, 32].find(z => 932 + (countLines(ctx, s.edge, 880, `italic 400 ${z}px ${SERIF}`) - 1) * z * 1.32 <= H - 140);
+        if (!es) throw new Error("Board slide edge is too long; shorten it.");
+        txt(ctx, "THE EDGE", 112, 880, `500 24px ${MONO}`, C.accent, "left", 8);
+        const end = wrap(ctx, s.edge, 112, 932, 880, `italic 400 ${es}px ${SERIF}`, C.ink, es * 1.32);
+        ctx.fillStyle = C.accent; ctx.fillRect(80, 850, 5, end - 850 - 20);
+      }
+    },
+    point(ctx, s, i, n, d) {
+      eyebrow(ctx, `${d.series} · ${String(s.num).padStart(2, "0")}/${String(s.total).padStart(2, "0")}`);
+      let y = 240;
+      if (s.big) { txt(ctx, s.big, 74, 330, `600 ${fit(ctx, s.big, 600, SERIF, 900, 200)}px ${SERIF}`, C.accent); y = 420; }
+      ctx.font = `600 84px ${SERIF}`;
+      y = wrap(ctx, s.title, 74, y, 920, `600 84px ${SERIF}`, C.ink, 96, 3);
+      tag(ctx, s.tag, 80, y + 4);
+      takeAndNote(ctx, y + 140, s.labelA || "WHY", s.body, s.labelB || "TRY THIS", s.note);
+    },
+    cta(ctx, s, i, n, d) {
+      ctx.fillStyle = C.night; ctx.fillRect(0, 0, W, H);
+      txt(ctx, s.title, W / 2, 210, `600 ${fit(ctx, s.title, 600, SERIF, 920, 76)}px ${SERIF}`, C.nightInk, "center");
+      txt(ctx, s.title2, W / 2, 300, `italic 400 ${fit(ctx, s.title2, "italic 400", SERIF, 920, 76)}px ${SERIF}`, C.nightInk, "center");
+      const fw = 470, fh = Math.round(fw * 1.414), fx = (W - fw) / 2, fy = 370;
+      ctx.save(); ctx.shadowColor = "rgba(0,0,0,.5)"; ctx.shadowBlur = 50; ctx.shadowOffsetY = 24;
+      ctx.fillStyle = "#0E0A06"; ctx.fillRect(fx - 26, fy - 26, fw + 52, fh + 52); ctx.restore();
+      ctx.fillStyle = "#FBFAF7"; ctx.fillRect(fx - 16, fy - 16, fw + 32, fh + 32);
+      ctx.fillStyle = C.night; ctx.fillRect(fx, fy, fw, fh);
+      txt(ctx, "CHESS JOURNEY · RAPID", fx + 34, fy + 52, `500 13px ${MONO}`, C.nightMid, "left", 3);
+      txt(ctx, "your_username", fx + 30, fy + 112, `600 50px ${SERIF}`, C.nightInk);
+      txt(ctx, "Every rated game, first to latest", fx + 34, fy + 146, `italic 400 17px ${SERIF}`, C.nightInk);
+      const X = f => fx + 50 + f * (fw - 80), Y = r => fy + 560 - (r - LO) / (HI - LO) * 360;
+      ctx.beginPath(); LINE.forEach(([f, r], k) => k ? ctx.lineTo(X(f), Y(r)) : ctx.moveTo(X(f), Y(r)));
+      ctx.strokeStyle = C.nightAccent; ctx.lineWidth = 3.5; ctx.lineJoin = "round"; ctx.stroke();
+      let pk = LINE[0]; LINE.forEach(p => { if (p[1] > pk[1]) pk = p; });
+      ctx.beginPath(); ctx.arc(X(pk[0]), Y(pk[1]), 7, 0, Math.PI * 2); ctx.fillStyle = C.night; ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = C.nightInk; ctx.stroke();
+      ctx.fillStyle = C.nightInk; ctx.fillRect(fx + 34, fy + 590, fw - 68, 1.5);
+      txt(ctx, "PEAK RATING · GAMES PLAYED · WIN RATE", fx + 34, fy + 630, `500 11px ${MONO}`, C.nightMid, "left", 2);
+      txt(ctx, s.sub, W / 2, 1150, `italic 400 34px ${SERIF}`, C.nightInk, "center");
+      txt(ctx, s.url || "chessjourney.co.uk", W / 2, 1210, `500 38px ${MONO}`, C.nightAccent, "center", 3);
+    },
+  };
+
+  window.renderSlides = async (d) => {
+    await document.fonts.ready;
+    await Promise.all([document.fonts.load(`600 100px ${SERIF}`), document.fonts.load(`italic 400 40px ${SERIF}`), document.fonts.load(`400 40px ${SERIF}`),
+      document.fonts.load(`500 24px ${MONO}`), document.fonts.load(`400 22px ${MONO}`), document.fonts.load(`40px ${PIECES}`)]);
+    await Promise.all([KING.ink, KING.cream].map(im => im.complete ? 0 : new Promise((ok, no) => { im.onload = ok; im.onerror = no; })));
+    if (!document.fonts.check(`600 100px ${SERIF}`) || !document.fonts.check(`500 24px ${MONO}`)) throw new Error("Brand fonts did not load");
+    const out = [], n = d.slides.length;
+    d.slides.forEach((s, i) => {
+      if (!DRAW[s.kind]) throw new Error(`Unknown slide kind: ${s.kind}`);
+      const c = document.createElement("canvas"); c.width = W; c.height = H;
+      const ctx = c.getContext("2d");
+      if (s.kind !== "cta") { ctx.fillStyle = C.paper; ctx.fillRect(0, 0, W, H); }
+      try { DRAW[s.kind](ctx, s, i, n, d); } catch (e) { throw new Error(`Slide ${i + 1} (${s.kind}): ${e.message}`); }
+      footer(ctx, i, n, s.kind === "cta");
+      mark(ctx, s.kind === "cta", d.handle);
+      out.push(c.toDataURL("image/jpeg", 0.92));
+    });
+    return out;
+  };
+})();
+</script>
+</body>
+</html>

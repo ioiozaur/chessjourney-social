@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-12-rating-ladder",
+  "series": "THE RATING LADDER",
+  "caption": "What actually changes at every level, from 400 to 2000. Save this for the next time you're stuck on a plateau. ♟️\n\nWhere are you on the ladder right now? 👇\n\n#chess #chesstok #chesstips #chessimprovement #chessrating",
+  "slides": [
+    { "kind": "step", "from": 400, "to": 800, "tag": "LEARN TO FINISH", "hook": "Every level after this →", "fix": "Games here swing on missed mates and pieces moved for no reason. Knowing how to deliver checkmate turns half your winning positions into actual wins.", "habit": "Practise mating with king and queen, then king and rook, until you can do it without thinking." },
+    { "kind": "cover", "eyebrow": "THE RATING LADDER", "title": "What changes", "title2": "at every level.", "sub": "FROM 400 TO 2000", "swipe": "Swipe for each level →" },
+    { "kind": "step", "from": 800, "to": 1000, "tag": "STOP THE BLEEDING", "fix": "Before every move, ask what your opponent’s last move attacks. Most games here are lost to a piece left hanging, not to a clever plan.", "habit": "Check every capture and every check, for both sides, before you touch a piece." },
+    { "kind": "step", "from": 1000, "to": 1200, "tag": "DEVELOP, THEN ATTACK", "fix": "Knights and bishops out, king castled, rooks connected, all before you go hunting. Early queen raids stop working around here.", "habit": "No piece moves twice in the opening unless it has to." },
+    { "kind": "step", "from": 1200, "to": 1500, "tag": "TACTICS EVERY DAY", "fix": "Forks, pins and skewers decide most games at this level. Pattern recognition beats calculation, and it only comes from volume.", "habit": "Fifteen minutes of puzzles a day, every day." },
+    { "kind": "step", "from": 1500, "to": 1800, "tag": "PLANS, NOT MOVES", "fix": "Start asking what the position wants: which pawn break, which weak square, which piece is your worst. Then improve it.", "habit": "Review every loss without an engine first. Find where your plan went wrong." },
+    { "kind": "step", "from": 1800, "to": 2000, "tag": "ENDGAMES AND THE CLOCK", "fix": "Games are won in rook endgames and lost in time trouble. The players who climb here convert small edges calmly.", "habit": "Learn the key rook endgames, and never spend a third of your clock on one move." },
+    { "kind": "cta", "title": "Every step of your climb,", "title2": "on one poster.", "sub": "Type your Chess.com or Lichess username for a free preview." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2026-11-12-three-traps",
+  "series": "TRAPS UNDER 1000",
+  "caption": "Three traps that win games under 1000, and the one move that stops each of them. Save it before your next game. ♟️\n\nWhich one caught you first? 👇\n\n#chess #chesstok #chesstraps #chessopenings #learnchess",
+  "slides": [
+    { "kind": "cover", "eyebrow": "TRAPS UNDER 1000", "title": "Three traps", "title2": "that still work.", "sub": "AND HOW NOT TO FALL FOR THEM", "art": "board", "moves": "e4 e5 Bc4 Nc6 Qh5 Nf6 Qxf7#", "swipe": "Swipe →" },
+    { "kind": "board", "title": "Scholar’s Mate", "tag": "4 MOVES", "moves": "e4 e5 Bc4 Nc6 Qh5 Nf6 Qxf7#", "take": "Queen and bishop both aim at f7, the one square only Black’s king defends. Nf6 attacks the queen but leaves f7 to fall.", "edge": "The fix: 3…g6 blocks the attack and hits the queen. It has to move again while you keep developing." },
+    { "kind": "board", "title": "Légal Trap", "tag": "A QUEEN FOR MATE", "moves": "e4 e5 Nf3 d6 Bc4 Bg4 Nc3 g6 Nxe5 Bxd1 Bxf7+ Ke7 Nd5#", "take": "White gives up the queen on purpose. Taking it lets three minor pieces mate the king in the middle of the board.", "edge": "The fix: when a free queen appears, check what happens after you take it. Here 5…dxe5 loses only a pawn." },
+    { "kind": "board", "title": "Blackburne Shilling", "tag": "BLACK’S TRAP", "moves": "e4 e5 Nf3 Nc6 Bc4 Nd4 Nxe5 Qg5 Nxf7 Qxg2 Rf1 Qxe4+ Be2 Nf3#", "take": "Black leaves e5 hanging on purpose. Grabbing the pawn and then the rook walks White straight into a smothered mate on f3.", "edge": "The fix: answer 3…Nd4 with 4.Nxd4 or simply castle. The pawn on e5 is bait." },
+    { "kind": "cta", "title": "The games you lost to these", "title2": "are part of the story too.", "sub": "Every rated game you’ve played, on one poster." }
+  ]
+}
