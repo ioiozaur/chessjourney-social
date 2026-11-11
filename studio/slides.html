@@ -13,6 +13,7 @@ body { margin: 0; background: #ddd; }
 </style>
 </head>
 <body>
+<script src="engine.js"></script>
 <script>
 // Renders one carousel (plain JSON) to 1080 × 1350 slides. Used headless by tools/render.py.
 (() => {
@@ -21,6 +22,11 @@ body { margin: 0; background: #ddd; }
   const C = { paper: "#F3F4F1", ink: "#16191A", muted: "#6A716E", faint: "#D5D9D5", accent: "#2F5D50", tint: "rgba(47,93,80,.12)",
               light: "#E9ECE7", dark: "#A9B8AF", hi: "rgba(212,165,78,.55)",
               night: "#21160C", nightInk: "#F1D3B9", nightAccent: "#8EB32A", nightMid: "#9A776C" };
+  let sampleModel = null;
+  const SAMPLE = () => {
+    if (!sampleModel) { CJ.state.all = CJ.parsePGN(CJ.samplePGN()); CJ.state.player = "sample_player"; CJ.state.pool = "rapid"; sampleModel = CJ.model(); }
+    return sampleModel;
+  };
   const KING = { ink: new Image(), cream: new Image() };
   KING.ink.src = "../assets/king-ink.png"; KING.cream.src = "../assets/king-cream.png";
   const fmt = n => n.toLocaleString("en-GB");
@@ -210,27 +216,22 @@ body { margin: 0; background: #ddd; }
       tag(ctx, s.tag, 80, y + 4);
       takeAndNote(ctx, y + 140, s.labelA || "WHY", s.body, s.labelB || "TRY THIS", s.note);
     },
+    // Closing slide: a real Chess Journey poster (sample games) on the light page, rotating designs
     cta(ctx, s, i, n, d) {
-      ctx.fillStyle = C.night; ctx.fillRect(0, 0, W, H);
-      txt(ctx, s.title, W / 2, 210, `600 ${fit(ctx, s.title, 600, SERIF, 920, 76)}px ${SERIF}`, C.nightInk, "center");
-      txt(ctx, s.title2, W / 2, 300, `italic 400 ${fit(ctx, s.title2, "italic 400", SERIF, 920, 76)}px ${SERIF}`, C.nightInk, "center");
-      const fw = 470, fh = Math.round(fw * 1.414), fx = (W - fw) / 2, fy = 370;
-      ctx.save(); ctx.shadowColor = "rgba(0,0,0,.5)"; ctx.shadowBlur = 50; ctx.shadowOffsetY = 24;
-      ctx.fillStyle = "#0E0A06"; ctx.fillRect(fx - 26, fy - 26, fw + 52, fh + 52); ctx.restore();
-      ctx.fillStyle = "#FBFAF7"; ctx.fillRect(fx - 16, fy - 16, fw + 32, fh + 32);
-      ctx.fillStyle = C.night; ctx.fillRect(fx, fy, fw, fh);
-      txt(ctx, "CHESS JOURNEY · RAPID", fx + 34, fy + 52, `500 13px ${MONO}`, C.nightMid, "left", 3);
-      txt(ctx, "your_username", fx + 30, fy + 112, `600 50px ${SERIF}`, C.nightInk);
-      txt(ctx, "Every rated game, first to latest", fx + 34, fy + 146, `italic 400 17px ${SERIF}`, C.nightInk);
-      const X = f => fx + 50 + f * (fw - 80), Y = r => fy + 560 - (r - LO) / (HI - LO) * 360;
-      ctx.beginPath(); LINE.forEach(([f, r], k) => k ? ctx.lineTo(X(f), Y(r)) : ctx.moveTo(X(f), Y(r)));
-      ctx.strokeStyle = C.nightAccent; ctx.lineWidth = 3.5; ctx.lineJoin = "round"; ctx.stroke();
-      let pk = LINE[0]; LINE.forEach(p => { if (p[1] > pk[1]) pk = p; });
-      ctx.beginPath(); ctx.arc(X(pk[0]), Y(pk[1]), 7, 0, Math.PI * 2); ctx.fillStyle = C.night; ctx.fill(); ctx.lineWidth = 2.5; ctx.strokeStyle = C.nightInk; ctx.stroke();
-      ctx.fillStyle = C.nightInk; ctx.fillRect(fx + 34, fy + 590, fw - 68, 1.5);
-      txt(ctx, "PEAK RATING · GAMES PLAYED · WIN RATE", fx + 34, fy + 630, `500 11px ${MONO}`, C.nightMid, "left", 2);
-      txt(ctx, s.sub, W / 2, 1150, `italic 400 34px ${SERIF}`, C.nightInk, "center");
-      txt(ctx, s.url || "chessjourney.co.uk", W / 2, 1210, `500 38px ${MONO}`, C.nightAccent, "center", 3);
+      const design = s.design || d.posterDesign || ["climb", "grid", "spiral"][[...d.id].reduce((a, ch) => a + ch.charCodeAt(0), 0) % 3];
+      txt(ctx, s.title, W / 2, 196, `600 ${fit(ctx, s.title, 600, SERIF, 920, 72)}px ${SERIF}`, C.ink, "center");
+      if (s.title2) txt(ctx, s.title2, W / 2, 284, `italic 400 ${fit(ctx, s.title2, "italic 400", SERIF, 920, 72)}px ${SERIF}`, C.ink, "center");
+      const pw = 440, ph = Math.round(pw * CJ.RATIO), mat = 40, border = 16;
+      const fw = pw + 2 * (mat + border), fh = ph + 2 * (mat + border), fx = (W - fw) / 2, fy = 336;
+      const poster = document.createElement("canvas"); poster.width = 1600; poster.height = Math.round(1600 * CJ.RATIO);
+      CJ.render(poster.getContext("2d"), poster.width, poster.height, SAMPLE(), { palette: s.palette || "chalk", layout: design, pool: "rapid", player: "your_username", title: "your_username" });
+      ctx.save(); ctx.shadowColor = "rgba(0,0,0,.28)"; ctx.shadowBlur = 44; ctx.shadowOffsetY = 22;
+      ctx.fillStyle = "#2B211B"; ctx.fillRect(fx, fy, fw, fh); ctx.restore();
+      ctx.fillStyle = "#FBFAF7"; ctx.fillRect(fx + border, fy + border, fw - 2 * border, fh - 2 * border);
+      ctx.drawImage(poster, fx + border + mat, fy + border + mat, pw, ph);
+      txt(ctx, `EXAMPLE · ${{ climb: "THE CLIMB", grid: "EVERY GAME", spiral: "THE SPIRAL" }[design]}`, W / 2, fy + fh + 44, `500 20px ${MONO}`, C.muted, "center", 4);
+      txt(ctx, s.sub, W / 2, 1170, `italic 400 ${fit(ctx, s.sub, "italic 400", SERIF, 920, 36)}px ${SERIF}`, C.ink, "center");
+      txt(ctx, s.url || "chessjourney.co.uk", W / 2, 1228, `500 34px ${MONO}`, C.accent, "center", 3);
     },
   };
 
@@ -245,10 +246,10 @@ body { margin: 0; background: #ddd; }
       if (!DRAW[s.kind]) throw new Error(`Unknown slide kind: ${s.kind}`);
       const c = document.createElement("canvas"); c.width = W; c.height = H;
       const ctx = c.getContext("2d");
-      if (s.kind !== "cta") { ctx.fillStyle = C.paper; ctx.fillRect(0, 0, W, H); }
+      ctx.fillStyle = C.paper; ctx.fillRect(0, 0, W, H);
       try { DRAW[s.kind](ctx, s, i, n, d); } catch (e) { throw new Error(`Slide ${i + 1} (${s.kind}): ${e.message}`); }
-      footer(ctx, i, n, s.kind === "cta");
-      mark(ctx, s.kind === "cta", d.handle);
+      footer(ctx, i, n, false);
+      mark(ctx, false, d.handle);
       out.push(c.toDataURL("image/jpeg", 0.92));
     });
     return out;

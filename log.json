@@ -5,7 +5,8 @@
     "pillar": "Traps and tricks",
     "topic": "Scholar's Mate, Légal Trap, Blackburne Shilling Gambit: how not to fall for them",
     "zernio_post_id": "6af4ed752dd1f9f08d6817bb",
-    "status": "drafted (test)"
+    "status": "inbox draft did not appear; reposted as private",
+    "design": "grid"
   },
   {
     "date": "2026-11-11",
@@ -13,6 +14,16 @@
     "pillar": "Rating ladder",
     "topic": "What changes at every level, 400 to 2000",
     "zernio_post_id": null,
-    "status": "rendered, posted manually from the carousel studio"
+    "status": "rendered, posted manually from the carousel studio",
+    "design": "spiral"
+  },
+  {
+    "date": "2026-11-11",
+    "id": "2026-11-12-three-traps",
+    "pillar": "Traps and tricks",
+    "topic": "Same carousel, posted privately as the first test of private posting",
+    "design": "grid",
+    "zernio_post_id": "6af4f0eb565e166243d3729c",
+    "status": "private"
   }
 ]
