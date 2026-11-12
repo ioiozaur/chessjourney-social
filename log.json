@@ -34,7 +34,7 @@
     "design": "grid",
     "reel_post_id": "6af4fb5bf777a70645e9423f",
     "reel_time": "2026-11-12T13:00:00+00:00",
-    "status": "Reel scheduled on Instagram as a Trial Reel"
+    "status": "failed: Trial Reels need 1,000+ followers; deleted"
   },
   {
     "date": "2026-11-12",
@@ -43,11 +43,11 @@
     "topic": "Four openings to learn first: Italian, London, Caro-Kann, QGD",
     "design": "spiral",
     "zernio_post_id": "6af56e3ce0abe807a21358ec",
-    "instagram_post_id": null,
-    "instagram_time": null,
-    "reel_post_id": "6af56e85e0abe807a2135b75",
-    "reel_time": "2026-11-12T13:00:00+00:00",
-    "status": "private on TikTok; Reel scheduled on Instagram; Instagram carousel NOT scheduled (blocked by session permission check)"
+    "instagram_post_id": "6af5be58ba353415e7bed9be",
+    "instagram_time": "2026-11-12T19:30:00+00:00",
+    "reel_post_id": "6af5be4c697400d6df705276",
+    "reel_time": "2026-11-12T15:00:00+00:00",
+    "status": "private on TikTok; Instagram carousel and Reel scheduled by hand in the main chat after the run was blocked"
   },
   {
     "date": "2026-11-12",
@@ -56,10 +56,10 @@
     "topic": "Stuck at 1200: five habits (CCT, opponent's threat, review losses, slower games, stop after two losses)",
     "design": "climb",
     "zernio_post_id": "6af56e78e0abe807a2135afe",
-    "instagram_post_id": null,
-    "instagram_time": null,
-    "reel_post_id": null,
-    "reel_time": null,
-    "status": "private on TikTok; Instagram carousel and Reel NOT scheduled (blocked by session permission check)"
+    "instagram_post_id": "6af5be61697400d6df705315",
+    "instagram_time": "2026-11-12T20:30:00+00:00",
+    "reel_post_id": "6af5be50697400d6df7052aa",
+    "reel_time": "2026-11-12T17:00:00+00:00",
+    "status": "private on TikTok; Instagram carousel and Reel scheduled by hand in the main chat after the run was blocked"
   }
 ]

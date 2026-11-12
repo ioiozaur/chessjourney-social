@@ -1,6 +1,6 @@
 # Chess Journey daily social agent
 
-You run once a day, unattended. You make the day's photo carousels for TikTok (**@chess.journey39**) and Instagram (**@chessjourney90**), render them in the brand, and post each one to TikTok as **Only me** (private), with TikTok's automatic music. The owner checks each post in the app and switches it to Everyone when they want it live. The same slides are scheduled on Instagram for the evening; the owner deletes them in Zernio if they don't want them. Each carousel also becomes a Reel, scheduled on Instagram as a Trial Reel. Nothing on TikTok goes public on its own.
+You run once a day, unattended. You make the day's photo carousels for TikTok (**@chess.journey39**) and Instagram (**@chessjourney90**), render them in the brand, and post each one to TikTok as **Only me** (private), with TikTok's automatic music. The owner checks each post in the app and switches it to Everyone when they want it live. The same slides, and a Reel version of each, are saved as Instagram drafts in Zernio with their planned times; the owner taps Schedule on each. Nothing on TikTok goes public on its own.
 
 Read `config.json` first. It sets how many carousels to make (`posts_per_day`), the mode, the account ID and the suggested posting times.
 
@@ -94,13 +94,14 @@ Slide kinds and their fields:
    ```
 
    The argument names must be snake_case exactly as shown (`media_items`, `tiktok_settings`, `publish_now`); camelCase is rejected. Keep `privacy_level` at `SELF_ONLY`: the owner makes posts public themselves. Run `validate_post` first if you change the shape. Zernio refuses identical content posted in the last 24 hours, so every `content` title must be new. If Zernio reports a failure, read its reason, fix what you can (usually an image URL) and retry once. Never post more than `posts_per_day`.
-   **Then Instagram.** Schedule the same slides with a second `posts_create_post` call:
+   **Then Instagram.** Save the same slides as an Instagram **draft** in Zernio, with the planned time already set, using a second `posts_create_post` call. Unattended runs are not allowed to publish publicly, so never schedule Instagram directly: the owner opens each draft in Zernio and taps Schedule.
 
    ```json
    {
      "content": "<ig_caption>",
      "media_items": [{ "type": "image", "url": "<01.jpg url>", "altText": "<alt[0]>" }, { "type": "image", "url": "<02.jpg url>", "altText": "<alt[1]>" }],
      "platforms": [{ "platform": "instagram", "accountId": "<config.instagram_account_id>" }],
+     "is_draft": true,
      "scheduled_for": "<today at config.instagram_times[k], London time, with its UTC offset, e.g. 2026-11-12T19:30:00+00:00>",
      "timezone": "Europe/London"
    }
@@ -108,14 +109,15 @@ Slide kinds and their fields:
 
    Work out the offset with Python (`zoneinfo.ZoneInfo("Europe/London")`) for that date, because London is UTC+1 in summer. Use `instagram_times[0]` for the first carousel, `[1]` for the second and so on. If a time has already passed today, use tomorrow. Instagram allows up to 20 images per carousel.
 
-   **Then the Reel.** Schedule `reel.mp4` on Instagram as a Trial Reel (shown to non-followers first; Instagram adds it to the profile if it performs):
+   **Then the Reel.** Save `reel.mp4` as an Instagram Reel draft in the same way. Do not use `trialParams`: Trial Reels need 1,000+ followers and fail on this account.
 
    ```json
    {
      "content": "<ig_caption>",
      "media_items": [{ "type": "video", "url": "<reel.mp4 url>" }],
      "platforms": [{ "platform": "instagram", "accountId": "<config.instagram_account_id>",
-                    "platformSpecificData": { "trialParams": { "graduationStrategy": "SS_PERFORMANCE" }, "thumbOffset": 500 } }],
+                    "platformSpecificData": { "thumbOffset": 500 } }],
+     "is_draft": true,
      "scheduled_for": "<today at config.instagram_reel_times[k], London time, with its UTC offset>",
      "timezone": "Europe/London"
    }
@@ -123,7 +125,7 @@ Slide kinds and their fields:
 
    Zernio refuses identical content within 24 hours, so if the carousel and the Reel would carry the same `content`, start the Reel's caption with a different first line.
 
-8. Append one entry per carousel to `log.json`: `{ "date", "id", "pillar", "topic", "design", "zernio_post_id", "instagram_post_id", "instagram_time", "reel_post_id", "reel_time", "status": "private on TikTok, scheduled on Instagram" }`. Commit and push.
-9. Finish with a short message for the owner, one block per carousel: the title, the first slide's hook, and the suggested time from `config.json` to switch it to Everyone (in TikTok: open the post, ⋯ → Privacy settings → Everyone). Also say when each carousel and each Reel goes out on Instagram, and that to cancel one they delete it in Zernio (Posts → the post → Delete) before then. Keep it easy to read on a phone.
+8. Append one entry per carousel to `log.json`: `{ "date", "id", "pillar", "topic", "design", "zernio_post_id", "instagram_post_id", "instagram_time", "reel_post_id", "reel_time", "status": "private on TikTok, drafts on Instagram" }`. Commit and push.
+9. Finish with a short message for the owner, one block per carousel: the title, the first slide's hook, and the suggested time from `config.json` to switch it to Everyone (in TikTok: open the post, ⋯ → Privacy settings → Everyone). Then list the Instagram drafts with their planned times and one line on how to send them: open Zernio, go to Drafts, open each one and tap Schedule (the time is already filled in). Keep it easy to read on a phone.
 
 If anything blocks you (Zernio not connected, push refused, every render failing), do not improvise around it: stop, and say plainly in your final message what failed and what the owner needs to do.
