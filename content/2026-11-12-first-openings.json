@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-12-first-openings",
+  "series": "OPENINGS UNDER 1200",
+  "pillar": "Openings by level",
+  "caption": "Four openings worth learning first: two for White, two for Black. Simple plans, sound positions, no traps to memorise. ♟️\n\nWhich one do you play already? 👇\n\n#chess #chesstok #chessopenings #learnchess #chesstips",
+  "ig_caption": "Four openings worth learning first: two for White, two for Black.\n\nThe Italian Game and the London System give White quick development and an easy plan. Against 1.e4, the Caro-Kann keeps Black solid; against 1.d4, the Queen's Gambit Declined holds the centre without fuss. None of them depends on a trap, so they keep working as you climb.\n\nWhich one do you play already, and which would you add? 👇\n\n#chess #chessopenings #learnchess #chesstips #italiangame #londonsystem #carokann #queensgambit #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Four openings to learn first, over a board showing the Italian Game.",
+    "Slide 2: Italian Game diagram after 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5. Develop fast, castle, aim at f7.",
+    "Slide 3: London System diagram. White sets up d4, Bf4, e3 and Nf3 against almost anything.",
+    "Slide 4: Caro-Kann diagram from Black's side. 1...c6 and 2...d5 build a solid centre; the bishop gets out before e6.",
+    "Slide 5: Queen's Gambit Declined diagram from Black's side. 2...e6 holds d5 and lets Black develop calmly.",
+    "Slide 6: A Chess Journey poster. Your openings are on the poster too. Every rated game, on one print."
+  ],
+  "slides": [
+    { "kind": "cover", "eyebrow": "OPENINGS UNDER 1200", "title": "Four openings", "title2": "to learn first.", "sub": "TWO FOR WHITE, TWO FOR BLACK", "art": "board", "moves": "e4 e5 Nf3 Nc6 Bc4 Bc5", "swipe": "Swipe →" },
+    { "kind": "board", "title": "Italian Game", "tag": "WHITE · 1.e4", "moves": "e4 e5 Nf3 Nc6 Bc4 Bc5", "take": "Knight out, bishop out, castle. The bishop on c4 aims at f7, the weakest square in Black's camp.", "edge": "The plan: c3 and d4 to take the centre. Natural moves, and every one of them has a reason." },
+    { "kind": "board", "title": "London System", "tag": "WHITE · 1.d4", "moves": "d4 d5 Bf4 Nf6 e3 e6 Nf3 Bd6 Bg3", "take": "The same set-up against almost anything: d4, Bf4, e3, Nf3. Less theory, more time to think in the middlegame.", "edge": "The habit it teaches: keep the dark-squared bishop outside the pawn chain before you play e3." },
+    { "kind": "board", "title": "Caro-Kann", "tag": "BLACK · vs 1.e4", "flip": true, "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5", "take": "1…c6 and 2…d5 build a solid centre. The light-squared bishop comes out to f5 before e6 locks it in.", "edge": "Why it suits climbing players: few early tactics against you, and a healthy pawn structure into the endgame." },
+    { "kind": "board", "title": "Queen’s Gambit Declined", "tag": "BLACK · vs 1.d4", "flip": true, "moves": "d4 d5 c4 e6 Nc3 Nf6 Bg5 Be7", "take": "2…e6 keeps the pawn on d5 supported. Black develops, castles and breaks with …c5 or …e5 later.", "edge": "The point: you don't need to win the c4 pawn. Hold the centre and the position stays sound." },
+    { "kind": "cta", "title": "Your openings are", "title2": "on the poster too.", "sub": "Every rated game, drawn on one print.", "design": "spiral" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-12-stuck-at-1200",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "Stuck around 1200? It's rarely the opening. Five habits that help players start climbing again. ♟️\n\nWhich one will you try in your next game? 👇\n\n#chess #chesstok #chessimprovement #learnchess #chesstips",
+  "ig_caption": "Stuck around 1200? It's rarely the opening.\n\nMany games at this level are decided by a piece left hanging or a threat nobody saw. Five habits that help: check every check, capture and threat; ask what your opponent's last move wants; review your losses; play slower games; and stop after two losses in a row.\n\nWhich one will you try in your next game? 👇\n\n#chess #chessimprovement #learnchess #chesstips #chessrating #plateau #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Stuck at 1200? Five habits that unstick you. No new openings required.",
+    "Slide 2: Habit 1. Before every move, look at checks, captures and threats, for both sides.",
+    "Slide 3: Habit 2. Ask what your opponent's last move wants before making your own plan.",
+    "Slide 4: Habit 3. Review your losses. Find the one move where the game turned.",
+    "Slide 5: Habit 4. Play slower games, such as 15 minutes plus 10 seconds, so you have time to use the habits.",
+    "Slide 6: Habit 5. Stop after two losses in a row. Tilt costs more rating than any opening.",
+    "Slide 7: A Chess Journey poster. Every plateau is a line on the poster, and so is the climb after it."
+  ],
+  "slides": [
+    { "kind": "cover", "eyebrow": "PLATEAU FIXES", "title": "Stuck at 1200?", "title2": "Five habits that unstick you.", "sub": "NO NEW OPENINGS REQUIRED", "art": "climb", "swipe": "Swipe →" },
+    { "kind": "point", "title": "Checks, captures, threats", "tag": "EVERY MOVE", "big": "CCT", "body": "Many games at this level end with a piece left hanging or a threat nobody saw. Before you move, list every check, capture and threat on the board.", "note": "Do it for your opponent too. Then play your move." },
+    { "kind": "point", "title": "Ask what their move wants", "tag": "BEFORE YOUR PLAN", "big": "?", "body": "Every move does something: attacks a piece, opens a line, prepares a check. Find it before you carry on with your own idea.", "note": "One question, every move: what does that threaten?" },
+    { "kind": "point", "title": "Review your losses", "tag": "AFTER THE GAME", "big": "1", "body": "Wins feel good and teach little. In each loss, find the single move where the game turned, and why you missed it.", "note": "Write the reason in one line. After a few, patterns appear." },
+    { "kind": "point", "title": "Play slower games", "tag": "TIME CONTROL", "big": "15+10", "body": "These habits need time. In one-minute games there is none. Rapid gives you room to check every move properly.", "note": "Play some 15+10 rapid each week, then take the habits back to blitz." },
+    { "kind": "point", "title": "Stop after two losses", "tag": "TILT", "big": "2", "body": "After two losses in a row, the next game is often played angry and fast. That is how a bad hour becomes a bad week.", "note": "Take a walk. Your rating will still be there." },
+    { "kind": "cta", "title": "Every plateau is on the poster.", "title2": "So is the climb after it.", "sub": "Your whole rating history, on one print.", "design": "climb" }
+  ]
+}
