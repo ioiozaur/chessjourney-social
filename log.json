@@ -35,5 +35,31 @@
     "reel_post_id": "6af4fb5bf777a70645e9423f",
     "reel_time": "2026-11-12T13:00:00+00:00",
     "status": "Reel scheduled on Instagram as a Trial Reel"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "2026-11-12-first-openings",
+    "pillar": "Openings by level",
+    "topic": "Four openings to learn first: Italian, London, Caro-Kann, QGD",
+    "design": "spiral",
+    "zernio_post_id": "6af56e3ce0abe807a21358ec",
+    "instagram_post_id": null,
+    "instagram_time": null,
+    "reel_post_id": "6af56e85e0abe807a2135b75",
+    "reel_time": "2026-11-12T13:00:00+00:00",
+    "status": "private on TikTok; Reel scheduled on Instagram; Instagram carousel NOT scheduled (blocked by session permission check)"
+  },
+  {
+    "date": "2026-11-12",
+    "id": "2026-11-12-stuck-at-1200",
+    "pillar": "Plateau fixes",
+    "topic": "Stuck at 1200: five habits (CCT, opponent's threat, review losses, slower games, stop after two losses)",
+    "design": "climb",
+    "zernio_post_id": "6af56e78e0abe807a2135afe",
+    "instagram_post_id": null,
+    "instagram_time": null,
+    "reel_post_id": null,
+    "reel_time": null,
+    "status": "private on TikTok; Instagram carousel and Reel NOT scheduled (blocked by session permission check)"
   }
 ]
