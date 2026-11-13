@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-13-opera-game",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "Paris, 1858. Paul Morphy beat a duke and a count at the opera in 17 moves, and coaches still show it today. ♟️\n\nWhich move would you have missed? 👇\n\n#chess #chesstok #chesshistory #morphy #learnchess",
+  "ig_caption": "Paris, 1858. In a box at the opera, Paul Morphy took White against the Duke of Brunswick and Count Isouard, playing together.\n\nSeventeen moves later it was over. Morphy developed his pieces instead of grabbing pawns, gave up a knight to open lines while Black's king sat in the centre, then sacrificed his queen to mate with a rook. It is still one of the first games coaches show, because every idea in it is simple and every piece plays a part.\n\nWhich move would you have missed? 👇\n\n#chess #chesshistory #paulmorphy #operagame #learnchess #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. 17 moves at the opera. A game coaches still show. Board shows the final mate.",
+    "Slide 2: Paris, 1858. Board after 1.e4 e5 2.Nf3 d6 3.d4 Bg4, the Philidor Defence, Black's bishop pinning the knight.",
+    "Slide 3: Move 7. Board after 7.Qb3: White's queen and bishop both aim at f7, and the queen also eyes b7.",
+    "Slide 4: Move 10. Board after 11...Nbd7: Morphy gave a knight for two pawns to open lines to Black's king.",
+    "Slide 5: Moves 12 to 14. Board after 14...Qe6: White castled long and both rooks joined the attack on the d-file.",
+    "Slide 6: The finish. Board after 17.Rd8 mate: Morphy gave up his queen, and the rook mates with the bishop's help.",
+    "Slide 7: A Chess Journey poster. Not every game is a masterpiece, but every one is on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "17 moves at the opera.",
+      "title2": "A game coaches still show.",
+      "sub": "PARIS, 1858",
+      "art": "board",
+      "moves": "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5 Nxb5 cxb5 Bxb5+ Nbd7 O-O-O Rd8 Rxd7 Rxd7 Rd1 Qe6 Bxd7+ Nxd7 Qb8+ Nxb8 Rd8#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Paris, 1858",
+      "tag": "THE SETTING",
+      "moves": "e4 e5 Nf3 d6 d4 Bg4",
+      "take": "Paul Morphy, White, against the Duke of Brunswick and Count Isouard, playing together in a box at the opera.",
+      "edge": "Black's bishop pins the knight. It looks active, but it is about to be swapped off, and White will lead in development."
+    },
+    {
+      "kind": "board",
+      "title": "Two targets",
+      "tag": "MOVE 7",
+      "moves": "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3",
+      "take": "Queen and bishop both aim at f7. The queen also eyes the pawn on b7.",
+      "edge": "After 7...Qe7, Morphy chose 8.Nc3 over grabbing b7. Development first, pawns later."
+    },
+    {
+      "kind": "board",
+      "title": "A knight for two pawns",
+      "tag": "MOVE 10",
+      "moves": "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5 Nxb5 cxb5 Bxb5+ Nbd7",
+      "take": "Morphy gave up a knight to rip open the lines around Black's king, still stuck in the centre.",
+      "edge": "Black's extra piece is pinned and tangled. Material matters less than open lines here.",
+      "movesText": "… 7...Qe7 8.Nc3 c6 9.Bg5 b5 10.Nxb5 cxb5 11.Bxb5+ Nbd7"
+    },
+    {
+      "kind": "board",
+      "title": "Every piece joins in",
+      "tag": "MOVES 12–14",
+      "moves": "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5 Nxb5 cxb5 Bxb5+ Nbd7 O-O-O Rd8 Rxd7 Rxd7 Rd1 Qe6",
+      "take": "White castles long, gives a rook on d7, and brings the other rook straight to the d-file.",
+      "edge": "Count White's attackers against Black's defenders. Black's kingside pieces never moved.",
+      "movesText": "… 12.O-O-O Rd8 13.Rxd7 Rxd7 14.Rd1 Qe6"
+    },
+    {
+      "kind": "board",
+      "title": "The queen sacrifice",
+      "tag": "MATE IN 17",
+      "gold": true,
+      "moves": "e4 e5 Nf3 d6 d4 Bg4 dxe5 Bxf3 Qxf3 dxe5 Bc4 Nf6 Qb3 Qe7 Nc3 c6 Bg5 b5 Nxb5 cxb5 Bxb5+ Nbd7 O-O-O Rd8 Rxd7 Rxd7 Rd1 Qe6 Bxd7+ Nxd7 Qb8+ Nxb8 Rd8#",
+      "take": "16.Qb8+ gives the queen away. The knight must take it, and 17.Rd8 is mate.",
+      "edge": "The bishop on g5 covers d8 and e7. The last two white pieces finish the job together.",
+      "movesText": "… 15.Bxd7+ Nxd7 16.Qb8+ Nxb8 17.Rd8#"
+    },
+    {
+      "kind": "cta",
+      "title": "Not every game is a masterpiece.",
+      "title2": "Every one is on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}

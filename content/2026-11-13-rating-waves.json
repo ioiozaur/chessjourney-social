@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-13-rating-waves",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "Your rating graph isn't broken. Ratings move in waves, even when your chess is steady. Here's why the line zigzags. 📈\n\nWhat's the longest losing streak you've bounced back from? 👇\n\n#chess #chesstok #chessrating #chessimprovement #learnchess",
+  "ig_caption": "Your rating graph isn't broken. Ratings move in waves, even when your chess is steady.\n\nEvery game moves the number, and how much depends on who you played. Streaks turn up by chance, just as a coin can land heads five times running. Rating systems also swing harder when they are less sure of you: after a break, or early on. So judge your progress over months, not days, and only worry when a slide keeps going for weeks.\n\nWhat's the longest losing streak you've bounced back from? 👇\n\n#chess #chessrating #chessimprovement #learnchess #chesstips #ratinggraph #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Your graph isn't broken. Ratings move in waves. Why the line zigzags.",
+    "Slide 2: Every game moves your rating. Beat a stronger opponent and you gain more; lose to a weaker one and you drop more.",
+    "Slide 3: Streaks happen by chance. Twenty coin flips often include four heads in a row; wins and losses cluster the same way.",
+    "Slide 4: New ratings move faster. Glicko-style systems swing more when unsure of you, after a break or early on.",
+    "Slide 5: Zoom out. Compare your rating with three months or a year ago; climbs often look like staircases.",
+    "Slide 6: A real slump keeps going for weeks. Review a few recent losses before changing anything.",
+    "Slide 7: A Chess Journey poster. Every wave is on the poster: up, down, and up again."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "Your graph isn't broken.",
+      "title2": "Ratings move in waves.",
+      "sub": "WHY THE LINE ZIGZAGS",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Every game moves it",
+      "tag": "THE BASICS",
+      "big": "W · L",
+      "body": "Win and you gain points, lose and you drop. How many depends on your opponent: beat someone stronger and you gain more, lose to someone weaker and you drop more.",
+      "note": "So even a perfectly steady player's line zigzags, game by game.",
+      "labelA": "HOW",
+      "labelB": "SO"
+    },
+    {
+      "kind": "point",
+      "title": "Streaks happen by chance",
+      "tag": "LUCK",
+      "big": "HHHH",
+      "body": "Flip a coin twenty times and you will often see four heads in a row. Wins and losses cluster the same way, even when your skill hasn't changed.",
+      "note": "A bad week is not proof you've got worse.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "New ratings move faster",
+      "tag": "CONFIDENCE",
+      "big": "RD",
+      "body": "Chess.com and Lichess use Glicko-style ratings, which track how sure they are about you. Early on, or after a long break, each game swings the number more.",
+      "note": "Back after a month off? Expect bigger jumps both ways.",
+      "labelA": "HOW",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Zoom out",
+      "tag": "THE TREND",
+      "big": "3 mo",
+      "body": "One day's line says little. Compare your rating now with three months ago, or a year ago. That is where improvement shows.",
+      "note": "Many climbs look like staircases: a jump, a flat stretch, another jump.",
+      "labelB": "WORTH KNOWING"
+    },
+    {
+      "kind": "point",
+      "title": "What a real slump looks like",
+      "tag": "WHEN TO WORRY",
+      "big": "?",
+      "body": "A small dip is normal noise. A slide that keeps going for weeks is worth a look: are you tired, rushing, or trying a new opening?",
+      "note": "Review a few recent losses before you change anything.",
+      "labelA": "SIGNAL",
+      "labelB": "TRY THIS"
+    },
+    {
+      "kind": "cta",
+      "title": "Every wave is on the poster.",
+      "title2": "Up, down, and up again.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}
