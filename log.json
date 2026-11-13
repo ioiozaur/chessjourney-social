@@ -61,5 +61,31 @@
     "reel_post_id": "6af5be50697400d6df7052aa",
     "reel_time": "2026-11-12T17:00:00+00:00",
     "status": "private on TikTok; Instagram carousel and Reel scheduled by hand in the main chat after the run was blocked"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "2026-11-13-opera-game",
+    "pillar": "Chess history and stories",
+    "topic": "The Opera Game: Morphy v Duke of Brunswick and Count Isouard, Paris 1858, 17 moves",
+    "design": "grid",
+    "zernio_post_id": "6af6bfeb384e2e59228a5b6f",
+    "instagram_post_id": "6af6c021a687e1e8582f2410",
+    "instagram_time": "2026-11-13T19:30:00+00:00",
+    "reel_post_id": "6af6c03c384e2e59228a5e72",
+    "reel_time": "2026-11-13T13:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-13",
+    "id": "2026-11-13-rating-waves",
+    "pillar": "Your rating graph",
+    "topic": "Why ratings move in waves: every game moves it, chance streaks, rating deviation, zoom out, real slumps",
+    "design": "spiral",
+    "zernio_post_id": "6af6c015a687e1e8582f23df",
+    "instagram_post_id": "6af6c03b721a6f162b448ff9",
+    "instagram_time": "2026-11-13T20:30:00+00:00",
+    "reel_post_id": "6af6c03c384e2e59228a5e77",
+    "reel_time": "2026-11-13T17:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
   }
 ]
