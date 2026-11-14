@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-14-d4-traps",
+  "series": "TRAPS AFTER 1.d4",
+  "pillar": "Traps and tricks",
+  "caption": "Three traps that catch White after 1.d4: the Englund, the Elephant and the Lasker. One wrong capture is all it takes. ♟️\n\nHave you ever fallen for one of these? 👇\n\n#chess #chesstok #chesstraps #learnchess #queensgambit",
+  "ig_caption": "Play 1.d4? These three traps are waiting for you.\n\nThe Englund Gambit Trap ends in mate on c1. The Elephant Trap in the Queen's Gambit Declined turns a pawn grab into a lost piece. And the Lasker Trap in the Albin Countergambit finishes with a pawn promoting to a knight, with check.\n\nEach one starts with a capture that looks free. Count the checks first.\n\nHave you ever fallen for one of these? 👇\n\n#chess #chesstraps #learnchess #queensgambit #chessopenings #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Play 1.d4? Three traps to know. All three catch White. A chess diagram of the Englund Gambit Trap.",
+    "Slide 2: Englund Gambit Trap diagram. Black's queen checks, takes b2 and mates on c1 after White's 6.Bc3.",
+    "Slide 3: Elephant Trap diagram. White grabs on d5, Black gives the queen and wins it back with Bb4 check, ending a piece up.",
+    "Slide 4: Lasker Trap diagram. Black's pawn captures on f2 with check, then promotes to a knight on g1 with check.",
+    "Slide 5: A Chess Journey poster. The traps you fell for once are part of the climb too."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "TRAPS AFTER 1.d4",
+      "title": "Play 1.d4?",
+      "title2": "Three traps to know.",
+      "sub": "ALL THREE CATCH WHITE",
+      "art": "board",
+      "moves": "d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2 Bc3 Bb4 Qd2 Bxc3 Qxc3 Qc1#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Englund Gambit Trap",
+      "tag": "MATE IN 8",
+      "moves": "d4 e5 dxe5 Nc6 Nf3 Qe7 Bf4 Qb4+ Bd2 Qxb2 Bc3 Bb4 Qd2 Bxc3 Qxc3 Qc1#",
+      "take": "Black gives a pawn on move one. After 4.Bf4 the queen checks and takes b2, and 6.Bc3? walks into mate on c1.",
+      "edge": "The losing move is 6.Bc3?. When an enemy queen reaches b2, check what your rook and king have left undefended.",
+      "movesText": "… 5.Bd2 Qxb2 6.Bc3? Bb4 7.Qd2 Bxc3 8.Qxc3 Qc1#"
+    },
+    {
+      "kind": "board",
+      "title": "Elephant Trap",
+      "tag": "QUEEN’S GAMBIT",
+      "moves": "d4 d5 c4 e6 Nc3 Nf6 Bg5 Nbd7 cxd5 exd5 Nxd5 Nxd5 Bxd8 Bb4+ Qd2 Bxd2+ Kxd2 Kxd8",
+      "take": "6.Nxd5? grabs a pawn because the f6 knight looks pinned. But 6...Nxd5! gives the queen, and 7...Bb4+ wins it back.",
+      "edge": "After the dust settles, Black is a piece up. A pin to a queen is not a pin to a king.",
+      "movesText": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.cxd5 exd5 6.Nxd5? Nxd5! 7.Bxd8 Bb4+ …"
+    },
+    {
+      "kind": "board",
+      "title": "Lasker Trap",
+      "tag": "ALBIN COUNTERGAMBIT",
+      "moves": "d4 d5 c4 e5 dxe5 d4 e3 Bb4+ Bd2 dxe3 Bxb4 exf2+ Ke2 fxg1=N+",
+      "take": "4.e3? lets Black's pawn run. After 6.Bxb4? it takes on f2 with check, then promotes to a knight, again with check.",
+      "edge": "Why a knight? A queen could be taken for free. The knight gives check, and after 8.Rxg1 Bg4+ wins White's queen.",
+      "gold": "UNDERPROMOTION"
+    },
+    {
+      "kind": "cta",
+      "title": "The traps you fell for once",
+      "title2": "are part of the climb too.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}

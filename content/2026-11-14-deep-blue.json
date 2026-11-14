@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-14-deep-blue",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "May 1997, New York: Deep Blue beat world champion Garry Kasparov 3½–2½. The last game lasted just 19 moves. ♟️\n\nWould you rather play a person or a computer? 👇\n\n#chess #chesstok #chesshistory #deepblue #learnchess",
+  "ig_caption": "May 1997, New York. A computer beat the world champion.\n\nIn February 1996, IBM's Deep Blue won the first game of its match with Garry Kasparov, but Kasparov took the match 4–2. The rematch came fifteen months later. After five games it was level at 2½–2½. In game six, a Caro-Kann, Deep Blue gave a knight on e6 on move 8, and Black resigned after 19.c4.\n\nFinal score: 3½–2½. The first time a computer had beaten a reigning world champion in a match under tournament conditions.\n\nWould you rather play a person or a computer? 👇\n\n#chess #chesshistory #deepblue #kasparov #computerchess #chessgames #chessjourney",
+  "alt": [
+    "Slide 1: Cover. May 1997. A computer beat the world champion. Six games in New York. Diagram of the final position of game six.",
+    "Slide 2: Philadelphia 1996. Deep Blue won game one, but Kasparov won the match 4–2.",
+    "Slide 3: New York, May 1997. After five games the rematch was level at 2½–2½.",
+    "Slide 4: Game six diagram after 8.Nxe6, Deep Blue's knight sacrifice in a Caro-Kann.",
+    "Slide 5: Final position after 19.c4. Black resigned. Deep Blue won the match 3½–2½.",
+    "Slide 6: A Chess Journey poster. One game can turn a story. Yours has thousands."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "May 1997.",
+      "title2": "A computer beat the champion.",
+      "sub": "SIX GAMES IN NEW YORK",
+      "art": "board",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Ng5 Ngf6 Bd3 e6 N1f3 h6 Nxe6 Qe7 O-O fxe6 Bg6+ Kd8 Bf4 b5 a4 Bb7 Re1 Nd5 Bg3 Kc8 axb5 cxb5 Qd3 Bc6 Bf5 exf5 Rxe7 Bxe7 c4",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Round one went to the human",
+      "tag": "PHILADELPHIA, 1996",
+      "big": "4–2",
+      "body": "In February 1996, IBM's Deep Blue played world champion Garry Kasparov over six games. It won game one: the first classical game a computer had won against a reigning world champion.",
+      "note": "Kasparov then took the match 4–2.",
+      "labelA": "WHAT HAPPENED",
+      "labelB": "RESULT"
+    },
+    {
+      "kind": "point",
+      "title": "The rematch",
+      "tag": "NEW YORK, MAY 1997",
+      "big": "1–1",
+      "body": "Fifteen months later they met again over six games. After five, the score was level: one win each and three draws.",
+      "note": "Everything came down to game six, on 11 May 1997.",
+      "labelA": "WHAT HAPPENED",
+      "labelB": "THEN"
+    },
+    {
+      "kind": "board",
+      "title": "Game six",
+      "tag": "8.Nxe6!",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Ng5 Ngf6 Bd3 e6 N1f3 h6 Nxe6",
+      "take": "A Caro-Kann, with Kasparov as Black. On move 8 Deep Blue gave a knight on e6 to break open the cover around Black's king.",
+      "edge": "Black's king had to walk to d8, then c8, while White's pieces came in.",
+      "movesText": "… 6.Bd3 e6 7.N1f3 h6 8.Nxe6!"
+    },
+    {
+      "kind": "board",
+      "title": "Resigns after 19",
+      "tag": "1–0",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Ng5 Ngf6 Bd3 e6 N1f3 h6 Nxe6 Qe7 O-O fxe6 Bg6+ Kd8 Bf4 b5 a4 Bb7 Re1 Nd5 Bg3 Kc8 axb5 cxb5 Qd3 Bc6 Bf5 exf5 Rxe7 Bxe7 c4",
+      "take": "After 19.c4, Black resigned. Deep Blue won the match 3½–2½.",
+      "edge": "The first time a computer had beaten a reigning world champion in a match under tournament conditions.",
+      "gold": "3½–2½",
+      "movesText": "… 15.axb5 cxb5 16.Qd3 Bc6 17.Bf5 exf5 18.Rxe7 Bxe7 19.c4 1–0"
+    },
+    {
+      "kind": "cta",
+      "title": "One game can turn a story.",
+      "title2": "Yours has thousands.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
