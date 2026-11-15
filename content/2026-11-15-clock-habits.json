@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-15-clock-habits",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "Winning on the board, losing on the clock? Five habits that stop won games running out of time. ⏱️\n\nHow many won games have you lost on time? 👇\n\n#chess #chesstok #chessimprovement #chesstips #blitz",
+  "ig_caption": "Winning on the board, losing on the clock? Time is part of the position.\n\nFive habits that help: remember that a flag still loses; spend your minutes on the moves that change the game, not on recaptures; play with increment; premove only the truly forced moves; and when you're ahead and short of time, trade pieces and keep it simple.\n\nHow many won games have you lost on time? 👇\n\n#chess #chessimprovement #chesstips #blitz #rapidchess #learnchess #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Winning, then flagged? Five clock habits. Time is a piece too.",
+    "Slide 2: Habit 1. Running out of time loses, however far ahead you are, unless your opponent cannot possibly mate.",
+    "Slide 3: Habit 2. Spend seconds on obvious recaptures and minutes on moves that change the position.",
+    "Slide 4: Habit 3. Play with increment, such as 10+5 instead of 10+0, so endgames aren't a race.",
+    "Slide 5: Habit 4. Premove only forced recaptures, never when your opponent has a choice.",
+    "Slide 6: Habit 5. Ahead but low on time? Trade pieces so there is less to calculate.",
+    "Slide 7: A Chess Journey poster. Every flag is on the graph, and so is every save."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "PLATEAU FIXES",
+      "title": "Winning, then flagged?",
+      "title2": "Five clock habits.",
+      "sub": "TIME IS A PIECE TOO",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "A flag still loses",
+      "tag": "THE RULE",
+      "big": "0:00",
+      "body": "Run out of time and you lose, however far ahead you are. The only exception: if your opponent cannot possibly checkmate, it's a draw.",
+      "note": "A won position only counts once you finish it."
+    },
+    {
+      "kind": "point",
+      "title": "Spend time where it matters",
+      "tag": "BUDGET",
+      "big": "?",
+      "body": "An obvious recapture needs seconds. A move that changes the position, a new threat, a trade, a pawn break, deserves minutes.",
+      "note": "Ask: is this position different from the last one?"
+    },
+    {
+      "kind": "point",
+      "title": "Play with increment",
+      "tag": "TIME CONTROL",
+      "big": "10+5",
+      "body": "Increment adds a few seconds after every move, so a long endgame no longer turns into a race against the clock.",
+      "note": "Try 10+5 instead of 10+0 for a week."
+    },
+    {
+      "kind": "point",
+      "title": "Premove only the forced",
+      "tag": "BLITZ",
+      "big": "→",
+      "body": "A premove saves time but doesn't look at the board. Use it for forced recaptures, never when your opponent has a choice.",
+      "note": "A premoved blunder still counts."
+    },
+    {
+      "kind": "point",
+      "title": "Ahead? Trade pieces",
+      "tag": "LOW ON TIME",
+      "big": "SWAP",
+      "body": "Up material with little time left? Swap pieces off. Fewer pieces means fewer threats to calculate, and quicker, safer moves.",
+      "note": "A simple win beats a brilliant flag."
+    },
+    {
+      "kind": "cta",
+      "title": "Every flag is on the graph.",
+      "title2": "So is every save.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}

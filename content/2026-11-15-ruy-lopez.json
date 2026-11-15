@@ -1,0 +1,70 @@
+{
+  "id": "2026-11-15-ruy-lopez",
+  "series": "THREE LEVELS",
+  "pillar": "Openings by level",
+  "caption": "The Ruy Lopez at 800, 1200 and 1600: the same three moves, understood three different ways. ♟️\n\nWhich level are you playing it at? 👇\n\n#chess #chesstok #chessopenings #ruylopez #learnchess",
+  "ig_caption": "The Ruy Lopez, also called the Spanish, is named after a 16th-century Spanish priest who wrote about it. It is one opening you can play for life, because what you understand in it grows with you.\n\nAt 800: Bb5 attacks the knight that guards e5, but Bxc6 and Nxe5 doesn't win a pawn yet, because ...Qd4 wins it back.\nAt 1200: after ...a6 the bishop drops to a4, and White castles, leaving e4 on purpose.\nAt 1600: the Closed Ruy. c3 prepares d4, h3 stops ...Bg4, and the knight takes the long road to g3.\n\nWhich level are you playing it at? 👇\n\n#chess #chessopenings #ruylopez #learnchess #chesstips #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. The Ruy Lopez at three levels: 800, 1200, 1600. A chess diagram after 1.e4 e5 2.Nf3 Nc6 3.Bb5.",
+    "Slide 2: Named after Ruy López de Segura, a Spanish priest who wrote a chess book in 1561. Also called the Spanish.",
+    "Slide 3: Level 800 diagram after 3.Bb5. The bishop attacks the knight guarding e5; Bxc6 then Nxe5 is met by ...Qd4.",
+    "Slide 4: Level 1200 diagram after 5.O-O. Black chases the bishop with ...a6; White castles and leaves e4 on purpose.",
+    "Slide 5: Level 1600 diagram after 9.h3 in the Closed Ruy. c3 prepares d4, h3 stops ...Bg4, knight heads to g3.",
+    "Slide 6: A Chess Journey poster. Every level you climb is on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ONE OPENING, THREE LEVELS",
+      "title": "The Ruy Lopez",
+      "title2": "at 800, 1200 and 1600.",
+      "sub": "SAME MOVES, DEEPER IDEAS",
+      "art": "board",
+      "moves": "e4 e5 Nf3 Nc6 Bb5",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Why it's called the Spanish",
+      "tag": "SINCE 1561",
+      "big": "1561",
+      "body": "It is named after Ruy López de Segura, a Spanish priest who wrote about it in his chess book of 1561. Five centuries on, it is still played at every level.",
+      "note": "Learn it once, and it keeps teaching you as you improve.",
+      "labelA": "THE STORY",
+      "labelB": "WHY IT MATTERS"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the idea",
+      "tag": "3.Bb5",
+      "moves": "e4 e5 Nf3 Nc6 Bb5",
+      "take": "White's bishop attacks the knight on c6, the piece that guards the e5 pawn. That pressure is the whole point of the opening.",
+      "edge": "It isn't a free pawn yet: after 3...a6 4.Bxc6 dxc6 5.Nxe5?, Black plays 5...Qd4 and wins it back."
+    },
+    {
+      "kind": "board",
+      "title": "At 1200: the timing",
+      "tag": "MORPHY DEFENCE",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O",
+      "take": "3...a6 asks the bishop a question; 4.Ba4 keeps the pressure. Then White castles and leaves the e4 pawn undefended, on purpose.",
+      "edge": "If Black takes on e4, that is the Open Variation: a real line, but White gets active play and usually regains the pawn."
+    },
+    {
+      "kind": "board",
+      "title": "At 1600: the plan",
+      "tag": "CLOSED RUY",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 Nf6 O-O Be7 Re1 b5 Bb3 d6 c3 O-O h3",
+      "take": "The Closed Ruy is slow on purpose. c3 prepares d4, and h3 stops ...Bg4 from pinning the knight on f3.",
+      "edge": "Next comes the Ruy's signature manoeuvre: the b1 knight walks d2, f1 and g3, joining the kingside.",
+      "gold": "MAIN LINE",
+      "movesText": "… 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3"
+    },
+    {
+      "kind": "cta",
+      "title": "Every level you climb",
+      "title2": "is a line on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}
