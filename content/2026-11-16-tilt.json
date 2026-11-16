@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-16-tilt",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "One bad loss, then five more in an hour. That cliff on your rating graph has a name: tilt. How to spot it, and how to stop it. 📉\n\nWhat's your longest tilt streak? 👇\n\n#chess #chesstok #chessimprovement #chesstips #chessrating",
+  "ig_caption": "One bad loss, then five more in an hour. That sudden cliff on your rating graph has a name: tilt.\n\nIt rarely looks like a slow decline. It looks like one evening. The signs are easy to spot once you know them: you start moving faster after a loss, you hit rematch straight away, and you play on long past the point you meant to stop.\n\nThe fixes are simple and dull, which is why they work: decide your stopping rule before the first game, take a proper break after a painful loss, and look at what went wrong before you queue again.\n\nWhat's your longest tilt streak? 👇\n\n#chess #chessimprovement #chesstips #chessrating #blitz #learnchess #chessjourney",
+  "alt": [
+    "Slide 1: Cover. That cliff on your graph? It has a name: tilt. How to spot it and stop it.",
+    "Slide 2: Tilt looks like a cliff, not a slope: many points lost in one evening rather than over weeks.",
+    "Slide 3: A sign of tilt: moving faster after a loss. Check whether your moves got quicker as the losses piled up.",
+    "Slide 4: A sign of tilt: pressing rematch straight away to win the points back. Each game becomes about the last one.",
+    "Slide 5: Fix: set a stopping rule before your first game, such as a number of games or losses, and keep it.",
+    "Slide 6: Fix: after a painful loss, stand up and look at what went wrong before you play again.",
+    "Slide 7: A Chess Journey poster. Every cliff is on the poster, and so is every climb back."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "That cliff on your graph?",
+      "title2": "It has a name: tilt.",
+      "sub": "HOW TO SPOT IT, HOW TO STOP IT",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "A cliff, not a slope",
+      "tag": "WHAT IT LOOKS LIKE",
+      "big": "DROP",
+      "body": "A real slump drifts down over weeks. Tilt is a sharp drop in a single session: one bad loss, then a string of quick ones, each played worse than the last.",
+      "note": "Find the steepest drop on your graph. Check what time it started.",
+      "labelA": "THE SHAPE",
+      "labelB": "TRY THIS"
+    },
+    {
+      "kind": "point",
+      "title": "You start moving faster",
+      "tag": "SIGN ONE",
+      "big": "FAST",
+      "body": "After a loss it's tempting to play quickly, to get to the next game. Moves made in a hurry are where the blunders come from.",
+      "note": "Look at your last losing streak. Did your moves get quicker as it went on?",
+      "labelA": "WHY",
+      "labelB": "CHECK"
+    },
+    {
+      "kind": "point",
+      "title": "The rematch button",
+      "tag": "SIGN TWO",
+      "big": "AGAIN",
+      "body": "Pressing rematch straight away to win the points back means the new game is really about the old one. You're playing your anger, not the position.",
+      "note": "If you want the points back badly, that's the moment to stop.",
+      "labelA": "WHY",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Decide the stop first",
+      "tag": "FIX ONE",
+      "big": "STOP",
+      "body": "Set your rule before the first game, while you're calm: a number of games, or a number of losses in a row. Then keep it, however the evening goes.",
+      "note": "A rule made mid-tilt always says one more.",
+      "labelA": "HOW",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Look before you queue",
+      "tag": "FIX TWO",
+      "big": "PAUSE",
+      "body": "After a painful loss, stand up for a few minutes. Then find the move where it went wrong before you start another game.",
+      "note": "One lesson from a loss is worth more than five quick games.",
+      "labelA": "HOW",
+      "labelB": "WORTH KNOWING"
+    },
+    {
+      "kind": "cta",
+      "title": "Every cliff is on the poster.",
+      "title2": "So is every climb back.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

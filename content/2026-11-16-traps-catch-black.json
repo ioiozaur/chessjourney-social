@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-16-traps-catch-black",
+  "series": "TRAPS THAT CATCH BLACK",
+  "pillar": "Traps and tricks",
+  "caption": "Three opening traps that catch Black: a smothered mate, a discovered check and a queen fork. One natural-looking move is all it takes. ♟️\n\nWhich one would have caught you? 👇\n\n#chess #chesstok #chesstraps #learnchess #chessopenings",
+  "ig_caption": "Play Black? These three traps are waiting for you.\n\nIn the Caro-Kann, 5...Ngf6?? walks into 6.Nd6, smothered mate, because the e7 pawn is pinned. In Petrov's Defence, copying White with 3...Nxe4? and then 4...Nf6?? loses the queen to a discovered check. And the Damiano Defence, 2...f6?, falls apart after 3.Nxe5! and a queen check.\n\nEach one starts with a move that looks perfectly normal. Check what your opponent's queen is lined up on.\n\nWhich one would have caught you? 👇\n\n#chess #chesstraps #learnchess #chessopenings #carokann #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Play Black? Three traps to know. One move, game over. A chess diagram of the Caro-Kann smothered mate.",
+    "Slide 2: Caro-Kann diagram. After 5...Ngf6, White's knight lands on d6: smothered mate, the e7 pawn is pinned by White's queen.",
+    "Slide 3: Petrov's Defence diagram. Black copies White, then 5.Nc6 gives discovered check from the queen and attacks Black's queen.",
+    "Slide 4: Damiano Defence diagram. After 3.Nxe5 fxe5, White's queen checks on h5, then takes e5 with check, forking king and rook.",
+    "Slide 5: A Chess Journey poster. The traps you fell for once are on the graph too."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "TRAPS THAT CATCH BLACK",
+      "title": "Play Black?",
+      "title2": "Three traps to know.",
+      "sub": "ONE NATURAL MOVE, GAME OVER",
+      "art": "board",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Qe2 Ngf6 Nd6#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Caro-Kann",
+      "tag": "SMOTHERED MATE",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nd7 Qe2 Ngf6 Nd6#",
+      "take": "5.Qe2 looks odd, but it lines the queen up with Black's king. 5...Ngf6?? is the natural move, and 6.Nd6 is mate.",
+      "edge": "The e7 pawn can't take: it is pinned to the king. Before developing, ask what the queen on your king's file is doing there.",
+      "gold": "MATE IN 6"
+    },
+    {
+      "kind": "board",
+      "title": "Petrov’s Defence",
+      "tag": "DISCOVERED CHECK",
+      "moves": "e4 e5 Nf3 Nf6 Nxe5 Nxe4 Qe2 Nf6 Nc6+",
+      "take": "3...Nxe4? copies White, but the e-file is now open. After 4.Qe2, retreating with 4...Nf6?? allows 5.Nc6+.",
+      "edge": "The knight uncovers check from the queen and attacks Black's queen at once. The safe reply to 4.Qe2 is 4...Qe7.",
+      "movesText": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4? 4.Qe2 Nf6?? 5.Nc6+"
+    },
+    {
+      "kind": "board",
+      "title": "Damiano Defence",
+      "tag": "QUEEN FORK",
+      "moves": "e4 e5 Nf3 f6 Nxe5 fxe5 Qh5+ g6 Qxe5+",
+      "take": "2...f6? guards e5 but weakens the king. 3.Nxe5! gives a knight, and after 3...fxe5 4.Qh5+ the checks begin.",
+      "edge": "4...g6 5.Qxe5+ forks king and rook, and the rook on h8 falls next. Defend e5 with 2...Nc6 instead.",
+      "movesText": "1.e4 e5 2.Nf3 f6? 3.Nxe5! fxe5 4.Qh5+ g6 5.Qxe5+"
+    },
+    {
+      "kind": "cta",
+      "title": "The traps you fell for once",
+      "title2": "are on the graph too.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
