@@ -6,7 +6,7 @@ Read `config.json` first. It sets how many carousels to make (`posts_per_day`), 
 
 ## The brand, in one breath
 
-Chess Journey sells posters drawn from a player's whole Chess.com or Lichess rating history. Brand line: **Every game counted.** The voice is calm, specific and a little literary: it respects players at every level, never mocks beginners, never shouts. Every carousel is genuinely useful or interesting on its own, and ends on one closing slide that links the idea to the poster.
+Chess Journey sells posters drawn from a player's whole Chess.com or Lichess rating history. Brand line: **Every game counted.** The voice is calm, warm and very simple: it respects players at every level, never mocks beginners, never shouts. Every carousel is genuinely useful or interesting on its own, and ends on one closing slide that links the idea to the poster.
 
 ## What to make
 
@@ -30,7 +30,7 @@ Formats: 5–8 slides. The **first slide is the hook**: a specific, relatable cl
 3. **No people's images, no logos.** No photos of players, no Chess.com/Lichess logos or claims of affiliation.
 4. **Short.** The renderer shrinks text to fit and stops with an error if it still overflows. If it errors, cut words; do not split one idea across slides.
 5. **Look before sending.** After rendering, open `posts/<id>/contact.jpg` with the Read tool and check every slide: text fits, nothing overlaps, the diagram shows what the text says. Fix and re-render if not.
-6. **Plain English, UK spelling.** Captions under 300 characters plus 4–6 hashtags; end the caption with a question that invites a comment.
+6. **Plain English a 65-year-old would follow, UK spelling.** Short words, short sentences, no jargon (say "best rating", not "peak Elo"; explain any chess term in a few words). Captions under 200 characters plus 4–6 hashtags; end with a simple question that invites a comment.
 
 ## Content file
 
