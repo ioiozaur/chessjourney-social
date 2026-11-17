@@ -177,7 +177,9 @@
     // Eyebrow
     ctx.fillStyle = P.mid; ctx.font = `500 ${14 * u}px ${MONO}`; setSpacing(ctx, 3.2 * u);
     ctx.textAlign = "left";
-    ctx.fillText(`CHESS JOURNEY  ·  ${(POOL_LABEL[opts.pool] || "").toUpperCase()}`, m, m + 14 * u);
+    piece(ctx, "king", m + 7 * u, m + 16 * u, 22 * u, P.ink);
+    ctx.fillStyle = P.mid;
+    ctx.fillText(`CHESS JOURNEY  ·  ${(POOL_LABEL[opts.pool] || "").toUpperCase()}`, m + 22 * u, m + 14 * u);
     setSpacing(ctx, 0);
 
     // Title, sized to fit the width
@@ -213,8 +215,7 @@
     else drawClimb(ctx, M, P, u, m, W, top, bottom, opts.pool);
 
     // Footer stats
-    ctx.strokeStyle = P.ink; ctx.globalAlpha = 0.85; ctx.lineWidth = 1.4 * u;
-    ctx.beginPath(); ctx.moveTo(m, footTop); ctx.lineTo(W - m, footTop); ctx.stroke(); ctx.globalAlpha = 1;
+    boardEdge(ctx, P, u, m, W - m, footTop);
     const stats = [
       [fmt(M.ratings[M.peakI]), "Peak rating"],
       [fmt(M.n), "Games played"],
@@ -272,7 +273,7 @@
     const right = x > W - m - 240 * u;
     const below = place === "below" || y - 70 * u < top;
     const lx = x + (right ? -18 : 18) * u, ly = below ? y + 56 * u : y - 26 * u;
-    label(ctx, P, u, lx, ly, right ? "right" : "left", "PEAK · " + day(M.games[M.peakI].when).toUpperCase(), fmt(M.ratings[M.peakI]));
+    label(ctx, P, u, lx, ly, right ? "right" : "left", "PEAK · " + day(M.games[M.peakI].when).toUpperCase(), fmt(M.ratings[M.peakI]), "king");
   }
 
   function dot(ctx, P, kind, x, y, r, u) {
@@ -336,7 +337,7 @@
     // Start and peak markers
     const sx = X(0), sy = Y(smooth[0]);
     marker(ctx, P, u, sx, sy);
-    label(ctx, P, u, sx + 14 * u, sy + 34 * u, "left", "FIRST RATED GAME", fmt(ratings[0]));
+    label(ctx, P, u, sx + 14 * u, sy + 34 * u, "left", "FIRST RATED GAME", fmt(ratings[0]), "pawn");
     peak(ctx, P, u, W, m, top, X(M.peakI), Y(ratings[M.peakI]), M, "");
   }
 
@@ -344,18 +345,54 @@
     ctx.beginPath(); ctx.arc(x, y, 7 * u, 0, Math.PI * 2); ctx.fillStyle = P.bg; ctx.fill();
     ctx.lineWidth = 2.6 * u; ctx.strokeStyle = P.ink; ctx.stroke();
   }
-  function label(ctx, P, u, x, y, align, small, big) {
+  function label(ctx, P, u, x, y, align, small, big, icon) {
     ctx.font = `500 ${10.5 * u}px ${MONO}`; setSpacing(ctx, 1.8 * u);
     const ws = ctx.measureText(small).width; setSpacing(ctx, 0);
     ctx.font = `600 ${26 * u}px ${DISPLAY}`;
-    const wb = ctx.measureText(big).width;
-    const bw = Math.max(ws, wb) + 16 * u, bx = align === "right" ? x - bw + 8 * u : x - 8 * u;
+    const wb = ctx.measureText(big).width, iw = icon ? 24 * u : 0;
+    const bw = Math.max(ws, wb + iw) + 16 * u, bx = align === "right" ? x - bw + 8 * u : x - 8 * u;
     ctx.fillStyle = hexA(P.bg, 0.82);
-    ctx.fillRect(bx, y - 42 * u, bw, 52 * u);
+    ctx.fillRect(bx, y - 42 * u, bw, 54 * u);
     ctx.textAlign = align;
     ctx.fillStyle = P.mid; ctx.font = `500 ${10.5 * u}px ${MONO}`; setSpacing(ctx, 1.8 * u);
     ctx.fillText(small, x, y - 24 * u); setSpacing(ctx, 0);
-    ctx.fillStyle = P.ink; ctx.font = `600 ${26 * u}px ${DISPLAY}`; ctx.fillText(big, x, y + 2 * u);
+    if (icon) piece(ctx, icon, align === "right" ? x - wb - iw / 2 - 2 * u : x + 8 * u, y + 4 * u, 27 * u, icon === "king" ? P.accent : P.ink);
+    ctx.fillStyle = P.ink; ctx.font = `600 ${26 * u}px ${DISPLAY}`; ctx.fillText(big, align === "right" ? x : x + iw, y + 2 * u);
+  }
+
+  // Chess pieces drawn as shapes (no font needed), standing on (x, base), h tall
+  function piece(ctx, kind, x, base, h, fill) {
+    const s = h;
+    ctx.save(); ctx.translate(x, base); ctx.fillStyle = fill; ctx.beginPath();
+    const rr = (x0, y0, w, hh, r) => { ctx.moveTo(x0 + r, y0); ctx.arcTo(x0 + w, y0, x0 + w, y0 + hh, r); ctx.arcTo(x0 + w, y0 + hh, x0, y0 + hh, r); ctx.arcTo(x0, y0 + hh, x0, y0, r); ctx.arcTo(x0, y0, x0 + w, y0, r); ctx.closePath(); };
+    if (kind === "pawn") {
+      ctx.arc(0, -0.74 * s, 0.17 * s, 0, Math.PI * 2);
+      rr(-0.19 * s, -0.6 * s, 0.38 * s, 0.07 * s, 0.03 * s);
+      ctx.moveTo(-0.12 * s, -0.54 * s);
+      ctx.quadraticCurveTo(-0.13 * s, -0.3 * s, -0.27 * s, -0.15 * s); ctx.lineTo(0.27 * s, -0.15 * s);
+      ctx.quadraticCurveTo(0.13 * s, -0.3 * s, 0.12 * s, -0.54 * s); ctx.closePath();
+      rr(-0.33 * s, -0.15 * s, 0.66 * s, 0.15 * s, 0.04 * s);
+    } else {
+      rr(-0.035 * s, -1 * s, 0.07 * s, 0.2 * s, 0.01 * s);
+      rr(-0.1 * s, -0.94 * s, 0.2 * s, 0.065 * s, 0.01 * s);
+      ctx.moveTo(-0.2 * s, -0.56 * s);
+      ctx.bezierCurveTo(-0.26 * s, -0.72 * s, -0.12 * s, -0.83 * s, 0, -0.74 * s);
+      ctx.bezierCurveTo(0.12 * s, -0.83 * s, 0.26 * s, -0.72 * s, 0.2 * s, -0.56 * s); ctx.closePath();
+      rr(-0.24 * s, -0.57 * s, 0.48 * s, 0.07 * s, 0.03 * s);
+      ctx.moveTo(-0.16 * s, -0.5 * s);
+      ctx.quadraticCurveTo(-0.17 * s, -0.28 * s, -0.3 * s, -0.15 * s); ctx.lineTo(0.3 * s, -0.15 * s);
+      ctx.quadraticCurveTo(0.17 * s, -0.28 * s, 0.16 * s, -0.5 * s); ctx.closePath();
+      rr(-0.36 * s, -0.15 * s, 0.72 * s, 0.15 * s, 0.04 * s);
+    }
+    ctx.fill(); ctx.restore();
+  }
+  // The divider above the numbers, drawn as the edge of a chessboard
+  function boardEdge(ctx, P, u, x0, x1, y) {
+    const n = Math.round((x1 - x0) / (7 * u)), sq = (x1 - x0) / n, top = y - sq;
+    ctx.fillStyle = P.ink; ctx.globalAlpha = 0.85;
+    for (let r = 0; r < 2; r++) for (let i = r % 2; i < n; i += 2) ctx.fillRect(x0 + i * sq, top + r * sq, sq, sq);
+    ctx.strokeStyle = P.ink; ctx.lineWidth = 0.8 * u; ctx.strokeRect(x0, top, x1 - x0, 2 * sq);
+    ctx.globalAlpha = 1;
   }
 
   // How many games one dot stands for, so dots stay legible for very active players
@@ -556,15 +593,14 @@
     ctx.lineWidth = 2.6 * u; ctx.strokeStyle = P.ink; ctx.stroke();
     ctx.beginPath(); ctx.arc(px, py, 3.6 * u, 0, Math.PI * 2); ctx.fillStyle = P.ink; ctx.fill();
     lastPeak = { x: px, y: py };
-    label(ctx, P, u, lx, ly, right ? "right" : "left", "PEAK · " + day(M.games[M.peakI].when).toUpperCase(), fmt(ratings[M.peakI]));
-    label(ctx, P, u, right ? m : W - m, below ? top + 52 * u : bottom - 4 * u, right ? "left" : "right", "FIRST RATED GAME", fmt(ratings[0]));
+    label(ctx, P, u, lx, ly, right ? "right" : "left", "PEAK · " + day(M.games[M.peakI].when).toUpperCase(), fmt(ratings[M.peakI]), "king");
+    label(ctx, P, u, right ? m : W - m, below ? top + 52 * u : bottom - 4 * u, right ? "left" : "right", "FIRST RATED GAME", fmt(ratings[0]), "pawn");
   }
 
   function hexA(hex, a) {
     const n = parseInt(hex.slice(1), 16);
     return `rgba(${n >> 16 & 255},${n >> 8 & 255},${n & 255},${a})`;
   }
-
 
   window.CJ = { render, PALETTES, RATIO, model, parsePGN, samplePGN, state, peak: () => lastPeak };
 })();
