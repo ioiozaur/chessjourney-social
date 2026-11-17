@@ -1,6 +1,6 @@
 // Chess Journey poster engine, copied from the poster studio. Draws the real posters customers buy.
 (() => {
-  const DISPLAY = '"Bodoni Moda", Didot, "Bodoni 72", Georgia, serif';
+  const DISPLAY = '"Playfair Display", Georgia, "Times New Roman", serif';
   const MONO = '"IBM Plex Mono", ui-monospace, Menlo, monospace';
   const RATIO = 1.41421356;
   // Where the last render put its peak marker and grid, so pages can crop close-ups

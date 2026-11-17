@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>Chess Journey slide renderer</title>
 <style>
-@font-face { font-family: "Bodoni Moda"; src: url("../fonts/BodoniModa.ttf") format("truetype"); font-weight: 400 900; font-style: normal; }
-@font-face { font-family: "Bodoni Moda"; src: url("../fonts/BodoniModa-Italic.ttf") format("truetype"); font-weight: 400 900; font-style: italic; }
+@font-face { font-family: "Playfair Display"; src: url("../fonts/PlayfairDisplay.ttf") format("truetype"); font-weight: 400 900; font-style: normal; }
+@font-face { font-family: "Playfair Display"; src: url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype"); font-weight: 400 900; font-style: italic; }
 @font-face { font-family: "IBM Plex Mono"; src: url("../fonts/IBMPlexMono-Regular.ttf") format("truetype"); font-weight: 400; }
 @font-face { font-family: "IBM Plex Mono"; src: url("../fonts/IBMPlexMono-Medium.ttf") format("truetype"); font-weight: 500; }
 @font-face { font-family: "Pieces"; src: url("../fonts/DejaVuSans.ttf") format("truetype"); }
@@ -18,7 +18,7 @@ body { margin: 0; background: #ddd; }
 // Renders one carousel (plain JSON) to 1080 × 1350 slides. Used headless by tools/render.py.
 (() => {
   const W = 1080, H = 1350;
-  const SERIF = '"Bodoni Moda", Georgia, serif', MONO = '"IBM Plex Mono", monospace', PIECES = '"Pieces", sans-serif';
+  const SERIF = '"Playfair Display", Georgia, serif', MONO = '"IBM Plex Mono", monospace', PIECES = '"Pieces", sans-serif';
   const C = { paper: "#F3F4F1", ink: "#16191A", muted: "#6A716E", faint: "#D5D9D5", accent: "#2F5D50", tint: "rgba(47,93,80,.12)",
               light: "#E9ECE7", dark: "#A9B8AF", hi: "rgba(212,165,78,.55)",
               night: "#21160C", nightInk: "#F1D3B9", nightAccent: "#8EB32A", nightMid: "#9A776C" };
