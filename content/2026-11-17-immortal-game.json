@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-17-immortal-game",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "London, 1851. Anderssen gave up a bishop, both rooks and his queen, and still finished with mate. The Immortal Game, in five boards. ♟️\n\nWhich sacrifice would you have dared? 👇\n\n#chess #chesstok #chesshistory #immortalgame #learnchess",
+  "ig_caption": "London, 1851. During a break in the first international chess tournament, Adolf Anderssen sat down to a casual game with Lionel Kieseritzky.\n\nIt began as a King's Gambit. Anderssen let Black take a bishop, then a rook, then the other rook with check, and kept bringing pieces towards the black king. The famous finish has him giving up the queen too and mating with two knights and a bishop. Kieseritzky said he resigned before the mate was played, but this is the score that has been shown ever since.\n\nWhich sacrifice would you have dared? 👇\n\n#chess #chesshistory #immortalgame #anderssen #kingsgambit #learnchess #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. He gave up both rooks and his queen, then mated. London, 1851. Board shows the final mate.",
+    "Slide 2: London, 1851. Board after 3...Qh4+ 4.Kf1 in the King's Gambit: White's king has lost the right to castle.",
+    "Slide 3: A bishop left behind. Board after 11...cxb5: Black has taken the bishop while White's pawns chase the queen.",
+    "Slide 4: Both rooks offered. Board after 18.Bd6: Black's bishop attacks the g1 rook and the queen eyes the a1 rook.",
+    "Slide 5: The net closes. Board after 21...Kd8: White's knights and bishop surround the black king.",
+    "Slide 6: The famous finish. Board after 23.Be7 mate: two knights and a bishop mate after the queen sacrifice.",
+    "Slide 7: A Chess Journey poster. Some games are immortal; all of yours are on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "He gave up both rooks",
+      "title2": "and his queen. Then mated.",
+      "sub": "THE IMMORTAL GAME · LONDON, 1851",
+      "art": "board",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5 h4 Qg6 h5 Qg5 Qf3 Ng8 Bxf4 Qf6 Nc3 Bc5 Nd5 Qxb2 Bd6 Bxg1 e5 Qxa1+ Ke2 Na6 Nxg7+ Kd8 Qf6+ Nxf6 Be7#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "London, 1851",
+      "tag": "THE KING'S GAMBIT",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1",
+      "take": "Adolf Anderssen, White, against Lionel Kieseritzky: a casual game played during a break in the London tournament.",
+      "edge": "3...Qh4+ costs White the right to castle. Anderssen accepts that for quick development and open lines.",
+      "movesText": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1"
+    },
+    {
+      "kind": "board",
+      "title": "A bishop left behind",
+      "tag": "MOVES 10–11",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5",
+      "take": "After 10.g4 Nf6, Anderssen plays 11.Rg1 and lets Black take the bishop on b5.",
+      "edge": "Next come 12.h4 and 13.h5. Each pawn push hits Black's queen and gains White another move.",
+      "movesText": "… 10.g4 Nf6 11.Rg1 cxb5"
+    },
+    {
+      "kind": "board",
+      "title": "Both rooks offered",
+      "tag": "MOVE 18",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5 h4 Qg6 h5 Qg5 Qf3 Ng8 Bxf4 Qf6 Nc3 Bc5 Nd5 Qxb2 Bd6",
+      "take": "Black's bishop attacks the rook on g1 and the queen attacks the rook on a1. 18.Bd6 defends neither.",
+      "edge": "Black takes both: 18...Bxg1 19.e5 Qxa1+. But 19.e5 has cut the black queen off from g7.",
+      "gold": "BOTH ROOKS",
+      "movesText": "… 17.Nd5 Qxb2 18.Bd6"
+    },
+    {
+      "kind": "board",
+      "title": "The net closes",
+      "tag": "MOVES 20–21",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5 h4 Qg6 h5 Qg5 Qf3 Ng8 Bxf4 Qf6 Nc3 Bc5 Nd5 Qxb2 Bd6 Bxg1 e5 Qxa1+ Ke2 Na6 Nxg7+ Kd8",
+      "take": "Black has taken two rooks and a bishop. 21.Nxg7+ drives the king to d8, and White's minor pieces close in.",
+      "edge": "Count the defenders near the black king, then the attackers. Material matters less than who is close.",
+      "movesText": "… 19.e5 Qxa1+ 20.Ke2 Na6 21.Nxg7+ Kd8"
+    },
+    {
+      "kind": "board",
+      "title": "The famous finish",
+      "tag": "MATE IN 23",
+      "moves": "e4 e5 f4 exf4 Bc4 Qh4+ Kf1 b5 Bxb5 Nf6 Nf3 Qh6 d3 Nh5 Nh4 Qg5 Nf5 c6 g4 Nf6 Rg1 cxb5 h4 Qg6 h5 Qg5 Qf3 Ng8 Bxf4 Qf6 Nc3 Bc5 Nd5 Qxb2 Bd6 Bxg1 e5 Qxa1+ Ke2 Na6 Nxg7+ Kd8 Qf6+ Nxf6 Be7#",
+      "take": "22.Qf6+ gives the queen too. After 22...Nxf6, 23.Be7 is mate with two knights and a bishop.",
+      "edge": "Kieseritzky said he resigned before the mate, but this is the finish the game is shown with.",
+      "gold": true,
+      "movesText": "… 22.Qf6+ Nxf6 23.Be7#"
+    },
+    {
+      "kind": "cta",
+      "title": "Some games are immortal.",
+      "title2": "All of yours are on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}

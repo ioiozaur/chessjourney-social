@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-17-endgames-by-level",
+  "series": "THE RATING LADDER",
+  "pillar": "Rating ladder",
+  "caption": "Six endgames, in the order you'll need them, from 400 to 2000. Save it for your next quiet evening of study. ♟️\n\nWhich one can you already play blindfold? 👇\n\n#chess #chesstok #chessendgame #chessimprovement #learnchess",
+  "ig_caption": "Endgames feel like homework, but they are where won games are actually won. Here are six, in the order they start to matter as your rating climbs.\n\nFirst the basic mates with queen and rook, so a winning position becomes a win. Then the rule of the square and the opposition, which decide most king and pawn endings. Then the two rook endings every club player is told to learn: the Lucena to win, the Philidor to hold the draw.\n\nWhich one can you already play blindfold? 👇\n\n#chess #chessendgame #endgame #chessimprovement #learnchess #chesstips #chessrating #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Six endgames, in the order you need them. From 400 to 2000.",
+    "Slide 2: 400 to 800. King and queen mate: restrict the king, bring your own king, always check for stalemate.",
+    "Slide 3: 800 to 1000. King and rook mate: the rook cuts the king off, your king pushes it to the edge.",
+    "Slide 4: 1000 to 1200. The rule of the square: can the king catch a passed pawn? Count before trading.",
+    "Slide 5: 1200 to 1500. The opposition: kings facing with one square between decide king and pawn endings.",
+    "Slide 6: 1500 to 1800. The Lucena position: build a bridge with your rook to block the checks and promote.",
+    "Slide 7: 1800 to 2000. The Philidor position: the defending rook holds its third rank, then checks from behind.",
+    "Slide 8: A Chess Journey poster. Every ending you converted is part of the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "THE RATING LADDER",
+      "title": "Six endgames,",
+      "title2": "in the order you need them.",
+      "sub": "FROM 400 TO 2000",
+      "art": "climb",
+      "swipe": "Swipe for each level →"
+    },
+    {
+      "kind": "step",
+      "from": 400,
+      "to": 800,
+      "tag": "KING AND QUEEN MATE",
+      "fix": "Use the queen to shrink the enemy king's box, then walk your own king up to help. The queen can't mate alone.",
+      "habit": "Before every quiet queen move, check the enemy king still has a legal move. Stalemate is a draw."
+    },
+    {
+      "kind": "step",
+      "from": 800,
+      "to": 1000,
+      "tag": "KING AND ROOK MATE",
+      "fix": "The rook cuts the king off along a rank or file; your king does the pushing. The box gets smaller each time.",
+      "habit": "Practise it from random positions until you can finish without thinking."
+    },
+    {
+      "kind": "step",
+      "from": 1000,
+      "to": 1200,
+      "tag": "THE RULE OF THE SQUARE",
+      "fix": "Draw a square from a passed pawn to its promotion rank. If the defending king can step inside it, it catches the pawn.",
+      "habit": "Count the square before you trade into a pawn ending, not after."
+    },
+    {
+      "kind": "step",
+      "from": 1200,
+      "to": 1500,
+      "tag": "THE OPPOSITION",
+      "fix": "Kings facing each other, one square apart: the side that must move has to give way. That often decides the whole ending.",
+      "habit": "Learn king and pawn against king until you know at a glance which positions win."
+    },
+    {
+      "kind": "step",
+      "from": 1500,
+      "to": 1800,
+      "tag": "THE LUCENA POSITION",
+      "fix": "Pawn one step from queening, your king in front of it, their king cut off. Build a bridge with your rook to block the checks.",
+      "habit": "Set it up on a board and win it from both sides of the pawn."
+    },
+    {
+      "kind": "step",
+      "from": 1800,
+      "to": 2000,
+      "tag": "THE PHILIDOR POSITION",
+      "fix": "Defending rook and pawn: keep your rook on your third rank. When the pawn steps onto it, swing the rook back and check from behind.",
+      "habit": "Learn Lucena to win and Philidor to hold. Together they cover the most common rook endings."
+    },
+    {
+      "kind": "cta",
+      "title": "Every ending you converted",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
