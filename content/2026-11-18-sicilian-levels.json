@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-18-sicilian-levels",
+  "series": "THREE LEVELS",
+  "pillar": "Openings by level",
+  "caption": "The Sicilian at 800, 1200 and 1600: one move, 1...c5, understood three ways. ♟️\n\nDo you answer 1.e4 with c5? 👇\n\n#chess #chesstok #chessopenings #sicilian #learnchess",
+  "ig_caption": "The Sicilian is Black's most popular answer to 1.e4, and it grows with you. Here it is at three levels.\n\nAt 800: 1...c5 fights for the d4 square from the side, and makes a lopsided game where both players can win.\nAt 1200: in the Open Sicilian White gets quick development, but Black is left with two centre pawns against one and an open c-file.\nAt 1600: the Najdorf, 5...a6, a small pawn move that keeps White's pieces off b5 and gets Black ready for ...e5 or ...b5.\nAnd if White plays 2.c3 instead, 2...d5 is a simple, sound reply.\n\nDo you answer 1.e4 with c5? 👇\n\n#chess #chessopenings #sicilian #siciliandefense #learnchess #chesstips #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. The Sicilian at 800, 1200 and 1600. A chess diagram after 1.e4 c5.",
+    "Slide 2: Level 800 diagram after 1.e4 c5. Black fights for d4 from the side and makes a lopsided game.",
+    "Slide 3: Level 1200 diagram of the Open Sicilian after 5.Nc3. Black has two centre pawns to one and the c-file.",
+    "Slide 4: Level 1600 diagram of the Najdorf after 5...a6. Keeps pieces off b5, prepares ...e5 or ...b5.",
+    "Slide 5: Diagram after 1.e4 c5 2.c3 d5. Against the Alapin, Black hits the centre at once.",
+    "Slide 6: A Chess Journey poster. Every opening you learned is a line on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ONE OPENING, THREE LEVELS",
+      "title": "The Sicilian",
+      "title2": "at 800, 1200 and 1600.",
+      "sub": "ONE MOVE, THREE WAYS TO SEE IT",
+      "art": "board",
+      "moves": "e4 c5",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the idea",
+      "tag": "1...c5",
+      "moves": "e4 c5",
+      "take": "Black doesn't copy White with 1...e5. The c-pawn fights for the d4 square from the side, and the game gets lopsided.",
+      "edge": "Keep it simple: bring out your knights, play ...d6 or ...e6, and keep your queen at home for now."
+    },
+    {
+      "kind": "board",
+      "title": "At 1200: the trade",
+      "tag": "OPEN SICILIAN",
+      "moves": "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3",
+      "take": "White gets quick development and room to attack. In return Black swapped a side pawn for White's d-pawn.",
+      "edge": "So Black has two centre pawns against one, plus an open c-file for the rook. That's Black's long-term edge.",
+      "movesText": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3"
+    },
+    {
+      "kind": "board",
+      "title": "At 1600: the Najdorf",
+      "tag": "5...a6",
+      "moves": "e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6",
+      "take": "A small pawn move with big jobs. It keeps White's knight and bishop off b5.",
+      "edge": "It also gets Black ready for ...e5, kicking the d4 knight, or ...b5, pushing on the queenside.",
+      "gold": "MAIN LINE",
+      "movesText": "… 4.Nxd4 Nf6 5.Nc3 a6"
+    },
+    {
+      "kind": "board",
+      "title": "If White plays 2.c3",
+      "tag": "THE ALAPIN",
+      "moves": "e4 c5 c3 d5",
+      "take": "White wants to rebuild the centre with d4 next. 2...d5 hits back at once.",
+      "edge": "After 3.exd5 Qxd5 your queen is safe in the middle: White's pawn on c3 has taken the knight's best square."
+    },
+    {
+      "kind": "cta",
+      "title": "Every opening you learned",
+      "title2": "is a line on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

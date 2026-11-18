@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-18-first-ten-moves",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "Stuck under 800? Look at your first ten moves before anything else. Five simple rules. ♟️\n\nWhich rule do you break most? 👇\n\n#chess #chesstok #chessforbeginners #chesstips #learnchess",
+  "ig_caption": "If you are stuck under 800, the first ten moves are the quickest thing to fix. You don't need to learn an opening by heart. You need five simple rules.\n\n1. Take the centre with a pawn.\n2. Bring out knights and bishops first.\n3. Castle early.\n4. Keep the queen at home for now.\n5. Move each piece once, unless there's a reason.\n\nA good check at move ten: are your two rooks connected, with nothing between them on the back row?\n\nWhich rule do you break most? 👇\n\n#chess #chessforbeginners #chesstips #learnchess #chessopenings #chessimprovement #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Stuck under 800? Your first ten moves. Five simple rules.",
+    "Slide 2: Rule 1, take the centre. Start with a pawn to e4 or d4; the centre is d4, e4, d5, e5.",
+    "Slide 3: Rule 2, knights and bishops first. A new piece nearly every move; count yours against theirs.",
+    "Slide 4: Rule 3, castle early. It tucks the king away and brings a rook towards the middle.",
+    "Slide 5: Rule 4, keep the queen at home. An early queen gets chased while your opponent develops.",
+    "Slide 6: Rule 5, one move per piece. Check at move ten that your rooks are connected.",
+    "Slide 7: A Chess Journey poster. Every game you started well is part of the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "STUCK UNDER 800?",
+      "title": "Your first ten moves",
+      "title2": "decide more than you think.",
+      "sub": "FIVE SIMPLE RULES",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Take the centre",
+      "tag": "RULE 1",
+      "big": "1",
+      "body": "Start with a pawn to e4 or d4 (e5 or d5 as Black). Pawns in the middle give your pieces room and take squares from the other side.",
+      "note": "The centre is the four middle squares: d4, e4, d5 and e5."
+    },
+    {
+      "kind": "point",
+      "title": "Knights and bishops first",
+      "tag": "RULE 2",
+      "big": "2",
+      "body": "Bring out a new piece nearly every move, knights usually before bishops. A piece still on its starting square can't attack or defend.",
+      "note": "At move eight, count your pieces that are out against theirs."
+    },
+    {
+      "kind": "point",
+      "title": "Castle early",
+      "tag": "RULE 3",
+      "big": "3",
+      "body": "Castling tucks your king into the corner and brings a rook towards the middle, in one move. A king left in the centre is an easy target.",
+      "note": "Aim to castle within your first ten moves in most games."
+    },
+    {
+      "kind": "point",
+      "title": "Keep the queen at home",
+      "tag": "RULE 4",
+      "big": "4",
+      "body": "An early queen gets chased. Each time she runs, your opponent brings out another piece with a gain of time.",
+      "note": "Wait until your knights and bishops are out. There are exceptions, but they can wait too."
+    },
+    {
+      "kind": "point",
+      "title": "One move per piece",
+      "tag": "RULE 5",
+      "big": "5",
+      "body": "In the opening, don't move the same piece twice without a reason, like a capture or a real threat. Every extra move leaves another piece waiting.",
+      "note": "At move ten: are your rooks connected, with nothing between them on the back row?"
+    },
+    {
+      "kind": "cta",
+      "title": "Every game you started well",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
