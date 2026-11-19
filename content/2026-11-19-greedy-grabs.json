@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-19-greedy-grabs",
+  "series": "GREEDY GRABS",
+  "pillar": "Traps and tricks",
+  "caption": "Free material in the opening can be bait. Three classic traps where the grab is the mistake. ♟️\n\nHave you ever lost to a 'free' piece? 👇\n\n#chess #chesstok #chesstraps #learnchess #chessopenings",
+  "ig_caption": "Free material in the opening is sometimes bait. Here are three classic traps where taking is the mistake.\n\nNoah's Ark Trap: in the Ruy Lopez, 8.Qxd4?? grabs a pawn, then ...c5 and ...c4 shut White's bishop in on b3.\nMortimer Trap: 5.Nxe5? takes a loose pawn, but 5...c6! kicks the bishop and 6...Qa5+ checks the king and hits the knight.\nKieninger Trap: in the Budapest Gambit, 8.axb4?? takes a whole bishop and 8...Nd3 is checkmate, because the e2 pawn is pinned.\n\nThe habit that stops all three: before you grab, ask why it was left there.\n\nHave you ever lost to a 'free' piece? 👇\n\n#chess #chesstraps #learnchess #chessopenings #ruylopez #budapestgambit #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Don't take that pawn. Three grabs that backfire. A chess diagram of the Kieninger Trap mate.",
+    "Slide 2: Noah's Ark Trap diagram. After 8.Qxd4, Black plays ...c5 and ...c4 and White's bishop on b3 is trapped.",
+    "Slide 3: Mortimer Trap diagram. After 5.Nxe5 c6 6.Ba4, Black's queen checks on a5 and attacks the knight on e5.",
+    "Slide 4: Kieninger Trap diagram. After 8.axb4, the knight on d3 gives checkmate; the e2 pawn is pinned by Black's queen.",
+    "Slide 5: The habit. Before you take free material, ask why it was left there and check your opponent's replies.",
+    "Slide 6: A Chess Journey poster. Every grab, good or bad, is part of the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "GREEDY GRABS",
+      "title": "Don't take that pawn.",
+      "title2": "Three grabs that backfire.",
+      "sub": "SOMETIMES FREE MATERIAL IS BAIT",
+      "art": "board",
+      "moves": "d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4 Nd3#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Noah's Ark Trap",
+      "tag": "BISHOP TRAPPED",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 a6 Ba4 d6 d4 b5 Bb3 Nxd4 Nxd4 exd4 Qxd4 c5 Qd5 Be6 Qc6+ Bd7 Qd5 c4",
+      "take": "In the Ruy Lopez, 8.Qxd4?? grabs a pawn. Black chases the queen with ...c5 and ...Be6, then plays ...c4.",
+      "edge": "The bishop on b3 has no way out and is lost. Safer is 8.Bd5, or 8.c3, giving the pawn back.",
+      "movesText": "… 7.Nxd4 exd4 8.Qxd4?? c5 9.Qd5 Be6 10.Qc6+ Bd7 11.Qd5 c4"
+    },
+    {
+      "kind": "board",
+      "title": "Mortimer Trap",
+      "tag": "QUEEN FORK",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 Nf6 d3 Ne7 Nxe5 c6 Ba4 Qa5+",
+      "take": "4...Ne7 looks clumsy and leaves the e5 pawn loose. 5.Nxe5? takes it, and 5...c6! kicks the bishop.",
+      "edge": "When the bishop moves, 6...Qa5+ checks the king and attacks the knight at the same time. White loses a piece.",
+      "movesText": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5? c6! 6.Ba4 Qa5+"
+    },
+    {
+      "kind": "board",
+      "title": "Kieninger Trap",
+      "tag": "MATE IN 8",
+      "moves": "d4 Nf6 c4 e5 dxe5 Ng4 Bf4 Nc6 Nf3 Bb4+ Nbd2 Qe7 a3 Ngxe5 axb4 Nd3#",
+      "take": "In the Budapest Gambit, 8.axb4?? grabs a whole bishop. 8...Nd3 is checkmate.",
+      "edge": "The e2 pawn can't take the knight: it is pinned to its king by Black's queen on e7.",
+      "gold": "CHECKMATE",
+      "movesText": "… 6.Nbd2 Qe7 7.a3 Ngxe5 8.axb4?? Nd3#"
+    },
+    {
+      "kind": "point",
+      "title": "Before you grab, ask why",
+      "tag": "THE HABIT",
+      "big": "?",
+      "body": "Free material in the opening is sometimes bait. Before you take, ask why it was left there, and look at every check and capture your opponent gets next.",
+      "note": "Ten seconds of checking costs less than a lost piece.",
+      "labelA": "HOW",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "cta",
+      "title": "Every grab, good or bad,",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}

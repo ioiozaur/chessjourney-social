@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-19-three-ratings",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "Blitz 900, rapid 1200? Nothing is wrong. Each speed has its own rating, its own skills and its own crowd. 📈\n\nWhich of your ratings is highest? 👇\n\n#chess #chesstok #chessrating #blitzchess #learnchess",
+  "ig_caption": "Blitz 900, rapid 1200? Nothing is wrong with you.\n\nChess.com and Lichess keep a separate rating for each speed, and each one only moves when you play that speed. Fast games test quick pattern-spotting; slower games reward careful thinking, so many players are stronger at one than another. Each rating also compares you only with people who play that speed, so the numbers were never meant to match.\n\nThe simple fix: pick the one speed you most want to improve and judge your progress there. Play the others for fun.\n\nWhich of your ratings is highest? 👇\n\n#chess #chessrating #blitzchess #rapidchess #bulletchess #chessimprovement #learnchess #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Blitz 900, rapid 1200? That's normal. Why your ratings don't match.",
+    "Slide 2: Each speed has its own rating. Bullet, blitz and rapid each move only when you play that speed.",
+    "Slide 3: Fast chess tests other skills. Bullet rewards quick pattern-spotting; rapid rewards careful thinking.",
+    "Slide 4: Different speeds, different crowds. Each rating compares you only with players of that speed.",
+    "Slide 5: Pick one to judge. Track the speed you most want to improve; play the others for fun.",
+    "Slide 6: A Chess Journey poster. Blitz, rapid or bullet, every game counted."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "Blitz 900, rapid 1200?",
+      "title2": "That's normal.",
+      "sub": "WHY YOUR RATINGS DON'T MATCH",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Each speed has its own rating",
+      "tag": "THE BASICS",
+      "big": "3",
+      "body": "Chess.com and Lichess keep a separate rating for each speed, such as bullet, blitz and rapid. Each one only moves when you play that speed.",
+      "note": "So your numbers can drift far apart without anything being wrong.",
+      "labelA": "HOW",
+      "labelB": "SO"
+    },
+    {
+      "kind": "point",
+      "title": "Fast chess tests other skills",
+      "tag": "SPEED",
+      "big": "1 min",
+      "body": "In bullet, quick hands and spotting familiar patterns matter most. In rapid you have time to think ahead, so careful calculation pays off.",
+      "note": "Lots of players are clearly stronger at one speed than another.",
+      "labelA": "WHY",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Different speeds, different crowds",
+      "tag": "THE POOL",
+      "big": "≠",
+      "body": "Each rating only compares you with people who play that speed on that site. The bullet crowd and the rapid crowd are not the same group.",
+      "note": "Comparing your blitz with a friend's rapid tells you very little.",
+      "labelA": "WHY",
+      "labelB": "SO"
+    },
+    {
+      "kind": "point",
+      "title": "Pick one to judge",
+      "tag": "TRY THIS",
+      "big": "1",
+      "body": "Choose the speed you most want to improve and track your progress there. Slower games give you time to think and to spot your own mistakes.",
+      "note": "Play the faster ones for fun, and don't worry about their dips.",
+      "labelA": "HOW",
+      "labelB": "AND"
+    },
+    {
+      "kind": "cta",
+      "title": "Blitz, rapid or bullet,",
+      "title2": "every game counted.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}
