@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-20-game-of-the-century",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "New York, 1956. A 13-year-old Bobby Fischer gave up his queen on move 17, and won anyway. The Game of the Century, in five boards. ♟️\n\nWould you have left the queen? 👇\n\n#chess #chesstok #chesshistory #bobbyfischer #learnchess",
+  "ig_caption": "New York, 1956. At the Rosenwald tournament, 13-year-old Bobby Fischer had Black against Donald Byrne, one of the leading American players.\n\nOn move 11 Fischer put a knight where it could be taken. On move 17 he left his queen to be captured and moved a bishop instead. What followed was a 'windmill': check after check from a knight and bishop, collecting White's pieces one by one. By move 25 Black had two rooks, two bishops and a knight against a queen, and Fischer finished with mate on move 41. A magazine of the day called it the Game of the Century, and the name stuck.\n\nWould you have left the queen? 👇\n\n#chess #chesshistory #gameofthecentury #bobbyfischer #queensacrifice #learnchess #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. A 13-year-old left his queen to be taken, and won. New York, 1956. Board shows the final mate.",
+    "Slide 2: New York, 1956. Board after 11...Na4: Fischer puts his knight where White's knight can take it.",
+    "Slide 3: The queen stays put. Board after 17.Kf1 Be6: Black ignores the attack on the queen on b6.",
+    "Slide 4: The windmill. Board after 25...Nxd1: checks from knight and bishop help Black win back far more than the queen.",
+    "Slide 5: Mate with the little pieces. Board after 41...Rc2 mate: rook, bishops and knight trap White's king.",
+    "Slide 6: A Chess Journey poster. Not every game is the game of the century; every one counts."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "He was 13.",
+      "title2": "He left his queen. He won.",
+      "sub": "THE GAME OF THE CENTURY · NEW YORK, 1956",
+      "art": "board",
+      "moves": "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1 Be6 Bxb6 Bxc4+ Kg1 Ne2+ Kf1 Nxd4+ Kg1 Ne2+ Kf1 Nc3+ Kg1 axb6 Qb4 Ra4 Qxb6 Nxd1 h3 Rxa2 Kh2 Nxf2 Re1 Rxe1 Qd8+ Bf8 Nxe1 Bd5 Nf3 Ne4 Qb8 b5 h4 h5 Ne5 Kg7 Kg1 Bc5+ Kf1 Ng3+ Ke1 Bb4+ Kd1 Bb3+ Kc1 Ne2+ Kb1 Nc3+ Kc1 Rc2#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "New York, 1956",
+      "tag": "MOVE 11",
+      "moves": "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4",
+      "take": "Donald Byrne, White, against Bobby Fischer, aged 13. On move 11 Fischer puts a knight on a4, where White's knight can take it.",
+      "edge": "Taking it would let Black grab the e4 pawn and start an attack. Byrne moves his queen to a3 instead.",
+      "movesText": "… 10.Qc5 Bg4 11.Bg5 Na4",
+      "flip": true
+    },
+    {
+      "kind": "board",
+      "title": "The queen stays put",
+      "tag": "MOVE 17",
+      "moves": "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1 Be6",
+      "flip": true,
+      "take": "White's bishop attacks Black's queen on b6. Instead of moving it, Fischer plays 17...Be6 and offers it.",
+      "edge": "The bishop now hits White's bishop on c4, and White's king on f1 is still stuck in the middle.",
+      "gold": "QUEEN OFFERED",
+      "movesText": "… 16.Bc5 Rfe8+ 17.Kf1 Be6"
+    },
+    {
+      "kind": "board",
+      "title": "The windmill",
+      "tag": "MOVES 18–25",
+      "moves": "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1 Be6 Bxb6 Bxc4+ Kg1 Ne2+ Kf1 Nxd4+ Kg1 Ne2+ Kf1 Nc3+ Kg1 axb6 Qb4 Ra4 Qxb6 Nxd1",
+      "flip": true,
+      "take": "After 18.Bxb6, checks from knight and bishop win a pawn. Black takes back the bishop, then the knight takes the rook on d1.",
+      "edge": "Now Black has two rooks, two bishops and a knight. White has a queen, a rook and a knight.",
+      "movesText": "… 23.Kg1 axb6 24.Qb4 Ra4 25.Qxb6 Nxd1"
+    },
+    {
+      "kind": "board",
+      "title": "Mate with the little pieces",
+      "tag": "MATE ON MOVE 41",
+      "moves": "Nf3 Nf6 c4 g6 Nc3 Bg7 d4 O-O Bf4 d5 Qb3 dxc4 Qxc4 c6 e4 Nbd7 Rd1 Nb6 Qc5 Bg4 Bg5 Na4 Qa3 Nxc3 bxc3 Nxe4 Bxe7 Qb6 Bc4 Nxc3 Bc5 Rfe8+ Kf1 Be6 Bxb6 Bxc4+ Kg1 Ne2+ Kf1 Nxd4+ Kg1 Ne2+ Kf1 Nc3+ Kg1 axb6 Qb4 Ra4 Qxb6 Nxd1 h3 Rxa2 Kh2 Nxf2 Re1 Rxe1 Qd8+ Bf8 Nxe1 Bd5 Nf3 Ne4 Qb8 b5 h4 h5 Ne5 Kg7 Kg1 Bc5+ Kf1 Ng3+ Ke1 Bb4+ Kd1 Bb3+ Kc1 Ne2+ Kb1 Nc3+ Kc1 Rc2#",
+      "flip": true,
+      "take": "White's queen is far away on b8. 41...Rc2 is mate: rook, two bishops and knight surround the king.",
+      "edge": "A queen is worth a lot. A team of pieces near the king can be worth more.",
+      "gold": true,
+      "movesText": "… 40.Kb1 Nc3+ 41.Kc1 Rc2#"
+    },
+    {
+      "kind": "cta",
+      "title": "Not every game is",
+      "title2": "the game of the century.",
+      "sub": "Every one of yours counts on the poster.",
+      "design": "climb"
+    }
+  ]
+}

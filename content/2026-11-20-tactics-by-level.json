@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-20-tactics-by-level",
+  "series": "THE RATING LADDER",
+  "pillar": "Rating ladder",
+  "caption": "Six tactics, in the order they start winning you games, from 400 to 2000. Save it for your next puzzle session. ♟️\n\nWhich one catches you out most? 👇\n\n#chess #chesstok #chesstactics #chessimprovement #learnchess",
+  "ig_caption": "Tactics are short tricks that win material or mate, and each rating level has one that matters most.\n\nAt the start it is simply not leaving pieces where they can be taken for free. Then come forks, where one piece attacks two things at once, and pins and skewers along a line. After that, discovered attacks, two-move combinations that remove a defender, and finally the quiet moves that are hardest of all to see.\n\nWhich one catches you out most? 👇\n\n#chess #chesstactics #chesspuzzles #chessimprovement #learnchess #chesstips #chessrating #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Six tactics, in the order they win you games. From 400 to 2000.",
+    "Slide 2: 400 to 800. Free pieces: before every move, ask what your opponent can take.",
+    "Slide 3: 800 to 1000. Forks: one piece attacks two at once. Knights are best at it.",
+    "Slide 4: 1000 to 1200. Pins and skewers: attacks along a line through one piece to another.",
+    "Slide 5: 1200 to 1400. Discovered attacks: move one piece out of the way and another attacks.",
+    "Slide 6: 1400 to 1700. Removing the defender: take or chase the piece guarding the target.",
+    "Slide 7: 1700 to 2000. Quiet moves: the strongest move is sometimes not a check or capture.",
+    "Slide 8: A Chess Journey poster. Every tactic you found is part of the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "THE RATING LADDER",
+      "title": "Six tactics,",
+      "title2": "in the order they win you games.",
+      "sub": "FROM 400 TO 2000",
+      "art": "climb",
+      "swipe": "Swipe for each level →"
+    },
+    {
+      "kind": "step",
+      "from": 400,
+      "to": 800,
+      "tag": "FREE PIECES",
+      "fix": "Many early games are decided by a piece left where it can be taken for nothing. Spotting them is the first tactic.",
+      "habit": "Before every move, ask: what can my opponent take next move?"
+    },
+    {
+      "kind": "step",
+      "from": 800,
+      "to": 1000,
+      "tag": "FORKS",
+      "fix": "One piece attacks two things at once, and only one can be saved. Knights are the best forkers, because they jump.",
+      "habit": "Look for squares where your knight would hit their king and queen together."
+    },
+    {
+      "kind": "step",
+      "from": 1000,
+      "to": 1200,
+      "tag": "PINS AND SKEWERS",
+      "fix": "A bishop, rook or queen attacks along a line. A pin holds a piece in front of a bigger one; a skewer hits the bigger one first.",
+      "habit": "When their king and queen share a line, look for a piece that can attack along it."
+    },
+    {
+      "kind": "step",
+      "from": 1200,
+      "to": 1400,
+      "tag": "DISCOVERED ATTACKS",
+      "fix": "Move one piece out of the way and the piece behind it attacks. If the moving piece also attacks, they face two threats.",
+      "habit": "Check which of your pieces are lined up behind another one."
+    },
+    {
+      "kind": "step",
+      "from": 1400,
+      "to": 1700,
+      "tag": "REMOVE THE DEFENDER",
+      "fix": "Two-move tricks: take, chase or distract the piece that guards something, then win what it was guarding.",
+      "habit": "For every target, ask: what is defending it, and can I get rid of it?"
+    },
+    {
+      "kind": "step",
+      "from": 1700,
+      "to": 2000,
+      "tag": "QUIET MOVES",
+      "fix": "Sometimes the winning move is not a check or a capture, but a calm move that leaves two threats behind it.",
+      "habit": "Check checks, captures and threats first, then ask what quiet move would make them work."
+    },
+    {
+      "kind": "cta",
+      "title": "Every tactic you found",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
