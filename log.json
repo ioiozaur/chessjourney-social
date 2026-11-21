@@ -269,5 +269,31 @@
     "reel_post_id": "6afffaee56ff966c510bcd55",
     "reel_time": "2026-11-20T17:00:00+00:00",
     "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-french-levels",
+    "pillar": "Openings by level",
+    "topic": "The French Defence at 800/1200/1600: 1...e6 prepares ...d5, c8 bishop shut in; Advance 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 hits base d4; Winawer 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 doubled c-pawns v bishop pair; Exchange 3.exd5 exd5 frees c8 bishop",
+    "design": "spiral",
+    "zernio_post_id": "6b014bd7a19e05ac57d983b9",
+    "instagram_post_id": "6b014c0b7ed6b75cec3076c2",
+    "instagram_time": "2026-11-21T19:30:00+00:00",
+    "reel_post_id": "6b014c0d7be80d6c44f0c4e3",
+    "reel_time": "2026-11-21T13:00:00+00:00",
+    "status": "TikTok FAILED (Zernio could not rehost image 3 after a jsDelivr 403 on first try; owner to retry in Zernio), drafts on Instagram"
+  },
+  {
+    "date": "2026-11-21",
+    "id": "2026-11-21-hope-chess",
+    "pillar": "Plateau fixes",
+    "topic": "Stuck below 1000: hope chess (moves that only work if they miss it); ask for their best reply not likely one; early queen raid at f7 as example; no attack, play a useful quiet move",
+    "design": "climb",
+    "zernio_post_id": "6b014bdb7ed6b75cec30761b",
+    "instagram_post_id": "6b014c0ca19e05ac57d9845b",
+    "instagram_time": "2026-11-21T20:30:00+00:00",
+    "reel_post_id": "6b014c0e8ece8c9a160ebf5f",
+    "reel_time": "2026-11-21T17:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
   }
 ]
