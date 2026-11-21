@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-21-french-levels",
+  "series": "THREE LEVELS",
+  "pillar": "Openings by level",
+  "caption": "The French Defence at 800, 1200 and 1600: one quiet move, 1...e6, understood three ways. ♟️\n\nDo you play the French? 👇\n\n#chess #chesstok #chessopenings #frenchdefence #learnchess",
+  "ig_caption": "The French Defence starts with a quiet move, 1...e6, but it leads to some of the richest games in chess. Here it is at three levels.\n\nAt 800: 1...e6 gets ready for ...d5, hitting White's e-pawn. The price is the bishop on c8, which is shut in for now.\nAt 1200: in the Advance, 3.e5, White builds a pawn chain. Black hits its base on d4 with ...c5, ...Nc6 and ...Qb6.\nAt 1600: the Winawer, 3...Bb4. Black gives up a bishop to double White's c-pawns.\nAnd if White swaps with 3.exd5 exd5, the c8 bishop is free at last.\n\nDo you play the French? 👇\n\n#chess #chessopenings #frenchdefence #learnchess #chesstips #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. The French Defence at 800, 1200 and 1600. A chess diagram after 1.e4 e6 2.d4 d5.",
+    "Slide 2: Level 800 diagram after 2...d5. Black hits e4. The c8 bishop is shut in behind the e6 pawn.",
+    "Slide 3: Level 1200 diagram of the Advance after 5...Qb6. Pawn, knight and queen all hit d4.",
+    "Slide 4: Level 1600 diagram of the Winawer after 6.bxc3. White has doubled c-pawns and two bishops.",
+    "Slide 5: Diagram of the Exchange after 3...exd5. Even pawns, and the c8 bishop is free.",
+    "Slide 6: A Chess Journey poster. Every French you played is a line on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ONE OPENING, THREE LEVELS",
+      "title": "The French",
+      "title2": "at 800, 1200 and 1600.",
+      "sub": "ONE QUIET MOVE, THREE WAYS TO SEE IT",
+      "art": "board",
+      "moves": "e4 e6 d4 d5",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the idea",
+      "tag": "1...e6 2...d5",
+      "moves": "e4 e6 d4 d5",
+      "take": "1...e6 gets ready for ...d5, and now Black's pawn hits White's e-pawn. Black's pawns are solid and hard to attack.",
+      "edge": "The price: the bishop on c8 is shut in behind the e6 pawn. Much of the French is about freeing it."
+    },
+    {
+      "kind": "board",
+      "title": "At 1200: hit the base",
+      "tag": "ADVANCE, 3.e5",
+      "moves": "e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Qb6",
+      "take": "White's pawns on d4 and e5 form a chain. Pushing against the front pawn does little. The back pawn, d4, holds it all up.",
+      "edge": "So Black hits d4 three times: the c5 pawn, the knight on c6 and the queen on b6. The queen also eyes b2.",
+      "movesText": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6"
+    },
+    {
+      "kind": "board",
+      "title": "At 1600: the Winawer",
+      "tag": "3...Bb4",
+      "moves": "e4 e6 d4 d5 Nc3 Bb4 e5 c5 a3 Bxc3+ bxc3",
+      "take": "Black pins the knight, then gives up the bishop for it. White is left with doubled pawns on the c-file.",
+      "edge": "In return White has two bishops and space. A sharp fight where both sides must know their plans.",
+      "gold": "SHARP",
+      "movesText": "3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3"
+    },
+    {
+      "kind": "board",
+      "title": "If White swaps: 3.exd5",
+      "tag": "THE EXCHANGE",
+      "moves": "e4 e6 d4 d5 exd5 exd5",
+      "take": "The pawns are now even and the same on both sides. It often leads to a calm game.",
+      "edge": "Good news for Black: the e-pawn has moved, so the c8 bishop is free at last. Develop it before it gets stuck again."
+    },
+    {
+      "kind": "cta",
+      "title": "Every French you played",
+      "title2": "is a line on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

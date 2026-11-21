@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-21-hope-chess",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "Stuck below 1000? Check for hope chess: moves that only work if your opponent misses something. ♟️\n\nWhat was your last hope move? 👇\n\n#chess #chesstok #chessimprovement #learnchess #chesstips",
+  "ig_caption": "Stuck below 1000? Look out for hope chess.\n\nA hope move is one that only works if your opponent misses something: a threat that is easy to stop, or a piece left loose. It wins some games against new players, and loses more and more as your opponents get better.\n\nThe fix is one question before every move: what is their best reply? Not their likely reply, their best one. Early queen raids at f7 are the classic example. When you can't find a real attack, make a quiet, useful move instead: castle, improve a piece, take an open file.\n\nWhat was your last hope move? 👇\n\n#chess #chessimprovement #learnchess #chesstips #chessrating #plateau #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Stuck below 1000? Stop playing hope chess. Moves that only work if they miss it.",
+    "Slide 2: What is hope chess. A move that only works if your opponent misses a simple problem.",
+    "Slide 3: Before you move, ask what your opponent's best reply is, not their likely one.",
+    "Slide 4: A common example, the early queen move to h5 aiming at f7, which a calm defender blocks.",
+    "Slide 5: When there is no real attack, play a quiet, useful move: castle, improve a piece, take an open file.",
+    "Slide 6: A Chess Journey poster. Every lucky win is on the poster, and so is every real one."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "PLATEAU FIXES",
+      "title": "Stuck below 1000?",
+      "title2": "Stop playing hope chess.",
+      "sub": "MOVES THAT ONLY WORK IF THEY MISS IT",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "What is hope chess?",
+      "tag": "THE HABIT",
+      "big": "?",
+      "body": "You make a move and hope your opponent won't see the problem: a threat that is easy to stop, or a piece left loose. Sometimes it works.",
+      "note": "As your opponents get better, it works less and less.",
+      "labelB": "THE CATCH"
+    },
+    {
+      "kind": "point",
+      "title": "Ask: what is their best reply?",
+      "tag": "BEFORE YOU MOVE",
+      "big": "1",
+      "body": "Not their likely reply. Their best one. If your move only works when they make a mistake, it is a hope move.",
+      "note": "Picture the reply that hurts you most. Then decide."
+    },
+    {
+      "kind": "point",
+      "title": "The early queen raid",
+      "tag": "A COMMON EXAMPLE",
+      "big": "f7",
+      "body": "Bringing the queen out early to aim at f7 wins quick games against new players. A calm defender blocks it, then chases your queen while bringing out pieces.",
+      "note": "If they defend well and you end up worse, it was hope.",
+      "labelB": "THE TEST"
+    },
+    {
+      "kind": "point",
+      "title": "No attack? Play a useful move",
+      "tag": "THE SWAP",
+      "big": "SOLID",
+      "body": "When you can't find a real threat, make your position better instead: castle, move a knight to a stronger square, put a rook on an open file.",
+      "note": "Quiet, solid moves win more games than cheap tricks."
+    },
+    {
+      "kind": "cta",
+      "title": "Every lucky win is on the poster.",
+      "title2": "So is every real one.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
