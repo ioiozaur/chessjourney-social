@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-22-rating-points",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "Why does a win give a few points and a loss take lots? It depends on who you played. 📈\n\nWhat's the biggest win you've had against a stronger player? 👇\n\n#chess #chesstok #chessrating #learnchess #chessimprovement",
+  "ig_caption": "Why does one win give you a handful of points, while one loss takes a lot more? It all depends on who you played.\n\nBefore every rated game, the site makes a guess: the player with the higher rating should score more. If you do better than that guess, you gain points. If you do worse, you lose them.\n\nSo beating a stronger player gives more points, and losing to a weaker one costs more. Even a draw against someone stronger can push your rating up. Against an equal, a win and a loss move it by about the same amount.\n\nThe simple lesson: judge your progress by the shape of your graph over a month, not by one game.\n\nWhat's the biggest win you've had against a stronger player? 👇\n\n#chess #chessrating #learnchess #chessimprovement #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Plus 5 for a win, minus 12 for a loss? Here's why. How rating points are worked out.",
+    "Slide 2: The site makes a guess. Before each game it expects the higher-rated player to score more.",
+    "Slide 3: Who you play matters. Beat a stronger player for more points; lose to a weaker one and you drop more.",
+    "Slide 4: Draws count too. A draw with a stronger player can raise your rating; with a weaker one it can lower it.",
+    "Slide 5: Judge the line, not the game. Look at the shape of your graph over a month.",
+    "Slide 6: A Chess Journey poster. Every plus and every minus, on one print."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "+5 for a win, −12 for a loss?",
+      "title2": "Here's why.",
+      "sub": "HOW RATING POINTS ARE WORKED OUT",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "The site makes a guess",
+      "tag": "THE BASICS",
+      "big": "?",
+      "body": "Before every rated game, the site expects the player with the higher rating to score more. Do better than its guess and you gain points. Do worse and you lose them.",
+      "note": "The bigger the gap between you, the more one-sided the guess.",
+      "labelA": "HOW",
+      "labelB": "SO"
+    },
+    {
+      "kind": "point",
+      "title": "Who you play matters",
+      "tag": "THE GAP",
+      "big": "±",
+      "body": "Beat someone rated well above you and you gain a lot. Lose to someone well below you and you drop a lot. Against an equal, a win and a loss are about the same size.",
+      "note": "A small win against a weaker player is still a job well done.",
+      "labelA": "WHY",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Draws count too",
+      "tag": "HALF A POINT",
+      "big": "½",
+      "body": "A draw is half a win. Draw with someone stronger and you did better than the guess, so your rating goes up. Draw with someone weaker and it can go down.",
+      "note": "Holding a draw against a stronger player is worth being proud of.",
+      "labelA": "WHY",
+      "labelB": "SO"
+    },
+    {
+      "kind": "point",
+      "title": "Judge the line, not the game",
+      "tag": "TRY THIS",
+      "big": "1 month",
+      "body": "One game tells you very little. Look at the shape of your graph over a month: is it slowly rising, flat or falling? That is your real progress.",
+      "note": "One upset loss is a dip, not a trend.",
+      "labelA": "HOW",
+      "labelB": "AND"
+    },
+    {
+      "kind": "cta",
+      "title": "Every plus and every minus",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

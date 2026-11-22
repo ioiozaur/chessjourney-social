@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-22-king-pawns",
+  "series": "TRAPS AT THE KING",
+  "pillar": "Traps and tricks",
+  "caption": "Three classic traps where one pawn move in front of the king opens the door. ♟️\n\nWhich of these have you fallen for? 👇\n\n#chess #chesstok #chesstraps #learnchess #chessopenings",
+  "ig_caption": "The pawns in front of your king are its front door. Three classic traps show what happens when one moves at the wrong time.\n\nFool's Mate: 1.f3 e5 2.g4?? Qh4 is checkmate. It is the quickest mate in chess.\nFishing Pole: in the Ruy Lopez, Black's knight sits on g4 as bait. 6.hxg4?? opens the h-file for Black's rook, and after ...Qh4 and ...g3, mate on h2 or h1 can't be stopped.\nSiberian Trap: in the Smith-Morra Gambit, 9.h3?? is met by 9...Nd4! Take the knight or move the queen, and ...Qh2 is mate.\n\nThe habit that stops all three: before you push a pawn near your king, ask which squares it stops guarding.\n\nWhich of these have you fallen for? 👇\n\n#chess #chesstraps #learnchess #chessopenings #foolsmate #ruylopez #smithmorra #chessjourney",
+  "alt": [
+    "Slide 1: Cover. One pawn move can lose. Three traps at the king. A diagram of the Fishing Pole trap.",
+    "Slide 2: Fool's Mate diagram. After 1.f3 e5 2.g4, Black's queen on h4 gives checkmate.",
+    "Slide 3: Fishing Pole diagram. After 6.hxg4 the h-file is open; Black's queen and pawn set up mate on h2 or h1.",
+    "Slide 4: Siberian Trap diagram. After 9.h3, Black's knight jumps to d4, hitting the queen; ...Qh2 mate is threatened.",
+    "Slide 5: The habit. Before you push a pawn near your king, ask which squares it stops guarding.",
+    "Slide 6: A Chess Journey poster. Every trap you've fallen for is part of the story."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "TRAPS AT THE KING",
+      "title": "One pawn move can lose.",
+      "title2": "Three traps at the king.",
+      "sub": "ONE PUSH OPENS THE DOOR",
+      "art": "board",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 h3 h5 hxg4 hxg4 Ne1 Qh4 f3 g3",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Fool's Mate",
+      "tag": "2 MOVES",
+      "moves": "f3 e5 g4 Qh4#",
+      "take": "White pushes the f- and g-pawns, opening the diagonal from h4 to the king. Black's queen gives mate at once.",
+      "edge": "It is the quickest mate in chess. Early on, keep the pawns next to your king at home.",
+      "gold": "CHECKMATE",
+      "movesText": "1.f3 e5 2.g4?? Qh4#"
+    },
+    {
+      "kind": "board",
+      "title": "Fishing Pole",
+      "tag": "OPEN H-FILE",
+      "moves": "e4 e5 Nf3 Nc6 Bb5 Nf6 O-O Ng4 h3 h5 hxg4 hxg4 Ne1 Qh4 f3 g3",
+      "take": "Black's knight on g4 is bait. 6.hxg4?? takes it, but opens the h-file for Black's rook and queen.",
+      "edge": "After ...Qh4 and ...g3, mate on h2 or h1 can't be stopped. Leave the knight alone and keep the file shut.",
+      "movesText": "… 5.h3 h5 6.hxg4?? hxg4 7.Ne1 Qh4 8.f3 g3"
+    },
+    {
+      "kind": "board",
+      "title": "Siberian Trap",
+      "tag": "SMITH-MORRA",
+      "moves": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4",
+      "take": "Black's queen and knight both aim at h2. White's knight on f3 guards it. 9.h3?? chases the knight, but 9...Nd4! hits the queen.",
+      "edge": "Take the knight on d4 and ...Qh2 is mate. Move the queen and ...Nxf3+ comes first, then ...Qh2 mate.",
+      "movesText": "… 8.Qe2 Ng4 9.h3?? Nd4!"
+    },
+    {
+      "kind": "point",
+      "title": "Ask before a pawn moves",
+      "tag": "THE HABIT",
+      "big": "?",
+      "body": "Every pawn near your king guards squares. Before you push one, or take with one, ask which squares it stops guarding and which lines it opens.",
+      "note": "A pawn can never move back, so this check is worth a few seconds.",
+      "labelA": "HOW",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "cta",
+      "title": "The traps you fell for",
+      "title2": "are part of the story too.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
