@@ -295,5 +295,31 @@
     "reel_post_id": "6b014c0e8ece8c9a160ebf5f",
     "reel_time": "2026-11-21T17:00:00+00:00",
     "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-22",
+    "id": "2026-11-22-king-pawns",
+    "pillar": "Traps and tricks",
+    "topic": "Pawn moves in front of the king: Fool's Mate (1.f3 e5 2.g4?? Qh4#), Fishing Pole (Ruy Lopez 4...Ng4 5.h3 h5 6.hxg4?? hxg4 7.Ne1 Qh4 8.f3 g3, mate on h2/h1), Siberian Trap (Smith-Morra 9.h3?? Nd4!, Qh2#); habit: ask what a pawn stops guarding",
+    "design": "grid",
+    "zernio_post_id": "6b029e8d68cba2020c9576da",
+    "instagram_post_id": "6b029ebe83c0a7cc5d56f242",
+    "instagram_time": "2026-11-22T19:30:00+00:00",
+    "reel_post_id": "6b029ebfed7362a456f1edd9",
+    "reel_time": "2026-11-22T13:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-22",
+    "id": "2026-11-22-rating-points",
+    "pillar": "Your rating graph",
+    "topic": "Why rating gains and losses differ: the site's expected score, rating gap (upsets swing more, equal ≈ equal), draws count against stronger/weaker players, judge the graph over a month",
+    "design": "spiral",
+    "zernio_post_id": "6b029e985844603627a80b1c",
+    "instagram_post_id": "6b029ebe5844603627a80bc5",
+    "instagram_time": "2026-11-22T20:30:00+00:00",
+    "reel_post_id": "6b029ebf5844603627a80bd4",
+    "reel_time": "2026-11-22T17:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
   }
 ]
