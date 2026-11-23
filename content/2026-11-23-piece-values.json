@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-23-piece-values",
+  "series": "THE RATING LADDER",
+  "pillar": "Rating ladder",
+  "caption": "A knight is worth 3. Until it isn't. How players value their pieces at each level, from 400 to 2000. ♟️\n\nWhich of these changed your games most? 👇\n\n#chess #chesstok #chessimprovement #learnchess #chesstips",
+  "ig_caption": "Everyone learns the same numbers first: pawn 1, knight 3, bishop 3, rook 5, queen 9. They are a good start, and as you climb you learn when they bend.\n\nFirst, count before you swap. Then learn that two bishops together are a strong team, and that a bishop blocked by its own pawns is worth less than it looks. Rooks love open files, and knights love safe squares deep in the other half of the board. At the top, players learn that an active piece can be worth more than an extra pawn, and that giving up material can be right if it buys a lasting attack.\n\nWhich of these changed your games most? 👇\n\n#chess #chessimprovement #learnchess #chesstips #chessrating #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. What your pieces are worth changes as you climb. From 400 to 2000.",
+    "Slide 2: 400 to 800. Learn the numbers: pawn 1, knight and bishop 3, rook 5, queen 9. Count before every swap.",
+    "Slide 3: 800 to 1000. Two bishops make a strong team. Think twice before swapping one for a knight.",
+    "Slide 4: 1000 to 1200. Good and bad bishops: a bishop blocked by its own pawns is worth less.",
+    "Slide 5: 1200 to 1400. Rooks on open files: a rook needs a line with no pawns to be worth five.",
+    "Slide 6: 1400 to 1700. Knight outposts: a knight on a safe square in their half can beat a bishop.",
+    "Slide 7: 1700 to 2000. Activity over material: a pawn or more can be worth giving for a lasting attack.",
+    "Slide 8: A Chess Journey poster. Every swap you got right is part of the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "THE RATING LADDER",
+      "title": "A knight is worth 3.",
+      "title2": "Until it isn't.",
+      "sub": "WHAT YOUR PIECES ARE WORTH, 400 TO 2000",
+      "art": "climb",
+      "swipe": "Swipe for each level →"
+    },
+    {
+      "kind": "step",
+      "from": 400,
+      "to": 800,
+      "tag": "LEARN THE NUMBERS",
+      "fix": "Pawn 1, knight 3, bishop 3, rook 5, queen 9. Most early games are won by the player who simply has more.",
+      "habit": "Before every swap, add up what you give and what you get."
+    },
+    {
+      "kind": "step",
+      "from": 800,
+      "to": 1000,
+      "tag": "THE TWO BISHOPS",
+      "fix": "Two bishops together cover light and dark squares. In open positions the pair is often worth more than bishop and knight.",
+      "habit": "Think twice before swapping a bishop for a knight for no reason."
+    },
+    {
+      "kind": "step",
+      "from": 1000,
+      "to": 1200,
+      "tag": "GOOD AND BAD BISHOPS",
+      "fix": "A bishop stuck behind its own pawns, on its own colour, does little. A free bishop on open lines does a lot.",
+      "habit": "Put your pawns on the opposite colour to your bishop when you can."
+    },
+    {
+      "kind": "step",
+      "from": 1200,
+      "to": 1400,
+      "tag": "ROOKS NEED OPEN FILES",
+      "fix": "A rook behind its own pawns is a 5 that plays like a 2. On a file with no pawns, it comes to life.",
+      "habit": "When a file opens, ask: which rook should go there first?"
+    },
+    {
+      "kind": "step",
+      "from": 1400,
+      "to": 1700,
+      "tag": "KNIGHT OUTPOSTS",
+      "fix": "A knight on a square in their half that no pawn can attack can be stronger than a bishop.",
+      "habit": "Look for holes in their pawns, and plan a route for your knight to reach one."
+    },
+    {
+      "kind": "step",
+      "from": 1700,
+      "to": 2000,
+      "tag": "ACTIVITY OVER MATERIAL",
+      "fix": "Strong players sometimes give a pawn, or more, for pieces that work together and an attack that lasts.",
+      "habit": "Before grabbing a pawn, ask how long your pieces will be out of play."
+    },
+    {
+      "kind": "cta",
+      "title": "Every swap you got right",
+      "title2": "is part of the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}

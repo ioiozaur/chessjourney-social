@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-23-reti-tartakower",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "Vienna, 1910. Black took a free knight, and the game was over five moves later. Réti v Tartakower in five boards. ♟️\n\nWould you have taken the knight? 👇\n\n#chess #chesstok #chesshistory #queensacrifice #learnchess",
+  "ig_caption": "Vienna, 1910. Richard Réti had White against Savielly Tartakower, in a short game played for a small stake, not in a tournament.\n\nIt began as a Caro-Kann. Black won a pawn with a queen check, and White calmly castled on the queen's side. Then Black took a knight that looked free. White answered by giving up his queen with check, and a double check from bishop and rook left the king with nowhere safe to go. The oldest reports say Black resigned there; the mate that was coming was 11.Bd8. It is one of the best-known short games ever played.\n\nWould you have taken the knight? 👇\n\n#chess #chesshistory #queensacrifice #carokann #checkmate #learnchess #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. He took a free knight and lost in five moves. Vienna, 1910. Board shows the final mate.",
+    "Slide 2: Vienna, 1910. Board after 5...e5: a Caro-Kann, with White's queen out early on d3.",
+    "Slide 3: A pawn and a plan. Board after 8.O-O-O: Black has won a pawn, White castles queen's side.",
+    "Slide 4: The free knight. Board after 8...Nxe4: Black takes the knight, leaving the king on its first square.",
+    "Slide 5: The queen goes. Board after 9.Qd8+ Kxd8: White gives the queen to pull the king forward.",
+    "Slide 6: Double check. Board after 10.Bg5+: bishop and rook both give check, so the king must move.",
+    "Slide 7: Mate on d8. Board after 11.Bd8 mate: the bishop finishes the hunt.",
+    "Slide 8: A Chess Journey poster. Short games and long ones, all on one print."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "He took a free knight.",
+      "title2": "It cost him the game.",
+      "sub": "RÉTI V TARTAKOWER · VIENNA, 1910",
+      "art": "board",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8 Bg5+ Kc7 Bd8#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Vienna, 1910",
+      "tag": "MOVE 5",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5",
+      "take": "Richard Réti, White, against Savielly Tartakower: a short game for a small stake. It starts as a Caro-Kann, and White brings the queen out early.",
+      "edge": "Black strikes back at once with 5...e5, offering a pawn to open lines.",
+      "movesText": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Qd3 e5"
+    },
+    {
+      "kind": "board",
+      "title": "A pawn and a plan",
+      "tag": "MOVES 6–8",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O",
+      "take": "Black's queen check wins the pawn back on e5. White does not worry about it and castles on the queen's side.",
+      "edge": "Now White's rook sits on d1, behind the queen on the open d-file.",
+      "movesText": "… 6.dxe5 Qa5+ 7.Bd2 Qxe5 8.O-O-O"
+    },
+    {
+      "kind": "board",
+      "title": "The free knight",
+      "tag": "MOVE 8",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4",
+      "take": "8...Nxe4 takes White's knight. It looks like a free piece.",
+      "edge": "But Black's king is still on e8, right next to the open d-file. That is what White was waiting for.",
+      "movesText": "… 8.O-O-O Nxe4?"
+    },
+    {
+      "kind": "board",
+      "title": "The queen goes",
+      "tag": "MOVE 9",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8",
+      "take": "9.Qd8+ gives the queen away with check. Black must take it with the king.",
+      "edge": "White is not being careless. The queen's job is to pull the king onto the open d-file.",
+      "gold": "QUEEN GIVEN",
+      "movesText": "… 9.Qd8+ Kxd8"
+    },
+    {
+      "kind": "board",
+      "title": "Double check",
+      "tag": "MOVE 10",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8 Bg5+",
+      "take": "10.Bg5+ is check from the bishop and, behind it, from the rook on d1. Two checks at once.",
+      "edge": "You cannot block or capture two checks with one move. The king must move. The oldest reports say Black resigned here.",
+      "movesText": "… 10.Bg5+"
+    },
+    {
+      "kind": "board",
+      "title": "Mate on d8",
+      "tag": "MOVE 11",
+      "moves": "e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Qd3 e5 dxe5 Qa5+ Bd2 Qxe5 O-O-O Nxe4 Qd8+ Kxd8 Bg5+ Kc7 Bd8#",
+      "take": "If 10...Kc7, then 11.Bd8 is mate. The rook guards the bishop and the d-file; Black's own pieces box the king in.",
+      "edge": "The lesson: before you take a free piece, look at where your king is standing.",
+      "gold": true,
+      "movesText": "… 10...Kc7 11.Bd8#"
+    },
+    {
+      "kind": "cta",
+      "title": "Eleven moves or eighty,",
+      "title2": "every game counts.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
