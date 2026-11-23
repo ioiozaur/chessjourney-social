@@ -321,5 +321,31 @@
     "reel_post_id": "6b029ebf5844603627a80bd4",
     "reel_time": "2026-11-22T17:00:00+00:00",
     "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-reti-tartakower",
+    "pillar": "Chess history and stories",
+    "topic": "Réti v Tartakower, Vienna 1910 (stake game): Caro-Kann 5.Qd3 e5, 8.O-O-O, 8...Nxe4? 9.Qd8+!! Kxd8 10.Bg5+ double check (oldest sources: resigned), 11.Bd8#; lesson: check your king before taking a free piece",
+    "design": "climb",
+    "zernio_post_id": "6b03eeeb24eb69490e484b1c",
+    "instagram_post_id": "6b03ef1ef02273d138e898d4",
+    "instagram_time": "2026-11-23T19:30:00+00:00",
+    "reel_post_id": "6b03ef1e8680ff09b00f65f1",
+    "reel_time": "2026-11-23T13:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
+  },
+  {
+    "date": "2026-11-23",
+    "id": "2026-11-23-piece-values",
+    "pillar": "Rating ladder",
+    "topic": "What pieces are worth 400-2000: learn 1-3-3-5-9 and count swaps, bishop pair, good and bad bishops, rooks on open files, knight outposts, activity over material",
+    "design": "grid",
+    "zernio_post_id": "6b03ef7af02273d138e89a21",
+    "instagram_post_id": "6b03efa024eb69490e484d70",
+    "instagram_time": "2026-11-23T20:30:00+00:00",
+    "reel_post_id": "6b03efa1f02273d138e89ab5",
+    "reel_time": "2026-11-23T17:00:00+00:00",
+    "status": "private on TikTok, drafts on Instagram"
   }
 ]
