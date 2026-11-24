@@ -1,0 +1,71 @@
+{
+  "id": "2026-11-24-scandinavian-levels",
+  "series": "THREE LEVELS",
+  "pillar": "Openings by level",
+  "caption": "The Scandinavian at 800, 1200 and 1600: Black answers 1.e4 with 1...d5 and hits back at once. ♟️\n\nHave you tried 1...d5? 👇\n\n#chess #chesstok #chessopenings #scandinavian #learnchess",
+  "ig_caption": "The Scandinavian Defence starts 1.e4 d5: Black challenges White's centre pawn on the very first move. Here it is at three levels.\n\nAt 800: after 2.exd5 Qxd5 your queen comes out early, which is fine as long as you know where it goes next. When 3.Nc3 attacks it, the usual homes are a5, d6 and d8.\nAt 1200: bring the c8 bishop out to f5 before playing ...e6, so it isn't shut in, and play ...c6 to keep White's knight off b5 and d5. Watch the trick: White's bishop on d2 looks at your queen on a5 through the c3 knight.\nAt 1600: 2...Nf6 waits to take back on d5 with the knight, so the queen can't be chased.\n\nHave you tried 1...d5? 👇\n\n#chess #chessopenings #scandinavian #scandinaviandefense #learnchess #chesstips #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. The Scandinavian at 800, 1200 and 1600. A chess diagram after 1.e4 d5.",
+    "Slide 2: Level 800 diagram after 2...Qxd5. Black hits e4 at once and takes back with the queen.",
+    "Slide 3: Diagram after 3.Nc3 Qa5. The knight attacks the queen; a5, d6 and d8 are its usual homes.",
+    "Slide 4: Level 1200 diagram after 7...e6. Bishop out to f5 before e6; watch the d2 bishop aiming at a5.",
+    "Slide 5: Level 1600 diagram after 3...Nxd5. Black takes back with the knight, so the queen stays home.",
+    "Slide 6: A Chess Journey poster. Every opening you learned is a line on the poster."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ONE OPENING, THREE LEVELS",
+      "title": "The Scandinavian",
+      "title2": "at 800, 1200 and 1600.",
+      "sub": "1...d5: BLACK HITS BACK AT ONCE",
+      "art": "board",
+      "moves": "e4 d5",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the idea",
+      "tag": "1...d5",
+      "moves": "e4 d5 exd5 Qxd5",
+      "take": "Black hits White's e4 pawn on move one. After the swap, Black's queen takes back on d5.",
+      "edge": "Bringing the queen out early is fine here, as long as you know where she goes next.",
+      "movesText": "1.e4 d5 2.exd5 Qxd5"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the queen's home",
+      "tag": "3.Nc3",
+      "moves": "e4 d5 exd5 Qxd5 Nc3 Qa5",
+      "take": "3.Nc3 attacks the queen and brings out a piece at the same time. Black must move her.",
+      "edge": "The usual homes are a5, d6 and d8. Pick one, learn it well, and stick with it.",
+      "movesText": "… 3.Nc3 Qa5"
+    },
+    {
+      "kind": "board",
+      "title": "At 1200: the set-up",
+      "tag": "MOVES 4–7",
+      "moves": "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 Nf6 Nf3 c6 Bc4 Bf5 Bd2 e6",
+      "take": "Bring the c8 bishop out to f5 before ...e6, so it isn't shut in. ...c6 keeps White's knight off b5 and d5.",
+      "edge": "Watch the trick: White's d2 bishop looks at your queen through the c3 knight. If the knight jumps away, your queen is attacked.",
+      "movesText": "… 4.d4 Nf6 5.Nf3 c6 6.Bc4 Bf5 7.Bd2 e6"
+    },
+    {
+      "kind": "board",
+      "title": "At 1600: take back later",
+      "tag": "2...Nf6",
+      "moves": "e4 d5 exd5 Nf6 d4 Nxd5",
+      "take": "Black doesn't hurry to take the pawn back. The knight comes out first, then takes on d5.",
+      "edge": "Now there is no queen for White to chase, so Black loses no time. The usual reply is 3.d4.",
+      "gold": "MODERN LINE",
+      "movesText": "1.e4 d5 2.exd5 Nf6 3.d4 Nxd5"
+    },
+    {
+      "kind": "cta",
+      "title": "Every opening you learned",
+      "title2": "is a line on the poster.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

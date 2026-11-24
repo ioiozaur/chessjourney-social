@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-24-finish-won-games",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "A piece up and still not winning? Five simple habits for finishing a won game. ♟️\n\nWhat's the worst win you ever threw away? 👇\n\n#chess #chesstok #chessimprovement #learnchess #chesstips",
+  "ig_caption": "A piece up, and somehow the game slips away. Finishing a won game is a skill of its own, and it can be learned.\n\nSwap pieces when you are ahead, but keep your pawns: they can become queens later. Keep checking what your opponent's last move threatens, because winning players relax. Watch out for stalemate when they only have a king left: always leave it a square. Once the queens are off, bring your king to the centre. And choose the clean, safe win over the flashy one you can't fully check.\n\nWhat's the worst win you ever threw away? 👇\n\n#chess #chessimprovement #learnchess #chesstips #chessrating #endgame #chessjourney",
+  "alt": [
+    "Slide 1: Cover. A piece up, and still not winning? Five ways to finish a won game.",
+    "Slide 2: Habit 1. Swap pieces, keep pawns. Each swap makes your extra piece count for more.",
+    "Slide 3: Habit 2. Still check their threats. Before each move, ask what their last move threatens.",
+    "Slide 4: Habit 3. Watch out for stalemate. When they only have a king left, always leave it a square.",
+    "Slide 5: Habit 4. Bring your king in. Once queens are off, walk your king to the centre.",
+    "Slide 6: Habit 5. Pick the safe move. Choose the clean win over a flashy one you can't fully check.",
+    "Slide 7: A Chess Journey poster. Every game you finished is a step on the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "PLATEAU FIXES",
+      "title": "A piece up,",
+      "title2": "and still not winning?",
+      "sub": "FIVE WAYS TO FINISH A WON GAME",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Swap pieces, keep pawns",
+      "tag": "HABIT 1",
+      "big": "1",
+      "body": "When you are ahead, each swap of pieces makes your extra piece count for more. Keep your pawns: in the endgame they can become queens.",
+      "note": "Offer swaps. Don't give away pawns for nothing."
+    },
+    {
+      "kind": "point",
+      "title": "Still check their threats",
+      "tag": "HABIT 2",
+      "big": "2",
+      "body": "Winning players relax and stop looking. Before each move, ask what their last move threatens: a check, a capture, a fork.",
+      "note": "A comeback often starts with one missed check.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Watch out for stalemate",
+      "tag": "HABIT 3",
+      "big": "½",
+      "body": "If their king is not in check, has no safe square, and they have no other legal move, the game is a draw. It is easy to do with a queen against a lone king.",
+      "note": "When they only have a king left, always leave it a square, until you give mate."
+    },
+    {
+      "kind": "point",
+      "title": "Bring your king in",
+      "tag": "HABIT 4",
+      "big": "4",
+      "body": "Once the queens are off, your king is a strong piece. Walk it towards the centre to help your pawns and stop theirs.",
+      "note": "In the endgame, a king left at home is a piece not playing.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Pick the safe move",
+      "tag": "HABIT 5",
+      "big": "5",
+      "body": "You don't need a brilliant finish. If one move wins cleanly and another might win faster but you can't check it all, choose the clean one.",
+      "note": "Ahead? Ask which move keeps your lead with the least risk."
+    },
+    {
+      "kind": "cta",
+      "title": "Every game you finished",
+      "title2": "is a step on the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
