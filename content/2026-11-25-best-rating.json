@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-25-best-rating",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "Can't get back to your best rating? What the top of your graph really means, and the sign of progress to watch instead. ♟️\n\nWhat's your best so far? 👇\n\n#chess #chesstok #chessrating #chessimprovement #learnchess",
+  "ig_caption": "Can't get back to your best rating? You're not alone, and it doesn't mean you've got worse.\n\nRatings go up and down even when your skill stays the same, so your best rating was most likely reached at the top of a good run. To see where you really are, look at the middle of your graph over the last month, not the highest point.\n\nChasing the number tends to backfire: \"just one more game\" to win it back usually means faster, more tired games. Watch your low points instead. When your bad days stop dropping as far, you have improved, whatever the top says.\n\nAnd your best is still yours. Nothing you play next takes it away.\n\nWhat's your best so far? 👇\n\n#chess #chessrating #chessimprovement #learnchess #chesstips #chessmindset #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Can't get back to your best rating? What the top of your graph means.",
+    "Slide 2: Point 1. Your best is the top of a wave, reached on a good run.",
+    "Slide 3: Point 2. Your level is the middle of the last month on your graph, not the highest point.",
+    "Slide 4: Point 3. Chasing the number costs points. Set a stop rule before you start.",
+    "Slide 5: Point 4. Watch the low points rise. Higher lows are the real sign of progress.",
+    "Slide 6: Point 5. Your best is still yours. Nothing you play next takes it away.",
+    "Slide 7: A Chess Journey poster. Your best rating is one point on a long line."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "Can't get back",
+      "title2": "to your best rating?",
+      "sub": "WHAT THE TOP OF YOUR GRAPH MEANS",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Your best is the top of a wave",
+      "tag": "POINT 1",
+      "big": "1",
+      "body": "Ratings go up and down even when your skill stays the same. Your best rating was most likely reached on a good run, at the top of a wave.",
+      "note": "It shows what you can do on a good day, not on every day.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Your level is the middle",
+      "tag": "POINT 2",
+      "big": "2",
+      "body": "To see where you really are, look at the middle of your graph over the last month, not at its highest point.",
+      "note": "Judge by the month, not by one good evening."
+    },
+    {
+      "kind": "point",
+      "title": "Chasing the number costs points",
+      "tag": "POINT 3",
+      "big": "3",
+      "body": "Playing \"just one more\" to win back your best usually means faster, more tired games. That is how a small dip turns into a long slide.",
+      "note": "Decide when you'll stop before you start, and keep to it."
+    },
+    {
+      "kind": "point",
+      "title": "Watch the low points rise",
+      "tag": "POINT 4",
+      "big": "4",
+      "body": "Progress often shows in the dips first. When your bad days stop dropping as far as they used to, you have improved, whatever the top says.",
+      "note": "A new best is a nice moment. Higher lows are the real sign.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Your best is still yours",
+      "tag": "POINT 5",
+      "big": "5",
+      "body": "Your best rating is a fair record of a good stretch of chess. You earned it, and nothing you play next takes it away.",
+      "note": "Be proud of it, then get back to enjoying your games.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "cta",
+      "title": "Your best rating",
+      "title2": "is one point on a long line.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

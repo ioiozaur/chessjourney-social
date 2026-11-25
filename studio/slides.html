@@ -210,7 +210,7 @@ body { margin: 0; background: #ddd; }
     point(ctx, s, i, n, d) {
       eyebrow(ctx, `${d.series} · ${String(s.num).padStart(2, "0")}/${String(s.total).padStart(2, "0")}`);
       let y = 240;
-      if (s.big) { txt(ctx, s.big, 74, 330, `600 ${fit(ctx, s.big, 600, SERIF, 900, 200)}px ${SERIF}`, C.accent); y = 420; }
+      if (s.big) { txt(ctx, s.big, 74, 330, `600 ${fit(ctx, s.big, 600, SERIF, 900, 200)}px ${SERIF}`, C.accent); y = 420 + Math.max(0, Math.ceil(ctx.measureText(s.big).actualBoundingBoxDescent) - 4); }
       ctx.font = `600 84px ${SERIF}`;
       y = wrap(ctx, s.title, 74, y, 920, `600 84px ${SERIF}`, C.ink, 96, 3);
       tag(ctx, s.tag, 80, y + 4);

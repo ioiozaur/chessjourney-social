@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-25-trap-each-side",
+  "series": "TRAPS AND TRICKS",
+  "pillar": "Traps and tricks",
+  "caption": "Two classic traps: one catches Black after 1.d4, one catches White after 1.e4. Both are over in a few moves. ♟️\n\nWhich side do you usually play? 👇\n\n#chess #chesstok #chesstraps #learnchess #chessopenings",
+  "ig_caption": "Two classic opening traps, one for each side of the board.\n\nAfter 1.d4: in the Queen's Gambit Accepted, Black takes the c4 pawn and tries to keep it with ...b5. After 4.a4 c6 5.axb5 cxb5?? White plays 6.Qf3, and the queen hits the rook on a8 along the long diagonal. Black can't save everything and loses at least a piece. The usual fix: let the pawn go and develop your pieces.\n\nAfter 1.e4: in the Stafford Gambit, Black gives a pawn for quick play. After 5.d3 Bc5 6.Bg5?? Black plays 6...Nxe4! If 7.Bxd8, then 7...Bxf2+ 8.Ke2 Bg4 is checkmate. If 7.dxe4 instead, 7...Bxf2+ 8.Kxf2 Qxd1 wins White's queen.\n\nThe habit that stops both: before a natural-looking move, look for your opponent's checks and long lines.\n\nWhich side do you usually play? 👇\n\n#chess #chesstraps #learnchess #chessopenings #queensgambit #staffordgambit #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. One trap for each side, after 1.d4 and after 1.e4. A diagram of the Stafford Gambit checkmate.",
+    "Slide 2: Queen's Gambit Accepted diagram after 3...b5. Black tries to keep the extra pawn on c4.",
+    "Slide 3: Diagram after 6.Qf3. White's queen hits the a8 rook along the long diagonal; Black loses a piece.",
+    "Slide 4: Stafford Gambit diagram after 6...Nxe4. White's bishop pins the queen, but Black's knight takes on e4.",
+    "Slide 5: Diagram after 8...Bg4. White took the queen; the bishop on g4 gives checkmate.",
+    "Slide 6: The habit. Before a natural-looking move, look for your opponent's checks and long lines.",
+    "Slide 7: A Chess Journey poster. Every trap you have walked into is part of the story."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "TRAPS AND TRICKS",
+      "title": "1.d4 or 1.e4?",
+      "title2": "A trap waits on each side.",
+      "sub": "TWO CLASSIC TRAPS, OVER IN A FEW MOVES",
+      "art": "board",
+      "moves": "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4 Bxd8 Bxf2+ Ke2 Bg4#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "After 1.d4: the greedy pawn",
+      "tag": "QUEEN'S GAMBIT",
+      "moves": "d4 d5 c4 dxc4 e3 b5",
+      "flip": true,
+      "take": "In the Queen's Gambit Accepted, Black takes the c4 pawn. Then 3...b5 tries to keep it.",
+      "edge": "It looks natural to hold on to an extra pawn. But the b-pawn and c-pawn leave the long diagonal to the a8 rook.",
+      "movesText": "1.d4 d5 2.c4 dxc4 3.e3 b5"
+    },
+    {
+      "kind": "board",
+      "title": "6.Qf3: the long diagonal",
+      "tag": "BLACK FALLS",
+      "moves": "d4 d5 c4 dxc4 e3 b5 a4 c6 axb5 cxb5 Qf3",
+      "flip": true,
+      "take": "White's queen hits the a8 rook along the long diagonal. Black can't save everything and loses at least a piece.",
+      "edge": "The usual fix: let the c4 pawn go. White wins it back, and Black gets on with moving pieces out.",
+      "movesText": "… 4.a4 c6 5.axb5 cxb5?? 6.Qf3"
+    },
+    {
+      "kind": "board",
+      "title": "After 1.e4: the pin",
+      "tag": "STAFFORD GAMBIT",
+      "moves": "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4",
+      "take": "Black has given a pawn. 6.Bg5?? pins the f6 knight to the queen. Or so it seems: 6...Nxe4! moves it anyway.",
+      "edge": "If 7.dxe4, then 7...Bxf2+ 8.Kxf2 Qxd1 wins White's queen.",
+      "movesText": "… 5.d3 Bc5 6.Bg5?? Nxe4!"
+    },
+    {
+      "kind": "board",
+      "title": "Take the queen, lose the game",
+      "tag": "WHITE FALLS",
+      "gold": "CHECKMATE",
+      "moves": "e4 e5 Nf3 Nf6 Nxe5 Nc6 Nxc6 dxc6 d3 Bc5 Bg5 Nxe4 Bxd8 Bxf2+ Ke2 Bg4#",
+      "take": "7.Bxd8 grabs the queen. 7...Bxf2+ drives the king to e2, and 8...Bg4 is checkmate.",
+      "edge": "Every square around the king is covered or blocked. A queen up, and the game is over.",
+      "movesText": "… 7.Bxd8 Bxf2+ 8.Ke2 Bg4#"
+    },
+    {
+      "kind": "point",
+      "title": "Look for checks and long lines",
+      "tag": "THE HABIT",
+      "big": "?",
+      "body": "Both traps start with a move that looks natural: keep the pawn, pin the knight. Before you play it, look at every check and every long diagonal your opponent could use.",
+      "note": "The move that looks the most obvious deserves the quickest check."
+    },
+    {
+      "kind": "cta",
+      "title": "Every trap you walked into",
+      "title2": "is part of the story too.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
