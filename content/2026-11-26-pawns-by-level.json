@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-26-pawns-by-level",
+  "series": "THE RATING LADDER",
+  "pillar": "Rating ladder",
+  "caption": "Pawns are the smallest pieces, and they decide more games than you think. What players learn about pawns, 400 to 2000. ♟️\n\nWhich level are you working on? 👇\n\n#chess #chesstok #chessimprovement #learnchess #chesstips",
+  "ig_caption": "Pawns are the smallest pieces on the board, and they decide more games than you might think. Here is what players learn about them as they climb.\n\nFirst, a pawn that reaches the far side becomes a queen, so count the race when few pieces are left. Then keep your pawns together, where they guard each other. Next, learn to love a passed pawn: one no enemy pawn can stop. After that, spot weak pawns, like two on the same file or one with no friends beside it. Higher up, players attack the back pawn of a chain, the one holding the rest up. At the top, plans are built around one well-timed pawn move that opens lines for the pieces.\n\nWhich level are you working on? 👇\n\n#chess #chessimprovement #learnchess #chesstips #chessrating #chessstrategy #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Pawns decide more games than you think. What players learn about pawns, 400 to 2000.",
+    "Slide 2: 400 to 800. Pawns become queens: when few pieces are left, count who promotes first.",
+    "Slide 3: 800 to 1000. Keep pawns together: pawns side by side or in a line guard each other.",
+    "Slide 4: 1000 to 1200. Passed pawns: a pawn no enemy pawn can stop. Push it, with support.",
+    "Slide 5: 1200 to 1400. Weak pawns: two on one file, or one alone, need pieces to guard them.",
+    "Slide 6: 1400 to 1700. Attack the base: hit the back pawn of a chain, the one holding the rest.",
+    "Slide 7: 1700 to 2000. Pawn breaks: one pawn move, at the right time, opens lines for your pieces.",
+    "Slide 8: A Chess Journey poster. Small steps, like pawn moves, add up to the whole climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "THE RATING LADDER",
+      "title": "Your pawns decide",
+      "title2": "more games than you think.",
+      "sub": "PAWNS, FROM 400 TO 2000",
+      "art": "climb",
+      "swipe": "Swipe for each level →"
+    },
+    {
+      "kind": "step",
+      "from": 400,
+      "to": 800,
+      "tag": "PAWNS BECOME QUEENS",
+      "fix": "A pawn that reaches the far side turns into a queen. Late in a game, one pawn can be worth everything.",
+      "habit": "When few pieces are left, count: whose pawn gets to the end first?"
+    },
+    {
+      "kind": "step",
+      "from": 800,
+      "to": 1000,
+      "tag": "KEEP THEM TOGETHER",
+      "fix": "Pawns side by side, or in a diagonal line, guard each other. A pawn on its own is easy to pick off.",
+      "habit": "Before a pawn move, check it still has a friend beside or behind it."
+    },
+    {
+      "kind": "step",
+      "from": 1000,
+      "to": 1200,
+      "tag": "PASSED PAWNS",
+      "fix": "A passed pawn has no enemy pawns in front of it or on the files next to it. Only pieces can stop it.",
+      "habit": "If you have one, push it, with your king or rook behind it."
+    },
+    {
+      "kind": "step",
+      "from": 1200,
+      "to": 1400,
+      "tag": "SPOT WEAK PAWNS",
+      "fix": "Two pawns on one file, or a pawn with no pawns on the files beside it, can't guard themselves. Pieces must do it.",
+      "habit": "Before you take back, ask which way leaves your pawns healthier."
+    },
+    {
+      "kind": "step",
+      "from": 1400,
+      "to": 1700,
+      "tag": "ATTACK THE BASE",
+      "fix": "In a diagonal chain of pawns, each one guards the next. The back pawn has no pawn guarding it.",
+      "habit": "Find the back pawn of their chain, and aim your pawns and pieces at it."
+    },
+    {
+      "kind": "step",
+      "from": 1700,
+      "to": 2000,
+      "tag": "PAWN BREAKS",
+      "fix": "Strong players build plans around one pawn move that opens lines for their pieces, and wait for the right moment.",
+      "habit": "In a quiet position, ask: which pawn move would open a line for my pieces?"
+    },
+    {
+      "kind": "cta",
+      "title": "One square at a time,",
+      "title2": "like every pawn.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}

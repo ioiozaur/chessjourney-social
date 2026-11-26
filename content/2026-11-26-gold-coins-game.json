@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-26-gold-coins-game",
+  "series": "CHESS HISTORY",
+  "pillar": "Chess history and stories",
+  "caption": "Breslau, 1912. Marshall put his queen where three pieces could take it, and his opponent resigned at once. ♟️\n\nWould you have seen 23...Qg3? 👇\n\n#chess #chesstok #chesshistory #queensacrifice #learnchess",
+  "ig_caption": "Breslau, 20 July 1912. Stepan Levitsky had White against Frank Marshall in a French Defence at a big German tournament.\n\nMarshall gave up a pawn so his knight could jump to d4, then took a bishop on h3 with his rook. When White's rook attacked his queen, he did not run. He put the queen on g3, where White could take it three ways. Each one loses: one ends in mate at once, one in mate on the back row, and the last leaves Black a piece up. Levitsky resigned on the spot.\n\nMarshall later wrote that the spectators showered the board with gold coins. Other reports from the time say nothing of it, and some say the money was just bets being paid. Nobody knows for sure, so it is still called the Gold Coins Game.\n\nWould you have seen 23...Qg3? 👇\n\n#chess #chesshistory #queensacrifice #frenchdefence #checkmate #learnchess #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. He put his queen where three pieces could take it. Levitsky v Marshall, Breslau 1912. Board shows 23...Qg3.",
+    "Slide 2: Breslau, 1912. Board after 19...Nd4: Marshall gives a pawn so his knight can jump to d4.",
+    "Slide 3: A bishop taken. Board after 23.Rc5: Black's rook has taken on h3 and White's rook attacks the queen.",
+    "Slide 4: The queen goes to g3. Board after 23...Qg3: the queen can be taken three ways, and it threatens mate on h2.",
+    "Slide 5: If the h-pawn takes. Board after 24.hxg3 Ne2 mate: the knight gives mate at once.",
+    "Slide 6: Every capture loses. With the f-pawn, mate on f1. With the queen, Black ends up a piece ahead.",
+    "Slide 7: The gold coins. Marshall later wrote that spectators threw gold coins on the board. Others say bets were paid. Nobody knows.",
+    "Slide 8: A Chess Journey poster. Every game, the famous ones and yours, tells a story."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "CHESS HISTORY",
+      "title": "He put his queen",
+      "title2": "where three pieces could take it.",
+      "sub": "LEVITSKY V MARSHALL · BRESLAU, 1912",
+      "art": "board",
+      "moves": "d4 e6 e4 d5 Nc3 c5 Nf3 Nc6 exd5 exd5 Be2 Nf6 O-O Be7 Bg5 O-O dxc5 Be6 Nd4 Bxc5 Nxe6 fxe6 Bg4 Qd6 Bh3 Rae8 Qd2 Bb4 Bxf6 Rxf6 Rad1 Qc5 Qe2 Bxc3 bxc3 Qxc3 Rxd5 Nd4 Qh5 Ref8 Re5 Rh6 Qg5 Rxh3 Rc5 Qg3",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Breslau, 1912",
+      "tag": "MOVE 19",
+      "flip": true,
+      "moves": "d4 e6 e4 d5 Nc3 c5 Nf3 Nc6 exd5 exd5 Be2 Nf6 O-O Be7 Bg5 O-O dxc5 Be6 Nd4 Bxc5 Nxe6 fxe6 Bg4 Qd6 Bh3 Rae8 Qd2 Bb4 Bxf6 Rxf6 Rad1 Qc5 Qe2 Bxc3 bxc3 Qxc3 Rxd5 Nd4",
+      "take": "Stepan Levitsky, White, against Frank Marshall, Black, in a French Defence. Marshall lets White take the pawn on d5.",
+      "edge": "In return, his knight jumps to d4 and hits the queen on e2. Black's pieces are all pointing at White's king.",
+      "movesText": "… 19.Rxd5 Nd4"
+    },
+    {
+      "kind": "board",
+      "title": "A bishop taken",
+      "tag": "MOVES 20–23",
+      "flip": true,
+      "moves": "d4 e6 e4 d5 Nc3 c5 Nf3 Nc6 exd5 exd5 Be2 Nf6 O-O Be7 Bg5 O-O dxc5 Be6 Nd4 Bxc5 Nxe6 fxe6 Bg4 Qd6 Bh3 Rae8 Qd2 Bb4 Bxf6 Rxf6 Rad1 Qc5 Qe2 Bxc3 bxc3 Qxc3 Rxd5 Nd4 Qh5 Ref8 Re5 Rh6 Qg5 Rxh3 Rc5",
+      "take": "Black's rook takes the bishop on h3. White cannot take back: 23.gxh3 Nf3+ would fork king and queen.",
+      "edge": "So White hits back: 23.Rc5 attacks Black's queen on c3. Where should it go?",
+      "movesText": "… 22.Qg5 Rxh3 23.Rc5"
+    },
+    {
+      "kind": "board",
+      "title": "The queen goes to g3",
+      "tag": "MOVE 23",
+      "flip": true,
+      "gold": "THE MOVE",
+      "moves": "d4 e6 e4 d5 Nc3 c5 Nf3 Nc6 exd5 exd5 Be2 Nf6 O-O Be7 Bg5 O-O dxc5 Be6 Nd4 Bxc5 Nxe6 fxe6 Bg4 Qd6 Bh3 Rae8 Qd2 Bb4 Bxf6 Rxf6 Rad1 Qc5 Qe2 Bxc3 bxc3 Qxc3 Rxd5 Nd4 Qh5 Ref8 Re5 Rh6 Qg5 Rxh3 Rc5 Qg3",
+      "take": "23...Qg3! The queen stands where the h-pawn, the f-pawn or White's queen can take it.",
+      "edge": "If White does nothing, 24...Qxh2 is mate. Levitsky looked, and resigned at once.",
+      "movesText": "… 23.Rc5 Qg3!!"
+    },
+    {
+      "kind": "board",
+      "title": "If the h-pawn takes",
+      "tag": "24.hxg3",
+      "flip": true,
+      "moves": "d4 e6 e4 d5 Nc3 c5 Nf3 Nc6 exd5 exd5 Be2 Nf6 O-O Be7 Bg5 O-O dxc5 Be6 Nd4 Bxc5 Nxe6 fxe6 Bg4 Qd6 Bh3 Rae8 Qd2 Bb4 Bxf6 Rxf6 Rad1 Qc5 Qe2 Bxc3 bxc3 Qxc3 Rxd5 Nd4 Qh5 Ref8 Re5 Rh6 Qg5 Rxh3 Rc5 Qg3 hxg3 Ne2#",
+      "take": "24.hxg3 Ne2 is mate. The knight checks from e2, and nothing can take it.",
+      "edge": "The rook on h3 covers h1 and h2. White's own pawns and rook fill the king's other squares.",
+      "movesText": "… 24.hxg3 Ne2#"
+    },
+    {
+      "kind": "point",
+      "title": "Every capture loses",
+      "tag": "THE OTHER TWO",
+      "body": "24.fxg3 Ne2+ 25.Kh1 Rxf1 is mate on the back row. 24.Qxg3 Ne2+ 25.Kh1 Nxg3+ 26.Kg1 Nxf1 leaves Black a whole piece ahead.",
+      "note": "Not taking fails too: the threat of mate on h2 is still there.",
+      "labelA": "THE LINES",
+      "labelB": "AND IF NOT"
+    },
+    {
+      "kind": "point",
+      "title": "The gold coins",
+      "tag": "A STORY",
+      "big": "1912",
+      "body": "Marshall later wrote that the spectators showered the board with gold coins. Reports from the time do not mention it, and some say it was only bets being paid.",
+      "note": "Nobody knows for sure. It is still called the Gold Coins Game.",
+      "labelA": "THE TALE",
+      "labelB": "THE TRUTH?"
+    },
+    {
+      "kind": "cta",
+      "title": "Famous games or your own,",
+      "title2": "every one tells a story.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
