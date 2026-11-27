@@ -1,0 +1,72 @@
+{
+  "id": "2026-11-27-scotch-levels",
+  "series": "THREE LEVELS",
+  "pillar": "Openings by level",
+  "caption": "The Scotch Game at 800, 1200 and 1600: White opens the centre on move three. ♟️\n\nDo you play 3.d4 or 3.Bc4? 👇\n\n#chess #chesstok #chessopenings #scotchgame #learnchess",
+  "ig_caption": "The Scotch Game starts 1.e4 e5 2.Nf3 Nc6 3.d4: White doesn't wait, and opens the centre at once. Here it is at three levels.\n\nAt 800: after 3...exd4 4.Nxd4 White's knight sits in the middle and White keeps a pawn on e4. Now bring the rest of your pieces out quickly.\nAt 1200: in the Classical, 4...Bc5, Black aims three pieces at the d4 knight. Count attackers and defenders: Be3 and c3 keep it safe.\nAt 1600: in the Mieses line, 4...Nf6, both queens end up in front of their own bishops, and 8.c4 chases Black's knight.\n\nThe name comes from a match played by letter between Edinburgh and London that began in 1824.\n\nDo you play 3.d4 or 3.Bc4? 👇\n\n#chess #chessopenings #scotchgame #learnchess #chesstips #chessstrategy #chesshistory #chessjourney",
+  "alt": [
+    "Slide 1: Cover. The Scotch Game at 800, 1200 and 1600. A chess diagram after 1.e4 e5 2.Nf3 Nc6 3.d4.",
+    "Slide 2: Level 800 diagram after 4.Nxd4. White opens the centre and keeps a pawn on e4.",
+    "Slide 3: Level 1200 diagram after 6...Nge7. Three Black pieces aim at the d4 knight; Be3 and c3 defend it.",
+    "Slide 4: Level 1600 diagram after 8.c4. Both queens stand in front of their own bishops; c4 chases the knight.",
+    "Slide 5: The name comes from an Edinburgh v London match by letter, begun in 1824.",
+    "Slide 6: A Chess Journey poster. Every opening you tried is part of your story."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "ONE OPENING, THREE LEVELS",
+      "title": "The Scotch Game",
+      "title2": "at 800, 1200 and 1600.",
+      "sub": "3.d4: OPEN THE CENTRE AT ONCE",
+      "art": "board",
+      "moves": "e4 e5 Nf3 Nc6 d4",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "At 800: the idea",
+      "tag": "3.d4",
+      "moves": "e4 e5 Nf3 Nc6 d4 exd4 Nxd4",
+      "take": "White doesn't wait. 3.d4 hits e5 at once, and after the swap the knight sits in the middle of the board.",
+      "edge": "White keeps a pawn on e4 and Black has none in the centre. Now bring your other pieces out fast.",
+      "movesText": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4"
+    },
+    {
+      "kind": "board",
+      "title": "At 1200: the Classical",
+      "tag": "4...Bc5",
+      "moves": "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7",
+      "take": "Black aims three pieces at the d4 knight: the knight on c6, the bishop on c5 and the queen on f6.",
+      "edge": "Count attackers and defenders. With Be3 and c3, White has enough, and can then bring out the bishop to c4.",
+      "movesText": "… 4...Bc5 5.Be3 Qf6 6.c3 Nge7"
+    },
+    {
+      "kind": "board",
+      "title": "At 1600: the Mieses",
+      "tag": "4...Nf6",
+      "moves": "e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nf6 Nxc6 bxc6 e5 Qe7 Qe2 Nd5 c4",
+      "take": "After 6.e5 Qe7 7.Qe2, both queens stand in front of their own bishops on f1 and f8.",
+      "edge": "Then 8.c4 chases the knight away. It looks strange, but strong players still argue over it.",
+      "gold": "MIESES LINE",
+      "movesText": "… 4...Nf6 5.Nxc6 bxc6 6.e5 Qe7 7.Qe2 Nd5 8.c4"
+    },
+    {
+      "kind": "point",
+      "title": "Why is it called Scotch?",
+      "tag": "A BIT OF HISTORY",
+      "big": "1824",
+      "body": "The name comes from a match played by letter between Edinburgh and London, which began in 1824.",
+      "note": "Kasparov brought it back to the top in 1990, in his world title match against Karpov.",
+      "labelA": "THE NAME",
+      "labelB": "LATER"
+    },
+    {
+      "kind": "cta",
+      "title": "Every opening you tried",
+      "title2": "is part of your story.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

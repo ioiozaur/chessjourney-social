@@ -1,0 +1,76 @@
+{
+  "id": "2026-11-27-puzzles-count",
+  "series": "PLATEAU FIXES",
+  "pillar": "Plateau fixes",
+  "caption": "Doing lots of puzzles but your rating won't move? Five ways to make them count in real games. ♟️\n\nHow many puzzles do you do a day? 👇\n\n#chess #chesstok #chesspuzzles #chessimprovement #learnchess",
+  "ig_caption": "Lots of puzzles, and the rating still won't move? Puzzles help most when you do them in a way that carries over to real games.\n\nSolve the whole line in your head before you click. Mix in slow, untimed puzzles, not only races. Redo the ones you miss a few days later until the idea is instant. In your own games, ask after every move: is there a check, a capture or a threat? And play some longer games, so you have time to spot the patterns you've learned.\n\nHow many puzzles do you do a day? 👇\n\n#chess #chesspuzzles #chessimprovement #learnchess #chesstips #chesstactics #chessrating #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Lots of puzzles, same rating? Five ways to make them count.",
+    "Slide 2: Habit 1. Solve it before you click. Find the whole line in your head first.",
+    "Slide 3: Habit 2. Go slow, not fast. Mix untimed puzzles in with puzzle races.",
+    "Slide 4: Habit 3. Redo the ones you miss, a few days later, until the idea is instant.",
+    "Slide 5: Habit 4. Look for it in your games. Ask: is there a check, a capture or a threat?",
+    "Slide 6: Habit 5. Play longer games too, so you have time to spot the patterns.",
+    "Slide 7: A Chess Journey poster. Every pattern you learned shows up on the climb."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "PLATEAU FIXES",
+      "title": "Lots of puzzles,",
+      "title2": "same rating?",
+      "sub": "FIVE WAYS TO MAKE THEM COUNT",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Solve it before you click",
+      "tag": "HABIT 1",
+      "big": "1",
+      "body": "Find the whole line in your head first: your move, their best reply, your next move. Then play it. Guessing and clicking only trains guessing.",
+      "note": "If you can't say the line out loud, keep looking."
+    },
+    {
+      "kind": "point",
+      "title": "Go slow, not fast",
+      "tag": "HABIT 2",
+      "big": "2",
+      "body": "Puzzle races are fun, but quick guesses don't build the careful looking you need in a real game. Mix in untimed puzzles and take your time.",
+      "note": "Speed comes later, by itself.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Redo the ones you miss",
+      "tag": "HABIT 3",
+      "big": "3",
+      "body": "A puzzle you got wrong is the most useful one. Note it, and try it again a few days later, until you see the idea at once.",
+      "note": "A pattern you see often becomes a habit."
+    },
+    {
+      "kind": "point",
+      "title": "Look for it in your games",
+      "tag": "HABIT 4",
+      "big": "4",
+      "body": "In a puzzle you know there is a trick. In a game, nobody tells you. After each move, ask: is there a check, a capture or a threat?",
+      "note": "That one question turns puzzles into wins.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Play longer games too",
+      "tag": "HABIT 5",
+      "big": "5",
+      "body": "Puzzles show you the ideas. Slower games give you time to spot them. Try a few 15 or 30-minute games each week.",
+      "note": "Then look back at your losses: which pattern did you miss?"
+    },
+    {
+      "kind": "cta",
+      "title": "Every pattern you learned",
+      "title2": "shows up on the climb.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "climb"
+    }
+  ]
+}
