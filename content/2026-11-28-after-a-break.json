@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-28-after-a-break",
+  "series": "YOUR RATING GRAPH",
+  "pillar": "Your rating graph",
+  "caption": "Back to chess after a break and your rating is jumping about? That's normal, and it settles. 📈\n\nHow long was your longest break from chess? 👇\n\n#chess #chesstok #chessrating #learnchess #chessimprovement",
+  "ig_caption": "Back to chess after a few weeks away, and your rating is jumping about? That's normal.\n\nFirst, you're rusty, not worse. Time away dulls the small habits: checking threats, counting pieces, using your clock. They come back much faster than they took to learn.\n\nSecond, points can move faster. Most chess sites use a rating system that becomes less sure of your rating while you're away, so your first games back can move it more than usual, up or down.\n\nSo warm up with a few puzzles or unrated games, start with slower games before quick ones, and give it a couple of weeks before you judge your graph.\n\nHow long was your longest break from chess? 👇\n\n#chess #chessrating #learnchess #chessimprovement #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Back after a break? Your graph might wobble. What happens to your rating when you come back.",
+    "Slide 2: Rusty, not worse. Small habits fade while you're away, and come back faster than they took to learn.",
+    "Slide 3: Points move faster. The rating system is less sure of you after a break, so games move it more.",
+    "Slide 4: Warm up first. A few puzzles or unrated games before you play rated ones.",
+    "Slide 5: Start slower. Longer games give the old habits time to come back.",
+    "Slide 6: Judge it later. Give it a couple of weeks before you read your graph.",
+    "Slide 7: A Chess Journey poster. Every break and every comeback is part of the story."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "YOUR RATING GRAPH",
+      "title": "Back after a break?",
+      "title2": "Your graph might wobble.",
+      "sub": "WHAT HAPPENS WHEN YOU COME BACK",
+      "art": "climb",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "point",
+      "title": "Rusty, not worse",
+      "tag": "POINT 1",
+      "big": "1",
+      "body": "Time away dulls the small habits: checking threats, counting pieces, watching your clock. A few poor games after a break are normal.",
+      "note": "Habits come back much faster than they took to learn.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Points move faster",
+      "tag": "POINT 2",
+      "big": "2",
+      "body": "Most chess sites use a rating system that grows less sure of your rating while you're away. So your first games back can move it more than usual, up or down.",
+      "note": "Big swings early on are the system catching up, not a verdict on you.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "point",
+      "title": "Warm up first",
+      "tag": "POINT 3",
+      "big": "3",
+      "body": "Before your first rated game back, solve a few puzzles or play an unrated game or two. Let your eyes get used to the board again.",
+      "note": "Ten quiet minutes can save a lot of points."
+    },
+    {
+      "kind": "point",
+      "title": "Start slower",
+      "tag": "POINT 4",
+      "big": "4",
+      "body": "Quick games punish rusty habits the most. Play a few longer games first, so you have time to check each move properly.",
+      "note": "Go back to your favourite speed once you feel at home again."
+    },
+    {
+      "kind": "point",
+      "title": "Judge it in a fortnight",
+      "tag": "POINT 5",
+      "big": "5",
+      "body": "Your first week back says more about the break than about your chess. Look at your graph after a couple of weeks of steady play.",
+      "note": "A dip after time away is a dent, not a drop in level.",
+      "labelB": "REMEMBER"
+    },
+    {
+      "kind": "cta",
+      "title": "Every break and every comeback",
+      "title2": "is part of the story too.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "spiral"
+    }
+  ]
+}

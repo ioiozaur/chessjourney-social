@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-28-two-natural-moves",
+  "series": "TRAPS AND TRICKS",
+  "pillar": "Traps and tricks",
+  "caption": "Two moves that look completely normal, and both walk into a classic trap. ♟️\n\nHave you ever fallen for one of these? 👇\n\n#chess #chesstok #chesstraps #learnchess #chessopenings",
+  "ig_caption": "Two moves that look completely normal, and both walk into a classic trap.\n\nThe Fried Liver: in the Two Knights Defence, after 4.Ng5 d5 5.exd5, taking back with 5...Nxd5? feels natural. But White gives up a knight with 6.Nxf7! Kxf7 7.Qf3+ Ke6 8.Nc3, and Black's king is dragged into the middle of the board. The usual answer is 5...Na5, which chases the bishop away.\n\nThe Siberian Trap: in the Smith-Morra Gambit, Black's queen on c7 and knight on g4 both aim at h2. Only White's knight on f3 guards it. The natural 9.h3?? kicks the knight but ignores the threat. 9...Nd4! hits the queen and the f3 knight, and if 10.Nxd4, 10...Qh2 is checkmate.\n\nThe habit that stops both: before the obvious move, ask what your opponent wants to do next.\n\nHave you ever fallen for one of these? 👇\n\n#chess #chesstraps #learnchess #chessopenings #friedliver #smithmorra #chesstips #chessjourney",
+  "alt": [
+    "Slide 1: Cover. Two natural moves that lose. A diagram of the Siberian Trap checkmate with the black queen on h2.",
+    "Slide 2: Two Knights Defence diagram after 5...Nxd5. Black takes back the pawn, which looks normal.",
+    "Slide 3: Diagram after 8.Nc3. White gave a knight on f7; Black's king stands on e6 in the middle.",
+    "Slide 4: Smith-Morra Gambit diagram after 8...Ng4. Black's queen and knight both aim at h2.",
+    "Slide 5: Diagram after 10...Qh2 checkmate. White kicked the knight with h3 and lost at once.",
+    "Slide 6: The habit. Before the obvious move, ask what your opponent wants to do next.",
+    "Slide 7: A Chess Journey poster. Every trap you walked into is part of the story too."
+  ],
+  "slides": [
+    {
+      "kind": "cover",
+      "eyebrow": "TRAPS AND TRICKS",
+      "title": "Two natural moves",
+      "title2": "that lose.",
+      "sub": "THEY LOOK NORMAL. THEY ARE NOT.",
+      "art": "board",
+      "moves": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4 Nxd4 Qh2#",
+      "swipe": "Swipe →"
+    },
+    {
+      "kind": "board",
+      "title": "Take back the pawn",
+      "tag": "TWO KNIGHTS",
+      "moves": "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5",
+      "flip": true,
+      "take": "White's knight and bishop both aim at f7. After 5.exd5, taking back with 5...Nxd5? feels like the obvious move.",
+      "edge": "Look at f7: only the king guards it, and the knight on g5 is already aiming at it.",
+      "movesText": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5?"
+    },
+    {
+      "kind": "board",
+      "title": "The Fried Liver",
+      "tag": "BLACK FALLS",
+      "moves": "e4 e5 Nf3 Nc6 Bc4 Nf6 Ng5 d5 exd5 Nxd5 Nxf7 Kxf7 Qf3+ Ke6 Nc3",
+      "flip": true,
+      "take": "White gives a knight: 6.Nxf7! Kxf7 7.Qf3+ Ke6 8.Nc3. Black's king is dragged into the middle, and the d5 knight is pinned.",
+      "edge": "The usual answer is 5...Na5, which chases the bishop away from f7.",
+      "movesText": "… 6.Nxf7! Kxf7 7.Qf3+ Ke6 8.Nc3"
+    },
+    {
+      "kind": "board",
+      "title": "Two pieces, one square",
+      "tag": "SMITH-MORRA",
+      "moves": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4",
+      "take": "White gave a pawn for quick play. Now Black's queen on c7 and knight on g4 both aim at h2.",
+      "edge": "Only the knight on f3 guards h2. That knight is doing a very important job.",
+      "movesText": "… 7.O-O Nf6 8.Qe2 Ng4"
+    },
+    {
+      "kind": "board",
+      "title": "The Siberian Trap",
+      "tag": "WHITE FALLS",
+      "gold": "CHECKMATE",
+      "moves": "e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 Qc7 O-O Nf6 Qe2 Ng4 h3 Nd4 Nxd4 Qh2#",
+      "take": "9.h3?? kicks the knight but ignores the threat. 9...Nd4! hits the queen and the f3 knight.",
+      "edge": "If 10.Nxd4, the guard has gone, and 10...Qh2 is checkmate.",
+      "movesText": "… 9.h3?? Nd4! 10.Nxd4 Qh2#"
+    },
+    {
+      "kind": "point",
+      "title": "Ask what they want",
+      "tag": "THE HABIT",
+      "big": "?",
+      "body": "Both mistakes look normal: take back a pawn, kick a knight. Before the obvious move, ask what your opponent wants to do next, and which of your pieces is guarding against it.",
+      "note": "The most obvious move deserves the quickest check."
+    },
+    {
+      "kind": "cta",
+      "title": "Every trap you walked into",
+      "title2": "taught you something.",
+      "sub": "Your whole rating history, on one print.",
+      "design": "grid"
+    }
+  ]
+}
